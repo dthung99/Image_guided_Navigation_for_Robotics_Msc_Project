@@ -23,6 +23,9 @@ add_subdirectory(ImageThreshold)
 add_subdirectory(Print_hello_world)
 add_subdirectory(Guided_examples)
 add_subdirectory(Segmentation_k_mean)
+add_subdirectory(Functions)
+add_subdirectory(Functions)
+add_subdirectory(My_function)
 ## NEXT_MODULE
 
 #-----------------------------------------------------------------------------

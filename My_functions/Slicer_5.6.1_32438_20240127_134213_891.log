@@ -1,0 +1,730 @@
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Session start time .......: 20240127_134213
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Memory ...................: 7834 MB physical, 12954 MB virtual
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 27.01.2024 13:42:13 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function
+[DEBUG][Python] 27.01.2024 13:42:27 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 27.01.2024 13:42:27 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 27.01.2024 13:42:27 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 27.01.2024 13:42:38 [] (unknown:0) - Python console user input: slicer.util.loadScene("C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_main_2024-01-23.mrb")
+[DEBUG][Qt] 27.01.2024 13:42:44 [] (unknown:0) - "MRB Slicer Data Bundle" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_main_2024-01-23.mrb" "[5.66s]"
+[DEBUG][Qt] 27.01.2024 13:42:49 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 27.01.2024 13:44:01 [] (unknown:0) - "Markups" Reader has successfully read the file "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Tutorials/Week 2-4 Datasets-20240121/Week23/BrainParcellation/entries.fcsv" "[0.04s]"
+[DEBUG][Qt] 27.01.2024 13:44:01 [] (unknown:0) - "Markups" Reader has successfully read the file "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Tutorials/Week 2-4 Datasets-20240121/Week23/BrainParcellation/targets.fcsv" "[0.03s]"
+[DEBUG][Qt] 27.01.2024 13:44:12 [] (unknown:0) - Switch to module:  "Markups"
+[DEBUG][Qt] 27.01.2024 13:45:47 [] (unknown:0) - Switch to module:  "Data"
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/101.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/101.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/102.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/102.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/103.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/103.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/104.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/104.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/105.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/105.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/106.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/106.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/107.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/107.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/108.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/108.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/109.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/109.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/110.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/110.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/113.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/113.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/114.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/114.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/115.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/115.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/116.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/116.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/117.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/117.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/118.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/118.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/119.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/119.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/12.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/12.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/120.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/120.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/121.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/121.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/122.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/122.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/123.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/123.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/124.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/124.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/125.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/125.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/126.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/126.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/129.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/129.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/130.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/130.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/133.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/133.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/134.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/134.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/135.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/135.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/136.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/136.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/137.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/137.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/138.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/138.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/139.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/139.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/140.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/140.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/141.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/141.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/142.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/142.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/143.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/143.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/144.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/144.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/145.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/145.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/146.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/146.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/147.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/147.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/148.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/148.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/149.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/149.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/150.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/150.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/151.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/151.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/152.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/152.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/153.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/153.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/154.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/154.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/155.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/155.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/156.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/156.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/157.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/157.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/158.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/158.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/16.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/16.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/161.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/161.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/162.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/162.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/163.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/163.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/164.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/164.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/165.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/165.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/166.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/166.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/167.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/167.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/168.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/168.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/169.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/169.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/170.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/170.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/171.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/171.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/172.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/172.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/173.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/173.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/174.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/174.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/175.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/175.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/176.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/176.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/177.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/177.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/178.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/178.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/179.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/179.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/180.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/180.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/181.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/181.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/182.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/182.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/183.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/183.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/184.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/184.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/185.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/185.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/186.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/186.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/187.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/187.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/188.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/188.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/191.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/191.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/192.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/192.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/193.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/193.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/194.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/194.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/195.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/195.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/196.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/196.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/197.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/197.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/198.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/198.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/199.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/199.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/200.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/200.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/201.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/201.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/202.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/202.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/203.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/203.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/204.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/204.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/205.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/205.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/206.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/206.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/207.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/207.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/208.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/208.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/24.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/24.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/31.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/31.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/32.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/32.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/33.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/33.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/35.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/35.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/36.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/36.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/37.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/37.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/38.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/38.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/39.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/39.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/40.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/40.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/41.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/41.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/42.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/42.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/43.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/43.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/44.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/44.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/45.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/45.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/46.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/46.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/47.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/47.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/48.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/48.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/49.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/49.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/5.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/5.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/50.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/50.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/51.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/51.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/52.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/52.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/53.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/53.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/56.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/56.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/57.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/57.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/58.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/58.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/59.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/59.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/60.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/60.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/61.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/61.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/62.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/62.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/63.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/63.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/64.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/64.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/65.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/65.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/70.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/70.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/72.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/72.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/73.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/73.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/74.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/74.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/76.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/76.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/77.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/77.vtk
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/brainstem.nrrd
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/brainstem.nrrd
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/cortex.nrrd
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/cortex.nrrd
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/entries.fcsv
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/entries.fcsv
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/fakeBrain.nrrd
+[INFO][VTK] 27.01.2024 13:45:58 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/fakeBrain.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_brainstem.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_brainstem.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_cortex.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_cortex.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_parcellation.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_parcellation.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_r_hippo.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_r_hippo.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_r_mtg.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_r_mtg.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_ventricles.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_ventricles.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Model_vessels.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Model_vessels.vtk
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/parcellation.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/parcellation.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/r_hippo.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/r_hippo.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/r_mtg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/r_mtg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationbrainstem.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationbrainstem.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationcortex.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationcortex.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationparcellation.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationparcellation.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationr_hippo.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationr_hippo.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationr_mtg.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationr_mtg.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationventricles.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationventricles.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/Segmentationvessels.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/Segmentationvessels.seg.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/targets.fcsv
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/targets.fcsv
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/ventricles.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/ventricles.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Data/vessels.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Data/vessels.nrrd
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Week_2_4_main_2024-01-23.mrml
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Week_2_4_main_2024-01-23.mrml
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-27_134555_798/Week_2_4_main_2024-01-23/Week_2_4_main_2024-01-23.png
+[INFO][VTK] 27.01.2024 13:45:59 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_main_2024-01-23/Week_2_4_main_2024-01-23.png
+[DEBUG][Qt] 27.01.2024 13:45:59 [] (unknown:0) - saved  "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Working/Week_2_4_main_2024-01-23.mrb"
+[WARNING][Qt] 27.01.2024 13:45:59 [] (unknown:0) - void __cdecl qSlicerSaveDataDialogPrivate::updateStatusIconFromMessageCollection(int,class vtkMRMLMessageCollection *,bool) Data save warning: "- Warning: entries (vtkMRMLMarkupsFiducialNode1): fcsv file format only stores control point coordinates and a limited set of display properties.\n- Warning: targets (vtkMRMLMarkupsFiducialNode2): fcsv file format only stores control point coordinates and a limited set of display properties.\n"
+[DEBUG][Qt] 27.01.2024 13:50:16 [] (unknown:0) - Switch to module:  "Markups"
+[DEBUG][Qt] 27.01.2024 13:50:19 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 27.01.2024 13:50:23 [] (unknown:0) - Switch to module:  "My_function"
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) - ------------------------------
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) - ------------------------------
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 13:50:25 [] (unknown:0) -
+[DEBUG][Qt] 27.01.2024 13:52:11 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 27.01.2024 13:52:48 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 27.01.2024 13:52:49 [] (unknown:0) - Good to go
+[DEBUG][Qt] 27.01.2024 13:52:59 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 27.01.2024 13:52:59 [] (unknown:0) - Good to go
+[DEBUG][Qt] 27.01.2024 13:53:00 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 27.01.2024 13:53:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 27.01.2024 13:53:01 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 27.01.2024 13:53:11 [] (unknown:0) - Python console user input: len(t.randomlist)
+[INFO][Stream] 27.01.2024 13:53:11 [] (unknown:0) - 572
+[DEBUG][Qt] 27.01.2024 13:53:14 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 27.01.2024 13:53:15 [] (unknown:0) - Good to go
+[DEBUG][Qt] 27.01.2024 13:53:32 [] (unknown:0) - Python console user input: end_point.GetNumberOfFiducials()
+[WARNING][VTK] 27.01.2024 13:53:32 [vtkMRMLMarkupsFiducialNode (00000170F11DA2D0)] (vtkMRMLMarkupsFiducialNode.h:106) - vtkMRMLMarkupsFiducialNode::GetNumberOfFiducials method is deprecated, please use GetNumberOfControlPoints instead
+[INFO][Stream] 27.01.2024 13:53:32 [] (unknown:0) - 168
+[DEBUG][Qt] 27.01.2024 14:18:20 [] (unknown:0) - Python console user input: slicer.util.loadScene("C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_test_2024-01-23.mrb")
+[DEBUG][Qt] 27.01.2024 14:18:21 [] (unknown:0) - "MRB Slicer Data Bundle" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_test_2024-01-23.mrb" "[0.71s]"
+[DEBUG][Qt] 27.01.2024 14:24:52 [] (unknown:0) - Switch to module:  "My_function"
+[CRITICAL][Stream] 27.01.2024 14:24:52 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 27.01.2024 14:24:52 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) -
+[INFO][Stream] 27.01.2024 14:24:53 [] (unknown:0) -
+[DEBUG][Qt] 27.01.2024 15:15:19 [] (unknown:0) - Switch to module:  ""
+[WARNING][Qt] 27.01.2024 15:15:19 [] (unknown:0) - External WM_DESTROY received for  QWidgetWindow(0x1711c637000, name="qSlicerDataDialogWindow") , parent:  QWindow(0x0) , transient parent:  QWindow(0x0)

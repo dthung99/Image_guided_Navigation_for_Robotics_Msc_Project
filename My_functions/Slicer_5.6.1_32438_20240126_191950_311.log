@@ -1,0 +1,15 @@
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - Session start time .......: 20240126_191950
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - Memory ...................: 7834 MB physical, 12954 MB virtual
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 26.01.2024 19:19:50 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 26.01.2024 19:19:51 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 26.01.2024 19:19:51 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 26.01.2024 19:19:51 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 26.01.2024 19:19:51 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function
+[DEBUG][Python] 26.01.2024 19:20:17 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 26.01.2024 19:20:17 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 26.01.2024 19:20:17 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 26.01.2024 19:37:06 [] (unknown:0) - Switch to module:  ""

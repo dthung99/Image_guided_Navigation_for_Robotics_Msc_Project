@@ -1,0 +1,539 @@
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Session start time .......: 20240126_224514
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Memory ...................: 7834 MB physical, 12954 MB virtual
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 26.01.2024 22:45:14 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function
+[DEBUG][Python] 26.01.2024 22:45:19 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 26.01.2024 22:45:19 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 26.01.2024 22:45:20 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 26.01.2024 22:46:17 [] (unknown:0) - Python console user input: slicer.util.loadScene("C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_test_2024-01-23.mrb")
+[DEBUG][Qt] 26.01.2024 22:46:17 [] (unknown:0) - "MRB Slicer Data Bundle" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_test_2024-01-23.mrb" "[0.27s]"
+[DEBUG][Qt] 26.01.2024 22:46:27 [] (unknown:0) - Switch to module:  "Markups"
+[DEBUG][Qt] 26.01.2024 22:46:30 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 26.01.2024 22:46:54 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:11 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:11 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:20 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:20 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:20 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:21 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:21 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:22 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:22 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:23 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:23 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:23 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:24 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:24 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:31 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:31 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:32 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:32 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:33 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:34 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:34 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:34 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:35 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:36 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:36 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:36 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:37 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:37 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:52 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:52 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:54 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:54 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:54 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:54 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:54 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:55 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:55 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:55 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:55 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:55 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:56 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:56 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:56 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:56 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:56 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:56 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:57 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:47:58 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:58 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:58 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:58 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:58 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:59 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:47:59 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:47:59 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:00 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:00 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:01 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:01 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:01 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:01 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:01 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:02 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:02 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:02 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:03 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:03 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:04 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:04 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:04 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:04 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:05 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:48:06 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:48:06 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:48:07 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:07 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:07 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[INFO][Stream] 26.01.2024 22:48:08 [] (unknown:0) - Good to go
+[DEBUG][Qt] 26.01.2024 22:48:09 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[DEBUG][Qt] 26.01.2024 22:48:09 [] (unknown:0) - Python console user input: t.find_Pathway(start_point, end_point, 1)
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 391, in find_Pathway
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 26.01.2024 22:48:09 [] (unknown:0) - IndexError: list index out of range
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_1.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_1.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_10.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_10.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_11.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_11.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_12.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_12.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_13.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_13.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_14.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_14.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_15.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_15.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_16.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_16.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_17.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_17.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_18.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_18.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_19.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_19.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_2.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_2.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_20.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_20.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_21.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_21.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_22.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_22.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_23.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_23.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_24.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_24.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_25.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_25.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_26.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_26.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_27.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_27.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_28.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_28.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_29.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_29.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_3.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_3.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_30.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_30.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_31.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_31.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_32.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_32.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_33.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_33.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_34.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_34.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_35.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_35.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_4.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_4.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_5.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_5.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_6.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_6.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_7.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_7.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_8.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_8.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/qualified_Line_9.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_9.mrk.json
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224921_285/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[INFO][VTK] 26.01.2024 22:49:21 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[DEBUG][Qt] 26.01.2024 22:49:21 [] (unknown:0) - saved  "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Working/Week_2_4_test_2024-01-23.mrb"
+[WARNING][Qt] 26.01.2024 22:49:21 [] (unknown:0) - void __cdecl qSlicerSaveDataDialogPrivate::updateStatusIconFromMessageCollection(int,class vtkMRMLMessageCollection *,bool) Data save warning: "- Warning: entriesSubsample (vtkMRMLMarkupsFiducialNode1): fcsv file format only stores control point coordinates and a limited set of display properties.\n- Warning: targetsSubsample (vtkMRMLMarkupsFiducialNode2): fcsv file format only stores control point coordinates and a limited set of display properties.\n"
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_1.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_1.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_10.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_10.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_11.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_11.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_12.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_12.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_13.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_13.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_14.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_14.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_15.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_15.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_16.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_16.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_17.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_17.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_18.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_18.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_19.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_19.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_2.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_2.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_20.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_20.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_21.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_21.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_22.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_22.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_23.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_23.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_24.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_24.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_25.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_25.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_26.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_26.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_27.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_27.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_28.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_28.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_29.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_29.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_3.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_3.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_30.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_30.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_31.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_31.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_32.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_32.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_33.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_33.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_34.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_34.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_35.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_35.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_4.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_4.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_5.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_5.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_6.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_6.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_7.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_7.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_8.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_8.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/qualified_Line_9.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_9.mrk.json
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-01-26_224936_432/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[INFO][VTK] 26.01.2024 22:49:36 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[DEBUG][Qt] 26.01.2024 22:49:36 [] (unknown:0) - saved  "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Working/Week_2_4_test_2024-01-23.mrb"
+[WARNING][Qt] 26.01.2024 22:49:36 [] (unknown:0) - void __cdecl qSlicerSaveDataDialogPrivate::updateStatusIconFromMessageCollection(int,class vtkMRMLMessageCollection *,bool) Data save warning: "- Warning: entriesSubsample (vtkMRMLMarkupsFiducialNode1): fcsv file format only stores control point coordinates and a limited set of display properties.\n- Warning: targetsSubsample (vtkMRMLMarkupsFiducialNode2): fcsv file format only stores control point coordinates and a limited set of display properties.\n"
+[DEBUG][Qt] 26.01.2024 22:49:44 [] (unknown:0) - Switch to module:  ""
