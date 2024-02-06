@@ -1,0 +1,40 @@
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Session start time .......: 20240206_114532
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Memory ...................: 7834 MB physical, 12954 MB virtual
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 06.02.2024 11:45:32 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function
+[DEBUG][Python] 06.02.2024 11:45:36 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 06.02.2024 11:45:36 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 06.02.2024 11:45:36 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 06.02.2024 11:45:44 [] (unknown:0) - Switch to module:  "Models"
+[DEBUG][Qt] 06.02.2024 11:45:46 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 11:45:59 [] (unknown:0) - "MRB Slicer Data Bundle" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_main_2024-01-23.mrb" "[12.65s]"
+[DEBUG][Qt] 06.02.2024 11:48:11 [] (unknown:0) - Switch to module:  "Models"
+[DEBUG][Qt] 06.02.2024 11:48:13 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 11:48:18 [] (unknown:0) - Switch to module:  "My_function"
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 11:48:21 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 11:48:33 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 11:48:42 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 11:48:43 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 11:48:45 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 11:48:45 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 11:48:46 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 11:48:47 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 11:48:47 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 11:48:47 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 11:48:48 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 11:48:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)

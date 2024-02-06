@@ -2,6 +2,9 @@ from typing import Annotated, Optional
 import vtk
 
 import slicer
+import SimpleITK
+import sitkUtils
+
 from slicer.i18n import tr as _
 from slicer.i18n import translate
 from slicer.ScriptedLoadableModule import *
@@ -14,7 +17,7 @@ from slicer.parameterNodeWrapper import (
 from slicer import vtkMRMLScalarVolumeNode, vtkMRMLModelNode
 
 import random
-
+import time
 import numpy as np
 
 class My_function(ScriptedLoadableModule):
@@ -287,6 +290,29 @@ class My_function_for_Projects(ScriptedLoadableModuleLogic):
         if self.exportFolderItemId == 0:
             self.exportFolderItemId = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "qualified_Lines")
         self.logic = My_functionLogic()
+        self.optimized_start_point = None
+        self.optimized_end_point = None
+        self.global_min_distance_to_obstacle = 0
+
+    def measure_implement_time_1(self, mesh) -> float:        
+        start_time = time.time()
+        label_function = vtk.vtkImplicitPolyDataDistance()
+        label_function.SetInput(mesh.GetPolyData())
+        label_function.EvaluateFunction([0,0,0])
+        end_time = time.time()
+        execution_time = end_time - start_time
+        print("Execution time:", execution_time, "seconds")
+        return
+
+    def measure_implement_time_2(self, volumn_node) -> float:
+        start_time = time.time()
+        distanceFilter = SimpleITK.DanielssonDistanceMapImageFilter()
+        distance_map = distanceFilter.Execute(sitkUtils.PullVolumeFromSlicer(volumn_node))
+        sitkUtils.PushVolumeToSlicer(distance_map)
+        end_time = time.time()
+        execution_time = end_time - start_time
+        print("Execution time:", execution_time, "seconds")
+        return
 
     def start_randomlist(self, a, b = 1, c = 1) -> None:
         self.randomlist = []
@@ -461,6 +487,17 @@ class My_function_for_Projects(ScriptedLoadableModuleLogic):
                 i+=1
         return
 
+    def find_Pathway_set_Obstacle_to_maximize_distance(self, *obstacles):
+        # obtacles is vtkMRMLModelNode
+        adding_tool = vtk.vtkAppendPolyData()
+        for obstacle in obstacles:
+            adding_tool.AddInputData(obstacle.GetPolyData())        
+        adding_tool.Update()
+        new_model = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLModelNode", "ObstacleModel_to_check_distance")
+        new_model.SetAndObservePolyData(adding_tool.GetOutput())
+        self.find_Pathway_obstacles_to_maximize_distance = [new_model]
+        return
+
     def find_Pathway_Better(self, start_point, discretize_distance) -> None:
         """Check if the tool hit obstacle and get to target"""
         random_item = random.choice(self.randomlist)
@@ -471,7 +508,9 @@ class My_function_for_Projects(ScriptedLoadableModuleLogic):
         end_points = self.end_points
         Model_formula_target = vtk.vtkImplicitPolyDataDistance()
         Model_formula_obstacle = vtk.vtkImplicitPolyDataDistance()
+        Model_formula_obstacle_to_maximize_distance = vtk.vtkImplicitPolyDataDistance()
         Model_formula_target.SetInput(self.find_Pathway_targets[0].GetPolyData())
+        min_distance = 10000
         for end_point in end_points:
             # Check the obstacles
             unit_vector = (end_point - start_point)/np.linalg.norm(end_point - start_point)*discretize_distance
@@ -485,8 +524,11 @@ class My_function_for_Projects(ScriptedLoadableModuleLogic):
                 hitting = True
             # Discretize and check for hitting
             while hitting == False and i < (number_of_segments + 1):
-                if Model_formula_obstacle.FunctionValue(discretize_vector) > -discretize_distance/2:
+                discretize_distance = Model_formula_obstacle.FunctionValue(discretize_vector)
+                if discretize_distance > -discretize_distance/2:
                     hitting = True
+                elif -discretize_distance < min_distance:
+                    min_distance = -discretize_distance
                 discretize_vector = discretize_vector + unit_vector
                 i += 1
             if hitting == True:
@@ -494,16 +536,48 @@ class My_function_for_Projects(ScriptedLoadableModuleLogic):
             # Check for angle between the line and model
             if not self.find_Pathway_Check_Angle_Require(start_point, end_point):
                 continue
-            qualified_line = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsLineNode")
-            qualified_line.SetName(f"qualified_Line_angle_{np.round(self.find_Pathway_Angle*180/np.pi,1)}_degree")            
-            qualified_line.SetLineStartPosition(start_point)
-            qualified_line.SetLineEndPosition(end_point)
-            qualified_line.GetDisplayNode().PropertiesLabelVisibilityOff()            
-            self.shNode.SetItemParent(self.shNode.GetItemByDataNode(qualified_line), self.exportFolderItemId)
-            qualified_line.LockedOn()
+            # Find minimum distance to obstacle
+            Model_formula_obstacle_to_maximize_distance.SetInput(self.find_Pathway_obstacles_to_maximize_distance[0].GetPolyData())
+            discretize_vector = start_point
+            i = 0
+            while i < (number_of_segments + 1):
+                discretize_distance = Model_formula_obstacle_to_maximize_distance.FunctionValue(discretize_vector)
+                if -discretize_distance < min_distance:
+                    min_distance = -discretize_distance
+                discretize_vector = discretize_vector + unit_vector
+                i += 1
+            if min_distance > self.global_min_distance_to_obstacle:
+                self.optimized_start_point = start_point
+                self.optimized_end_point =  end_point
+                self.optimized_Angle = self.find_Pathway_Angle
+                self.global_min_distance_to_obstacle = min_distance
+            # qualified_line = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsLineNode")
+            # qualified_line.SetName(f"qualified_Line_angle_{np.round(self.find_Pathway_Angle*180/np.pi,1)}_degree_distance: {min_distance} mm")            
+            # qualified_line.SetLineStartPosition(start_point)
+            # qualified_line.SetLineEndPosition(end_point)
+            # qualified_line.GetDisplayNode().PropertiesLabelVisibilityOff()            
+            # self.shNode.SetItemParent(self.shNode.GetItemByDataNode(qualified_line), self.exportFolderItemId)
+            # qualified_line.LockedOn()
             self.find_Pathway_Good_Pairs.append(random_item)            
             # print(Model_formula_obstacle.FunctionValue(end_point))
             print("Good to go")
             return
         return
-    
+
+    def show_Optimized_line(self):
+        qualified_line = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsLineNode")
+        qualified_line.SetName(f"Optimized_Line__angle_{np.round(self.optimized_Angle*180/np.pi,1)}_degree_distance: {self.global_min_distance_to_obstacle} mm")            
+        qualified_line.SetLineStartPosition(self.optimized_start_point)
+        qualified_line.SetLineEndPosition(self.optimized_end_point)
+        qualified_line.GetDisplayNode().PropertiesLabelVisibilityOff()            
+        qualified_line.LockedOn()
+
+    def find_Pathway_set_one_distance_Map(self, distance_label_maps) -> np.ndarray:
+        # obtacles is vtkMRMLModelNode
+        distanceFilter = SimpleITK.DanielssonDistanceMapImageFilter()
+        distanceFilter.SetSquaredDistance(True)
+        distanceFilter.UseImageSpacingOn()
+        distance_map = distanceFilter.Execute(sitkUtils.PullVolumeFromSlicer(distance_label_maps))
+        output_array = SimpleITK.GetArrayFromImage(distance_map)
+        return output_array
+

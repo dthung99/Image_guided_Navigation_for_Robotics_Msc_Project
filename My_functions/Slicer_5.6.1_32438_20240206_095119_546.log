@@ -1,0 +1,877 @@
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Session start time .......: 20240206_095119
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Memory ...................: 7834 MB physical, 12954 MB virtual
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 06.02.2024 09:51:19 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function
+[DEBUG][Python] 06.02.2024 09:51:38 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 06.02.2024 09:51:38 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 06.02.2024 09:51:38 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 06.02.2024 09:51:45 [] (unknown:0) - Switch to module:  "Markups"
+[DEBUG][Qt] 06.02.2024 09:51:55 [] (unknown:0) - Switch to module:  "My_function"
+[DEBUG][Qt] 06.02.2024 09:54:02 [] (unknown:0) - "MRB Slicer Data Bundle" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Working\\Week_2_4_test_2024-01-23.mrb" "[0.82s]"
+[DEBUG][Qt] 06.02.2024 09:54:10 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 10:03:04 [] (unknown:0) - Switch to module:  "My_function"
+[CRITICAL][Stream] 06.02.2024 10:03:04 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 06.02.2024 10:03:04 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:03:05 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 10:03:53 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 10:04:18 [] (unknown:0) - Switch to module:  "My_function"
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:04:19 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 10:04:21 [] (unknown:0) - Python console user input: t.
+[CRITICAL][Stream] 06.02.2024 10:04:21 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 06.02.2024 10:04:21 [] (unknown:0) -     t.
+[CRITICAL][Stream] 06.02.2024 10:04:21 [] (unknown:0) -       ^
+[CRITICAL][Stream] 06.02.2024 10:04:21 [] (unknown:0) - SyntaxError: invalid syntax
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:24:51 [] (unknown:0) -
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 246, in onReload
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -     slicer.util.reloadScriptedModule(self.moduleName)
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py", line 1389, in reloadScriptedModule
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -     reloaded_module = imp.load_module(
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\imp.py", line 234, in load_module
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -     return load_source(name, filename, file)
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\imp.py", line 169, in load_source
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -     module = _exec(spec, sys.modules[name])
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "<frozen importlib._bootstrap>", line 613, in _exec
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "<frozen importlib._bootstrap_external>", line 983, in get_code
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 565
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -     def show_Optimized_line(self)
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) -                                   ^
+[CRITICAL][Stream] 06.02.2024 10:24:51 [] (unknown:0) - SyntaxError: invalid syntax
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:25:03 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 10:25:11 [] (unknown:0) - Switch to module:  "Data"
+[INFO][Stream] 06.02.2024 10:26:23 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:29 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:31 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:31 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:31 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:32 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:32 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:33 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:33 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:33 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:34 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:34 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:34 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:34 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:34 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:34 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:34 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:35 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:35 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:35 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:35 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:35 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:35 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:35 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:36 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:36 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:36 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:36 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:36 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:36 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:36 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:37 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:37 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:37 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:37 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:37 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:37 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:38 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:38 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:38 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:38 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:38 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:38 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:38 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:39 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:39 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:39 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:39 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:39 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:39 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:39 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:40 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:40 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:40 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:26:40 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:26:40 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:41 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:41 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:41 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:41 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:26:42 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:26:42 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:26:42 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:27:52 [] (unknown:0) - Python console user input: t.show_Optimized_line()
+[CRITICAL][Stream] 06.02.2024 10:27:52 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:27:52 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:27:52 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 567, in show_Optimized_line
+[CRITICAL][Stream] 06.02.2024 10:27:52 [] (unknown:0) -     qualified_line.SetName(f"Optimized_Line__angle_{np.round(self.find_Pathway_Angle*180/np.pi,1)}_degree_distance: {discretize_distance} mm")
+[CRITICAL][Stream] 06.02.2024 10:27:52 [] (unknown:0) - NameError: name 'discretize_distance' is not defined
+[DEBUG][Qt] 06.02.2024 10:31:11 [] (unknown:0) - Switch to module:  "My_function"
+[CRITICAL][Stream] 06.02.2024 10:31:11 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 06.02.2024 10:31:11 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:31:12 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 10:31:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:51 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:53 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:53 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:53 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:53 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:53 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:54 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:54 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:54 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:54 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:54 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:54 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:54 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:55 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:55 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:55 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:55 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:55 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:55 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:55 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:55 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:56 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:56 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:56 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:56 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:56 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:56 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:56 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:56 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:56 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:57 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:57 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:57 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:57 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:57 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:57 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:58 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:58 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:59 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:31:59 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:59 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:59 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:31:59 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:31:59 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:32:00 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:32:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:32:00 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:32:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:32:00 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:32:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:32:00 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:32:00 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:32:00 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:32:00 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:32:01 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:32:01 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:32:01 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:32:03 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:32:03 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:32:03 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 10:32:20 [] (unknown:0) - Python console user input: t.show_Optimized_line()
+[DEBUG][Qt] 06.02.2024 10:37:29 [] (unknown:0) - Switch to module:  "My_function"
+[CRITICAL][Stream] 06.02.2024 10:37:29 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 06.02.2024 10:37:29 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:37:30 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 10:37:59 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 10:38:05 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[ERROR][VTK] 06.02.2024 10:38:05 [vtkMRMLSubjectHierarchyNode (000001ACADA07230)] (vtkMRMLSubjectHierarchyNode.cxx:2789) - SetItemParent: Failed to find subject hierarchy item by ID 125
+[INFO][Stream] 06.02.2024 10:38:05 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:21 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:23 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:24 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:25 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:25 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:25 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:26 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:26 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:27 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:27 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:27 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:27 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:28 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:28 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:28 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:28 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:28 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:28 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:28 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:28 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:29 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:29 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:29 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:29 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:29 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:29 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:30 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:30 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:30 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:30 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:30 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:30 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:30 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:30 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:31 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:31 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:31 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:31 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:31 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:31 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:32 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:38:32 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:38:32 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:38:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:38:33 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:38:33 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:38:34 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:38:34 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:38:51 [] (unknown:0) - Python console user input: t.show_Optimized_line()
+[DEBUG][Qt] 06.02.2024 10:44:58 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:06 [] (unknown:0) - Python console user input: for i in range(20):
+[DEBUG][Qt] 06.02.2024 10:45:13 [] (unknown:0) - Python console user input: 	t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:14 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:14 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:14 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:14 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:45:15 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:20 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:20 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:21 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:21 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:21 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:21 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:21 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:22 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:22 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:22 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:22 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:22 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:22 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:23 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:23 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:23 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:23 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:23 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:23 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:24 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:24 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:24 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:24 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:25 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:25 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:25 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:45:26 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:45:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:45:26 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:45:26 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:45:27 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:45:27 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:45:54 [] (unknown:0) - Python console user input: t.show_Optimized_line()
+[DEBUG][Qt] 06.02.2024 10:46:00 [] (unknown:0) - Switch to module:  "My_function"
+[CRITICAL][Stream] 06.02.2024 10:46:00 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 06.02.2024 10:46:00 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) - ------------------------------
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) -
+[INFO][Stream] 06.02.2024 10:46:02 [] (unknown:0) -
+[DEBUG][Qt] 06.02.2024 10:46:04 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 06.02.2024 10:46:40 [] (unknown:0) - Python console user input: for i in range(20):
+[DEBUG][Qt] 06.02.2024 10:46:47 [] (unknown:0) - Python console user input: 	t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[INFO][Stream] 06.02.2024 10:46:48 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:43 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:43 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:43 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:43 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:43 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:43 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:44 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:45 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:45 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:45 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:46 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:46 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:46 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:46 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:47 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:47 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:47 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:48 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:48 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:48 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:48 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:49 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:49 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:49 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:49 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:49 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:50 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:50 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:51 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:51 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:51 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[DEBUG][Qt] 06.02.2024 10:47:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:52 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[INFO][Stream] 06.02.2024 10:47:52 [] (unknown:0) - Good to go
+[DEBUG][Qt] 06.02.2024 10:47:53 [] (unknown:0) - Python console user input: t.find_Pathway_Better(start_point, 1)
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/My_function/My_function.py", line 503, in find_Pathway_Better
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) -     random_item = random.choice(self.randomlist)
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\random.py", line 346, in choice
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) -     return seq[self._randbelow(len(seq))]
+[CRITICAL][Stream] 06.02.2024 10:47:53 [] (unknown:0) - IndexError: list index out of range
+[DEBUG][Qt] 06.02.2024 10:48:14 [] (unknown:0) - Python console user input: t.show_Optimized_line()
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/ObstacleModel.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ObstacleModel.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/ObstacleModel_to_check_distance.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ObstacleModel_to_check_distance.vtk
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Optimized_Line__angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Optimized_Line__angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_1.2_degree_distance 2.3335951123225067 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_1.2_degree_distance 2.3335951123225067 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_10.6_degree_distance 2.6285674854055148 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_10.6_degree_distance 2.6285674854055148 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_12.9_degree_distance 4.132611094642851 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_12.9_degree_distance 4.132611094642851 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.5_degree_distance 4.322029715108911 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.5_degree_distance 4.322029715108911 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.8_degree_distance 3.2441586726522957 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.8_degree_distance 3.2441586726522957 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.1_degree_distance 1.5319743213158172 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.1_degree_distance 1.5319743213158172 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.7_degree_distance 2.580956224050807 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.7_degree_distance 2.580956224050807 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.9_degree_distance 1.9412631679304762 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.9_degree_distance 1.9412631679304762 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_15.7_degree_distance 0.9225292859899058 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_15.7_degree_distance 0.9225292859899058 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_16.0_degree_distance 3.133672216304176 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_16.0_degree_distance 3.133672216304176 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_18.4_degree_distance 3.3234411138106155 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_18.4_degree_distance 3.3234411138106155 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_19.2_degree_distance 2.5521164997574646 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_19.2_degree_distance 2.5521164997574646 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_2.9_degree_distance 1.3231597537563031 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_2.9_degree_distance 1.3231597537563031 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.5_degree_distance 0.06991700854963173 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.5_degree_distance 0.06991700854963173 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.9_degree_distance 0.40557840150630925 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.9_degree_distance 0.40557840150630925 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_23.5_degree_distance 0.28340911120392986 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_23.5_degree_distance 0.28340911120392986 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_24.0_degree_distance 0.1276065951456446 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_24.0_degree_distance 0.1276065951456446 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_31.6_degree_distance 0.7982240854283404 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_31.6_degree_distance 0.7982240854283404 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_6.6_degree_distance 1.04785213137271 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_6.6_degree_distance 1.04785213137271 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_8.8_degree_distance 0.39455276167079834 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_8.8_degree_distance 0.39455276167079834 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_9.2_degree_distance 1.1077453612235224 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_9.2_degree_distance 1.1077453612235224 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105004_620/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[INFO][VTK] 06.02.2024 10:50:04 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[DEBUG][Qt] 06.02.2024 10:50:04 [] (unknown:0) - saved  "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Working/Week_2_4_test_2024-01-23.mrb"
+[WARNING][Qt] 06.02.2024 10:50:04 [] (unknown:0) - void __cdecl qSlicerSaveDataDialogPrivate::updateStatusIconFromMessageCollection(int,class vtkMRMLMessageCollection *,bool) Data save warning: "- Warning: entriesSubsample (vtkMRMLMarkupsFiducialNode3): fcsv file format only stores control point coordinates and a limited set of display properties.\n- Warning: targetsSubsample (vtkMRMLMarkupsFiducialNode4): fcsv file format only stores control point coordinates and a limited set of display properties.\n"
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/entriesSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/fakeBrainTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_cortexTest.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_r_hippoTest.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_ventriclesTest.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Model_vesselsTestDilate1.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/ObstacleModel.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ObstacleModel.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/ObstacleModel_to_check_distance.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ObstacleModel_to_check_distance.vtk
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Optimized_Line__angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Optimized_Line__angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_1.2_degree_distance 2.3335951123225067 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_1.2_degree_distance 2.3335951123225067 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_10.6_degree_distance 2.6285674854055148 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_10.6_degree_distance 2.6285674854055148 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_12.9_degree_distance 4.132611094642851 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_12.9_degree_distance 4.132611094642851 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.5_degree_distance 4.322029715108911 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.5_degree_distance 4.322029715108911 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.8_degree_distance 3.2441586726522957 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_13.8_degree_distance 3.2441586726522957 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.1_degree_distance 1.5319743213158172 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.1_degree_distance 1.5319743213158172 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.7_degree_distance 2.580956224050807 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.7_degree_distance 2.580956224050807 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.9_degree_distance 1.9412631679304762 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_14.9_degree_distance 1.9412631679304762 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_15.7_degree_distance 0.9225292859899058 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_15.7_degree_distance 0.9225292859899058 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_16.0_degree_distance 3.133672216304176 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_16.0_degree_distance 3.133672216304176 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_17.2_degree_distance 4.773058635449096 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_18.4_degree_distance 3.3234411138106155 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_18.4_degree_distance 3.3234411138106155 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_19.2_degree_distance 2.5521164997574646 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_19.2_degree_distance 2.5521164997574646 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_2.9_degree_distance 1.3231597537563031 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_2.9_degree_distance 1.3231597537563031 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.5_degree_distance 0.06991700854963173 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.5_degree_distance 0.06991700854963173 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.9_degree_distance 0.40557840150630925 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_20.9_degree_distance 0.40557840150630925 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_23.5_degree_distance 0.28340911120392986 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_23.5_degree_distance 0.28340911120392986 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_24.0_degree_distance 0.1276065951456446 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_24.0_degree_distance 0.1276065951456446 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_31.6_degree_distance 0.7982240854283404 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_31.6_degree_distance 0.7982240854283404 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_6.6_degree_distance 1.04785213137271 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_6.6_degree_distance 1.04785213137271 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_8.8_degree_distance 0.39455276167079834 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_8.8_degree_distance 0.39455276167079834 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/qualified_Line_angle_9.2_degree_distance 1.1077453612235224 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/qualified_Line_angle_9.2_degree_distance 1.1077453612235224 mm.mrk.json
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_cortexTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/r_hippoTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_cortexTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/Segmentationr_hippoTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationventriclesTest.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/SegmentationvesselsTestDilate1.seg.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/targetsSubsample.fcsv
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/ventriclesTest.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Data/vesselsTestDilate1.nrrd
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.mrml
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding: C:/Users/DANG THE HUNG/AppData/Local/slicer.org/Slicer/cache/SlicerIO/__BundleSaveTemp-2024-02-06_105013_344/Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[INFO][VTK] 06.02.2024 10:50:13 [] (unknown:0) - Info: In D:\D\S\S-0\Libs\MRML\Core\vtkArchive.cxx, line 39
+Zip: adding rel: Week_2_4_test_2024-01-23/Week_2_4_test_2024-01-23.png
+[DEBUG][Qt] 06.02.2024 10:50:13 [] (unknown:0) - saved  "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Working/Week_2_4_test_2024-01-23.mrb"
+[WARNING][Qt] 06.02.2024 10:50:13 [] (unknown:0) - void __cdecl qSlicerSaveDataDialogPrivate::updateStatusIconFromMessageCollection(int,class vtkMRMLMessageCollection *,bool) Data save warning: "- Warning: entriesSubsample (vtkMRMLMarkupsFiducialNode3): fcsv file format only stores control point coordinates and a limited set of display properties.\n- Warning: targetsSubsample (vtkMRMLMarkupsFiducialNode4): fcsv file format only stores control point coordinates and a limited set of display properties.\n"
+[DEBUG][Qt] 06.02.2024 10:50:35 [] (unknown:0) - Switch to module:  ""
