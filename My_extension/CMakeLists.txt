@@ -26,6 +26,7 @@ add_subdirectory(Segmentation_k_mean)
 add_subdirectory(Functions)
 add_subdirectory(Functions)
 add_subdirectory(My_function)
+add_subdirectory(Pathway_planning)
 ## NEXT_MODULE
 
 #-----------------------------------------------------------------------------
