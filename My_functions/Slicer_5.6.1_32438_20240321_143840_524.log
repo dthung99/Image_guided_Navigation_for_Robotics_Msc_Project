@@ -553,3 +553,356 @@ vtkSlicerSegmentationsModuleLogic::GetSegmentForSegmentSubjectHierarchyItem: Inv
 [ERROR][VTK] 21.03.2024 15:28:31 [vtkMRMLSubjectHierarchyNode (000001A5DEE1F080)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
 [WARNING][Python] 21.03.2024 15:28:31 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:365) - Test failed: Check A Point Is In A Label Volume Node
 [DEBUG][Qt] 21.03.2024 15:28:32 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 21.03.2024 15:30:50 [] (unknown:0) - Switch to module:  "ViewControllers"
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - void __cdecl qMRMLSliceControllerWidget::setSliceViewLabel(const class QString &)  failed: must set view node first
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - void __cdecl qMRMLSliceControllerWidget::setSliceViewLabel(const class QString &)  failed: must set view node first
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - void __cdecl qMRMLSliceControllerWidget::setSliceViewLabel(const class QString &)  failed: must set view node first
+[CRITICAL][Qt] 21.03.2024 15:30:50 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[DEBUG][Qt] 21.03.2024 15:33:22 [] (unknown:0) - Switch to module:  "My_function"
+[DEBUG][Qt] 21.03.2024 15:35:38 [] (unknown:0) - Python console user input: shNode.GetItemDataNode(309)
+[INFO][Stream] 21.03.2024 15:35:38 [] (unknown:0) - <MRMLCorePython.vtkMRMLModelNode(0x000001A5C914E400) at 0x000001A5B5AB7580>
+[DEBUG][Qt] 21.03.2024 15:35:44 [] (unknown:0) - Python console user input: import logging
+[DEBUG][Qt] 21.03.2024 15:35:54 [] (unknown:0) - Python console user input: logging.infor("@")
+[CRITICAL][Stream] 21.03.2024 15:35:54 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 21.03.2024 15:35:54 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 21.03.2024 15:35:54 [] (unknown:0) - AttributeError: module 'logging' has no attribute 'infor'
+[DEBUG][Qt] 21.03.2024 15:36:09 [] (unknown:0) - Python console user input: logging.info("2")
+[INFO][Python] 21.03.2024 15:36:09 [Python] (<console>:1) - 2
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) - Reloading module: My_function
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:38:53 [] (unknown:0) -
+[ERROR][Python] 21.03.2024 15:38:53 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:3009) - Reload and Test failed.
+
+Test case class not found: My_function.My_functionTest
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 76, in runTest
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -     TestCaseClass = getattr(module, className)
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) - AttributeError: module 'My_function' has no attribute 'My_functionTest'
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) - During handling of the above exception, another exception occurred:
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 265, in onReloadAndTest
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -     test(msec=int(slicer.app.userSettings().value("Developer/SelfTestDisplayMessageDelay")), **kwargs)
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 79, in runTest
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) -     raise AssertionError(f"Test case class not found: {self.__module__}.{className} ")
+[CRITICAL][Stream] 21.03.2024 15:38:59 [] (unknown:0) - AssertionError: Test case class not found: My_function.My_functionTest
+[DEBUG][Qt] 21.03.2024 15:39:00 [] (unknown:0) - Switch to module:  "ImageThreshold"
+[DEBUG][Qt] 21.03.2024 15:39:02 [] (unknown:0) - Switch to module:  "My_function"
+[CRITICAL][Stream] 21.03.2024 15:39:02 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 21.03.2024 15:39:02 [] (unknown:0) -   warn("does not have observer")
+[DEBUG][Qt] 21.03.2024 15:39:02 [] (unknown:0) - Switch to module:  "ViewControllers"
+[DEBUG][Qt] 21.03.2024 15:39:03 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 21.03.2024 15:39:03 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:06 [] (unknown:0) -
+[WARNING][VTK] 21.03.2024 15:39:06 [] (unknown:0) - Generic Warning: In vtkSlicerSegmentationsModuleLogic.cxx, line 702
+vtkSlicerSegmentationsModuleLogic::GetSegmentForSegmentSubjectHierarchyItem: Invalid MRML scene
+[WARNING][Python] 21.03.2024 15:39:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:372) - Test failed: Check A Point Is In A Label Volume Node
+[ERROR][Python] 21.03.2024 15:39:06 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:3009) - Reload and Test failed.
+
+'Pathway_planningTest' object has no attribute 'unit_test_convert_IJK_to_RAS'
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 265, in onReloadAndTest
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) -     test(msec=int(slicer.app.userSettings().value("Developer/SelfTestDisplayMessageDelay")), **kwargs)
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 83, in runTest
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) -     testCase.runTest(**kwargs)
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 339, in runTest
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) -     self.unit_test_convert_IJK_to_RAS()
+[CRITICAL][Stream] 21.03.2024 15:39:08 [] (unknown:0) - AttributeError: 'Pathway_planningTest' object has no attribute 'unit_test_convert_IJK_to_RAS'
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:15 [] (unknown:0) -
+[WARNING][Python] 21.03.2024 15:39:15 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:372) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:36 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:39:36 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:330) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:39:36 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:46 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:39:47 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:330) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:39:47 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:39:59 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:40:00 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:319) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:40:00 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:08 [] (unknown:0) -
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) - --- Logging error ---
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "<string>", line 61, in emit
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) - KeyError: 50
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) - Call stack:
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 265, in onReloadAndTest
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     test(msec=int(slicer.app.userSettings().value("Developer/SelfTestDisplayMessageDelay")), **kwargs)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 83, in runTest
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     testCase.runTest(**kwargs)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 330, in runTest
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     self.setUp()
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 319, in setUp
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     logging.fatal("Test passed: Model Creation")
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 2052, in critical
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     root.critical(msg, *args, **kwargs)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1493, in critical
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     self._log(CRITICAL, msg, args, **kwargs)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1589, in _log
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     self.handle(record)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1599, in handle
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     self.callHandlers(record)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1661, in callHandlers
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     hdlr.handle(record)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 952, in handle
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -     self.emit(record)
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) -   File "<string>", line 63, in emit
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) - Message: 'Test passed: Model Creation'
+[CRITICAL][Stream] 21.03.2024 15:40:09 [] (unknown:0) - Arguments: ()
+[WARNING][Python] 21.03.2024 15:40:09 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:40:26 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:40:26 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:319) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:40:26 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:14 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:44:14 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:320) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:44:14 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:20 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:44:21 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:320) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:44:21 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:374) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:43 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:44:43 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:324) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:44:43 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:378) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:44:53 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:44:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:324) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:44:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:378) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:33 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:45:33 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:326) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:45:33 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:380) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:34 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:45:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:326) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:45:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:380) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:38 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:45:38 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:326) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:45:38 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:380) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:51 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:45:51 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:327) - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:45:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:45:51 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:381) - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:45:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:52 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:45:52 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:327) - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:45:52 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:45:52 [] (unknown:0) - INFO - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:45:52 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:381) - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:45:52 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:45:52 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:45:53 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:45:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:327) - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:45:53 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:45:53 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:45:53 [] (unknown:0) - INFO - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:45:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:381) - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:45:53 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:45:53 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:45:53 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:49 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:46:49 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:328) - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - INFO - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:46:49 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:382) - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:49 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:50 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:46:50 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:328) - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - INFO - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:46:50 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:382) - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:50 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 15:46:51 [] (unknown:0) -
+[INFO][Python] 21.03.2024 15:46:51 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:328) - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - INFO - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 15:46:51 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:382) - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[CRITICAL][Stream] 21.03.2024 15:46:51 [] (unknown:0) - WARNING - Test failed: Check A Point Is In A Label Volume Node
+[DEBUG][Qt] 21.03.2024 15:46:54 [] (unknown:0) - Switch to module:  ""

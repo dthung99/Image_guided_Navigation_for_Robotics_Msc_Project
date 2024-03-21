@@ -1,0 +1,110 @@
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Session start time .......: 20240321_162532
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Memory ...................: 7834 MB physical, 12186 MB virtual
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 21.03.2024 16:25:32 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 21.03.2024 16:25:35 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 21.03.2024 16:25:35 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 21.03.2024 16:25:35 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 21.03.2024 16:25:39 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) -
+[CRITICAL][Stream] 21.03.2024 16:25:41 [] (unknown:0) - This is an info message
+[INFO][Python] 21.03.2024 16:25:41 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:330) - This is an info message
+[CRITICAL][Stream] 21.03.2024 16:25:41 [] (unknown:0) - This is a warning message
+[WARNING][Python] 21.03.2024 16:25:41 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:331) - This is a warning message
+[CRITICAL][Stream] 21.03.2024 16:25:41 [] (unknown:0) - This is an error message
+[ERROR][Python] 21.03.2024 16:25:41 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:332) - This is an error message
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:41 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 21.03.2024 16:25:41 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 21.03.2024 16:25:41 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:625) - Test passed: Model Creation
+[INFO][Python] 21.03.2024 16:25:41 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 16:25:42 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:628) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) -
+[CRITICAL][Stream] 21.03.2024 16:25:58 [] (unknown:0) - This is an info message
+[CRITICAL][Stream] 21.03.2024 16:25:58 [] (unknown:0) - This is an info message
+[INFO][Python] 21.03.2024 16:25:58 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:330) - This is an info message
+[CRITICAL][Stream] 21.03.2024 16:25:58 [] (unknown:0) - This is a warning message
+[CRITICAL][Stream] 21.03.2024 16:25:58 [] (unknown:0) - This is a warning message
+[WARNING][Python] 21.03.2024 16:25:58 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:331) - This is a warning message
+[CRITICAL][Stream] 21.03.2024 16:25:58 [] (unknown:0) - This is an error message
+[CRITICAL][Stream] 21.03.2024 16:25:58 [] (unknown:0) - This is an error message
+[ERROR][Python] 21.03.2024 16:25:58 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:332) - This is an error message
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:25:58 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 21.03.2024 16:25:58 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 21.03.2024 16:25:59 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:625) - Test passed: Model Creation
+[INFO][Python] 21.03.2024 16:25:59 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 16:25:59 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:628) - Test failed: Check A Point Is In A Label Volume Node
+[DEBUG][Qt] 21.03.2024 16:26:07 [] (unknown:0) - Python console user input: m
+[CRITICAL][Stream] 21.03.2024 16:26:07 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 21.03.2024 16:26:07 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 21.03.2024 16:26:07 [] (unknown:0) - NameError: name 'm' is not defined
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) - ------------------------------
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) -
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) -
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is an info message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is an info message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is an info message
+[INFO][Python] 21.03.2024 16:26:09 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:330) - This is an info message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is a warning message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is a warning message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is a warning message
+[WARNING][Python] 21.03.2024 16:26:09 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:331) - This is a warning message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is an error message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is an error message
+[CRITICAL][Stream] 21.03.2024 16:26:09 [] (unknown:0) - This is an error message
+[ERROR][Python] 21.03.2024 16:26:09 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:332) - This is an error message
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 21.03.2024 16:26:09 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 21.03.2024 16:26:09 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 21.03.2024 16:26:09 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:625) - Test passed: Model Creation
+[INFO][Python] 21.03.2024 16:26:09 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 21.03.2024 16:26:10 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:628) - Test failed: Check A Point Is In A Label Volume Node
+[DEBUG][Qt] 21.03.2024 16:26:27 [] (unknown:0) - Switch to module:  ""

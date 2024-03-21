@@ -12,7 +12,7 @@ from slicer.parameterNodeWrapper import (
     WithinRange,
 )
 from slicer import vtkMRMLScalarVolumeNode, vtkMRMLMarkupsFiducialNode, vtkMRMLLabelMapVolumeNode
-import warnings
+import numpy as np
 
 # Pathway_planning
 class Pathway_planning(ScriptedLoadableModule):
@@ -246,6 +246,7 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         return Pathway_planningParameterNode(super().getParameterNode())
 
     def summarize_Data_and_Create_Model(self, entryNode, targetNode):
+        """Summarize the data and create model, segmentation"""
         # Get number of entry and target point
         n_Entry = entryNode.GetNumberOfControlPoints()
         n_Target = targetNode.GetNumberOfControlPoints()
@@ -254,8 +255,8 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         # Create segmentation and model from label map
         list_of_Label_nodes = slicer.util.getNodesByClass("vtkMRMLLabelMapVolumeNode")
         self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
-        exportModelFolderItemId = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "Models")
-        exportSegmentFolderItemId = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "Segments")
+        exportModelFolderItemId = self.simple_Task_Create_Folder("Models")
+        exportSegmentFolderItemId = self.simple_Task_Create_Folder("Segments")
         for i, node in enumerate(list_of_Label_nodes):
             seg = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode")
             seg.SetName("Segmentation"+node.GetName())
@@ -265,8 +266,77 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             self.shNode.SetItemName(self.shNode.GetItemChildWithName(exportModelFolderItemId, "1"), "Model_"+ node.GetName())
         self.shNode.SetItemParent(exportModelFolderItemId, self.shNode.GetItemParent(exportSegmentFolderItemId))
         self.shNode.SetItemExpanded(exportSegmentFolderItemId, 0)
-
         return n_Entry, n_Target
+    def check_A_Point_Is_In_A_Label_Volume_Node(self, input_point_array: np.ndarray((100,3)), label_volume_node: vtkMRMLLabelMapVolumeNode, strictly_inside_mode = True):
+        """Get a list of point as np.array and a label volume node"""
+        """Return a np.array(-1,) of boolean where True if a point is inside, and False if it is outside"""
+        """If strictly_inside_mode is True, the function will return 1 only if 8 cubes around it is inside
+        If strictly_inside_mode is False, the function will return 1 if at least 1 in 9 cubes around it is inside"""
+        # Check input types
+        if type(input_point_array) != np.ndarray:
+            return "check_A_Point_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
+        if type(label_volume_node) != vtkMRMLLabelMapVolumeNode:
+            return "check_A_Point_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = np.empty((input_point_array.shape[0],)) # Declare result vector
+        strictly_inside_mode = strictly_inside_mode*8
+        label_volume_array = slicer.util.arrayFromVolume(label_volume_node) # Conver the node into np array
+        # Loop through list of points, convert to IJK space, and check value of 8 cubes around it.
+        spacing = np.array(label_volume_node.GetSpacing())
+        rotation = vtk.vtkMatrix4x4()
+        label_volume_node.GetIJKToRASDirectionMatrix(rotation)
+        rotation = slicer.util.arrayFromVTKMatrix(rotation)[0:3,0:3]
+        origin = np.array(label_volume_node.GetOrigin())
+        for i, input_point in enumerate(input_point_array):
+            x, y, z  = np.round(self.convert_RAS_to_IJK(input = input_point,
+                                                        spacing = spacing, 
+                                                        rotation = rotation,
+                                                        origin = origin)).astype(int)
+            matrix_surround_current_point = self.get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(x, y, z, label_volume_array) #The value of the image at x y z coordinate and 8 cubes around
+            if np.sum(matrix_surround_current_point)>strictly_inside_mode:
+                result[i] = True
+            else:
+                result[i] = False
+        return result
+
+    def convert_IJK_to_RAS(self,
+                           input: np.ndarray((3,)),
+                           spacing: np.ndarray((3,)) = np.array([1,1,1]), 
+                           rotation: np.ndarray((3,3)) = np.eye(3),
+                           origin: np.ndarray((3,)) = np.array([0,0,0])) -> np.ndarray((3,)):
+        """Order for transformation: spacing -> rotate -> translate"""
+        input = np.array(input).reshape(3,)
+        spacing = np.array(spacing).reshape(3,)
+        rotation = np.array(rotation).reshape(3,3)
+        origin = np.array(origin).reshape(3,)
+        return np.matmul(rotation, (input*spacing).reshape(-1,1)).reshape(-1,) + origin
+    def convert_RAS_to_IJK(self,
+                           input: np.ndarray((3,)),
+                           spacing: np.ndarray((3,)) = np.array([1,1,1]), 
+                           rotation: np.ndarray((3,3)) = np.eye(3),
+                           origin: np.ndarray((3,)) = np.array([0,0,0])) -> np.ndarray((3,)):
+        """Backward transformation of convert_IJK_to_RAS
+        The input rotation matrix must not be singular"""
+        input = np.array(input).reshape(3,)
+        spacing = np.array(spacing).reshape(3,)
+        rotation = np.array(rotation).reshape(3,3)
+        origin = np.array(origin).reshape(3,)
+        try:
+            return np.matmul(np.linalg.inv(rotation), (input - origin).reshape(-1,1)).reshape(-1,)/spacing
+        except np.linalg.LinAlgError:
+            print("Convert_RAS_to_IJK failed, the rotation matrix must be non-singular")
+            return
+    def get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(self, x: int, y: int, z: int, array: np.ndarray):
+        result = np.zeros((3,3,3))
+        for i in [x-1,x,x+1]:
+            for j in [y-1,y,y+1]:
+                for k in [z-1,z,z+1]:
+                    condition = i>=array.shape[0] + j>=array.shape[1] + k>=array.shape[2] + i<0 + j<0 + k<0
+                    condition = (i>=array.shape[0]) + (j>=array.shape[1]) + (k>=array.shape[2]) + (i<0) + (j<0) + (k<0)                    
+                    if condition == 0:
+                        result[i-x+1,j-y+1,k-z+1] = array[i,j,k]
+                    else:
+                        result[i-x+1,j-y+1,k-z+1] = 0
+        return result
 
     def process(self,
                 inputVolume: vtkMRMLScalarVolumeNode,
@@ -306,34 +376,66 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         stopTime = time.time()
         logging.info(f"Processing completed in {stopTime-startTime:.2f} seconds")
 
+    def simple_Task_Create_Folder(self, folder_name):
+        """Create a folder and collapse it"""
+        folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), folder_name)
+        # Collapse the folder
+        self.shNode.SetItemExpanded(folder_ID, 0)
+        # Hide the folder
+        pluginHandler = slicer.qSlicerSubjectHierarchyPluginHandler().instance()
+        volPlugin = pluginHandler.getOwnerPluginForSubjectHierarchyItem(folder_ID)
+        volPlugin.setDisplayVisibility(folder_ID, 0)
+        return folder_ID
+
 # Pathway_planningTest
 class Pathway_planningTest(ScriptedLoadableModuleTest):
     def setUp(self):
         """Do whatever is needed to reset the state - typically a scene clear will be enough."""
         slicer.mrmlScene.Clear()
+        # Declare variable to control system
         self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
         self.shNode.RemoveAllItems()
         self.logic = Pathway_planningLogic()
-        self.test_data_folder_path = "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\"
-
+        self.test_data_folder_path = "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\" #Path to place that store data
+        # Create my custom logger
+        logging_level = logging.INFO #Choose your logging level
+        self.logger_custom = logging.getLogger("My_logger")
+        self.logger_custom.handlers = []
+        self.logger_custom.filters = []
+        self.logger_custom.setLevel(logging_level)
+        # # Create a file handler to log messages to a file
+        file_handler = logging.StreamHandler()
+        file_handler.setLevel(logging_level)
+        self.logger_custom.addHandler(file_handler)
         # Declare folder for saving test model
         self.volumefortestfolderID = self.simple_Task_Create_Folder("VolumeForTest")
         self.labelvolumefortestfolderID = self.simple_Task_Create_Folder("LabelVolumeForTest")
         self.segmentationfortestfolderID = self.simple_Task_Create_Folder("SegmentationForTest")
         self.modelfortestfolderID = self.simple_Task_Create_Folder("ModelForTest")
-
     def runTest(self):
         """Run as few or as many tests as needed here."""
         self.setUp()
         self.load_Data()
         self.test_summarize_Data_and_Create_Model()
-        self.object_Creation_For_Testing_Creating_Box_All()
-        self.object_Creation_For_Testing_Creating_Box_Volume("Volume")
-        self.object_Creation_For_Testing_Creating_Box_Label_Volume("Label")
-        self.object_Creation_For_Testing_Creating_Box_Segmentation("Segmentation")
-        self.object_Creation_For_Testing_Creating_Box_Model("Model")
-        self.test_Check_A_Point_Is_In_A_Label_Volume_Node()
+        # Creating common test objects
+        self.test_standard_volume, self.test_standard_label_volume, self.test_standard_segmentation, self.test_standard_model = self.object_Creation_For_Testing_Creating_Box_All(nodeNameEnd = "Standard",
+                                                            imageSize = [32, 32, 32],
+                                                            imageOrigin = [1.0, 1.0, 0.0],
+                                                            imageSpacing = [2.0, 2.0, 2.0],
+                                                            imageDirections = [[np.cos(np.pi/4),-np.sin(np.pi/4),0], [np.sin(np.pi/4),np.cos(np.pi/4),0], [0,0,1]])
+        # self.object_Creation_For_Testing_Creating_Box_Volume("Volume")
+        # self.object_Creation_For_Testing_Creating_Box_Label_Volume("Label")
+        # self.object_Creation_For_Testing_Creating_Box_Segmentation("Segmentation")
+        # self.object_Creation_For_Testing_Creating_Box_Model("Model")
+
+
+        self.test_check_A_Point_Is_In_A_Label_Volume_Node()
+        self.unit_test_convert_IJK_to_RAS()
+        self.unit_test_convert_RAS_tos_IJK()
+        self.unit_test_get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position()
+        
     def load_Data(self):
+        """Load data and set their visual"""
         # Load test data
         self.start_points = slicer.util.loadMarkups(self.test_data_folder_path + "entriesSubsample.fcsv")
         self.end_points = slicer.util.loadMarkups(self.test_data_folder_path+"targetsSubsample.fcsv")
@@ -353,18 +455,172 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         self.start_points.GetDisplayNode().SetVisibility(0)
         self.end_points.GetDisplayNode().SetVisibility(0)
     def test_summarize_Data_and_Create_Model(self):
-        # Test summarize_Data_and_Create_Model function
+        """Test summarize_Data_and_Create_Model function"""
+        successful_tested = 1
         n_Entry, n_Target = self.logic.summarize_Data_and_Create_Model(self.start_points, self.end_points)
-        if n_Entry != 48 or n_Target != 21:
-            logging.warning("Nummber of entries and targets are not corrected")
-        else:
-            self.delayDisplay("Test passed: Model Creation")
-    def test_Check_A_Point_Is_In_A_Label_Volume_Node(self):
-        # Test Check_A_Point_Is_In_A_Label_Volume_Node function
-        if True:
-            logging.warning("Test failed: Check A Point Is In A Label Volume Node")
-        else:
-            self.delayDisplay("Test passed: Check A Point Is In A Label Volume Node")
+        successful_tested = not(n_Entry != 48 or n_Target != 21)
+        self.simple_Task_Logging_Test_Outcome("Model Creation", successful_tested)
+    def test_check_A_Point_Is_In_A_Label_Volume_Node(self):
+        """Test Check_A_Point_Is_In_A_Label_Volume_Node function"""
+        successful_tested = 1
+        ### Example 1
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
+        expected_result = np.array([True, True, False])
+        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=False)
+        # Check
+        if not(np.array_equal(expected_result, result)):
+            successful_tested = 0
+        ### Example 2 - test the borderline point
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
+        expected_result = np.array([False, True, False])
+        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=True)
+        # Check
+        if not(np.array_equal(expected_result, result)):
+            successful_tested = 0            
+        ### Example 3
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_point = None
+        expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
+        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
+        # Check
+        if expected_result != result:
+            successful_tested = 0
+        ### Example 4
+        # Create a label volume node and point
+        label_volume_node = None
+        input_point = np.array([0,0,0])
+        expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
+        # Check
+        if expected_result != result:
+            successful_tested = 0
+        
+        # Log the result
+        self.simple_Task_Logging_Test_Outcome("Check a Point is in a Label Volume Node", successful_tested)
+
+    # def test_check_A_Line_Pass_Through_A_Label_Volume_Node(self):
+    #     """Test check_A_Line_Pass_Through_A_Label_Volume_Node function"""
+    #     successful_tested = 1
+    #     ### Example 1
+    #     # Create a label volume node and point
+    #     label_volume_node = self.test_standard_label_volume
+    #     input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
+    #     expected_result = np.array([True, True, False])
+    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=False)
+    #     # Check
+    #     if not(np.array_equal(expected_result, result)):
+    #         successful_tested = 0
+    #     ### Example 2 - test the borderline point
+    #     # Create a label volume node and point
+    #     label_volume_node = self.test_standard_label_volume
+    #     input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
+    #     expected_result = np.array([False, True, False])
+    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=True)
+    #     # Check
+    #     if not(np.array_equal(expected_result, result)):
+    #         successful_tested = 0            
+    #     ### Example 3
+    #     # Create a label volume node and point
+    #     label_volume_node = self.test_standard_label_volume
+    #     input_point = None
+    #     expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
+    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
+    #     # Check
+    #     if expected_result != result:
+    #         successful_tested = 0
+    #     ### Example 4
+    #     # Create a label volume node and point
+    #     label_volume_node = None
+    #     input_point = np.array([0,0,0])
+    #     expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
+    #     # Check
+    #     if expected_result != result:
+    #         successful_tested = 0
+        
+    #     # Log the result
+    #     self.simple_Task_Logging_Test_Outcome("Check a Point is in a Label Volume Node", successful_tested)
+
+
+    def unit_test_convert_IJK_to_RAS(self):
+        """Test convert_IJK_to_RAS function"""
+        successful_tested = 1
+        # Example 1
+        original_vector = np.array([0,0,0])
+        expected_result_vector = np.array([0,0,0])
+        result_vector = self.logic.convert_IJK_to_RAS(input = original_vector,
+                                                      spacing = np.array([1,1,1]),
+                                                      rotation = np.eye(3),
+                                                      origin = np.array([0,0,0]))
+        if np.linalg.norm(result_vector-expected_result_vector) > 0.001:
+            successful_tested = 0
+        # Example 2
+        original_vector = np.array([1,0,0])
+        expected_result_vector = np.array([0,10,0])
+        result_vector = self.logic.convert_IJK_to_RAS(input = original_vector,
+                                                      spacing = np.array([5,5,5]),
+                                                      rotation = np.array([[0,-1,0],[1,0,0],[0,0,1]]),
+                                                      origin = np.array([0,5,0]))
+        if np.linalg.norm(result_vector-expected_result_vector) > 0.001:
+            successful_tested = 0
+        self.simple_Task_Logging_Unit_Test_Outcome("Convert IJK to RAS", successful_tested)
+    def unit_test_convert_RAS_tos_IJK(self):
+        """Test convert_RAS_tos_IJK function"""
+        successful_tested = 1
+        # Example 1
+        original_vector = np.array([0,0,0])
+        expected_result_vector = np.array([0,0,0])
+        result_vector = self.logic.convert_RAS_to_IJK(input = original_vector,
+                                                      spacing = np.array([1,1,1]),
+                                                      rotation = np.eye(3),
+                                                      origin = np.array([0,0,0]))
+        if np.linalg.norm(result_vector-expected_result_vector) > 0.001:
+            successful_tested = 0
+        # Example 2
+        original_vector = np.array([0,10,0])
+        expected_result_vector = np.array([1,0,0])
+        result_vector = self.logic.convert_RAS_to_IJK(input = original_vector,
+                                                      spacing = np.array([5,5,5]),
+                                                      rotation = np.array([[0,-1,0],[1,0,0],[0,0,1]]),
+                                                      origin = np.array([0,5,0]))
+        if np.linalg.norm(result_vector-expected_result_vector) > 0.001:
+            successful_tested = 0
+        self.simple_Task_Logging_Unit_Test_Outcome("Convert RAS to IJK", successful_tested)
+    def unit_test_get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(self):
+        """Test get_9x9_Matrix_From_Bigger_Matrix_at_one_Position function"""
+        successful_tested = 1
+        # Example 1
+        input_x = 0
+        input_y = 0
+        input_z = 0
+        input_array = np.arange(0,27,1).reshape((3,3,3))
+        result = self.logic.get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(input_x, input_y, input_z, input_array)
+        expected_result = np.array([[[ 0, 0, 0],
+                                     [ 0, 0, 0],
+                                     [ 0, 0, 0]],
+                                    [[ 0, 0, 0],
+                                     [ 0, 0,  1],
+                                     [ 0, 3,  4]],
+                                    [[ 0, 0, 0],
+                                     [ 0, 9, 10],
+                                     [ 0, 12, 13]]])
+        if np.linalg.norm(result-expected_result) > 0.001:
+            successful_tested = 0
+        # Example 2
+        input_x = 6
+        input_y = 6
+        input_z = 6
+        result = self.logic.get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(input_x, input_y, input_z, input_array)
+        expected_result = np.zeros((3,3,3))
+        if np.linalg.norm(result-expected_result) > 0.001:
+            successful_tested = 0
+        self.simple_Task_Logging_Unit_Test_Outcome("Get 9x9 Matrix at one Position from a bigger Matrix ", successful_tested)
+
     def test_Pathway_planning1(self):
         self.delayDisplay("Starting the test")
 
@@ -403,11 +659,12 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         pass
 
     def object_Creation_For_Testing_Creating_Box_All(self,
-                                                nodeNameEnd = "Standard",
-                                                imageSize = [32, 32, 32],
-                                                imageOrigin = [0.0, 0.0, 0.0],
-                                                imageSpacing = [1.0, 1.0, 1.0],
-                                                imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+                                                     nodeNameEnd = "Standard",
+                                                     imageSize = [32, 32, 32],
+                                                     imageOrigin = [0.0, 0.0, 0.0],
+                                                     imageSpacing = [1.0, 1.0, 1.0],
+                                                     imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+        """Create object for testing"""
         ###Create a volume
         nodeName = "Test_Volume_" + nodeNameEnd
         voxelType=vtk.VTK_UNSIGNED_CHAR
@@ -602,8 +859,28 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         return modelNode
 
     def simple_Task_Create_Folder(self, folder_name):
+        """Create a folder and collapse it"""
         folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), folder_name)
+        # Collapse the folder
         self.shNode.SetItemExpanded(folder_ID, 0)
+        # Hide the folder
+        pluginHandler = slicer.qSlicerSubjectHierarchyPluginHandler().instance()
+        volPlugin = pluginHandler.getOwnerPluginForSubjectHierarchyItem(folder_ID)
+        volPlugin.setDisplayVisibility(folder_ID, 0)
         return folder_ID
+    def simple_Task_Logging_Test_Outcome(self, test_name = "Standard", successful_tested = False):
+        """Logging test results"""
+        if successful_tested:
+            self.logger_custom.info("Test passed: " + test_name)
+            self.delayDisplay("Test passed: " + test_name)
+        else:
+            self.logger_custom.warning("Test failed: " + test_name)         
+    def simple_Task_Logging_Unit_Test_Outcome(self, test_name = "Standard", successful_tested = False):
+        """Logging unit test results"""
+        if successful_tested:
+            self.logger_custom.info("Unit test passed: " + test_name)
+        else:
+            self.logger_custom.warning("Unit test failed: " + test_name)
 
-            
+
+
