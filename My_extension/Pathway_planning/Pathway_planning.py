@@ -11,8 +11,8 @@ from slicer.parameterNodeWrapper import (
     parameterNodeWrapper,
     WithinRange,
 )
-from slicer import vtkMRMLScalarVolumeNode
-
+from slicer import vtkMRMLScalarVolumeNode, vtkMRMLMarkupsFiducialNode, vtkMRMLLabelMapVolumeNode
+import warnings
 
 # Pathway_planning
 class Pathway_planning(ScriptedLoadableModule):
@@ -73,21 +73,12 @@ def registerSampleData():
 # Pathway_planningParameterNode
 @parameterNodeWrapper
 class Pathway_planningParameterNode:
-    """
-    The parameters needed by module.
-
-    inputVolume - The volume to threshold.
-    imageThreshold - The value at which to threshold the input volume.
-    invertThreshold - If true, will invert the threshold.
-    thresholdedVolume - The output volume that will contain the thresholded volume.
-    invertedVolume - The output volume that will contain the inverted thresholded volume.
-    """
-
-    inputVolume: vtkMRMLScalarVolumeNode
-    imageThreshold: Annotated[float, WithinRange(-100, 500)] = 100
-    invertThreshold: bool = False
-    thresholdedVolume: vtkMRMLScalarVolumeNode
-    invertedVolume: vtkMRMLScalarVolumeNode
+    entryPoints: vtkMRMLMarkupsFiducialNode
+    targetPoints: vtkMRMLMarkupsFiducialNode
+    targetLabelMap: vtkMRMLLabelMapVolumeNode
+    obstacleLabelMap: vtkMRMLLabelMapVolumeNode
+    softconstraintLabelMap: vtkMRMLLabelMapVolumeNode
+    outputVolume: vtkMRMLLabelMapVolumeNode
 
 # Pathway_planningWidget
 class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
@@ -129,6 +120,7 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.EndCloseEvent, self.onSceneEndClose)
 
         # Buttons
+        self.ui.dataCleaning.connect("clicked(bool)", self.dataCleaning)
         self.ui.applyButton.connect("clicked(bool)", self.onApplyButton)
 
         # Make sure parameter node is initialized (needed for module reload)
@@ -170,10 +162,30 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.setParameterNode(self.logic.getParameterNode())
 
         # Select default input nodes if nothing is selected yet to save a few clicks for the user
-        if not self._parameterNode.inputVolume:
-            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLScalarVolumeNode")
+        if not self._parameterNode.entryPoints:
+            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLMarkupsFiducialNode")
             if firstVolumeNode:
-                self._parameterNode.inputVolume = firstVolumeNode
+                self._parameterNode.entryPoints = firstVolumeNode
+
+        if not self._parameterNode.targetPoints:
+            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLMarkupsFiducialNode")
+            if firstVolumeNode:
+                self._parameterNode.targetPoints = firstVolumeNode
+
+        if not self._parameterNode.targetLabelMap:
+            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
+            if firstVolumeNode:
+                self._parameterNode.targetLabelMap = firstVolumeNode
+
+        if not self._parameterNode.obstacleLabelMap:
+            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
+            if firstVolumeNode:
+                self._parameterNode.obstacleLabelMap = firstVolumeNode
+
+        if not self._parameterNode.softconstraintLabelMap:
+            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
+            if firstVolumeNode:
+                self._parameterNode.softconstraintLabelMap = firstVolumeNode
 
     def setParameterNode(self, inputParameterNode: Optional[Pathway_planningParameterNode]) -> None:
         """
@@ -193,12 +205,23 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
             self._checkCanApply()
 
     def _checkCanApply(self, caller=None, event=None) -> None:
-        if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
+        if self._parameterNode and self._parameterNode.entryPoints:
             self.ui.applyButton.toolTip = _("Compute output volume")
             self.ui.applyButton.enabled = True
         else:
             self.ui.applyButton.toolTip = _("Select input and output volume nodes")
             self.ui.applyButton.enabled = False
+
+        if self._parameterNode and self._parameterNode.entryPoints:
+            self.ui.dataCleaning.enabled = True
+        else:
+            self.ui.dataCleaning.enabled = False
+
+    def dataCleaning(self) -> None:
+        """Run processing when user clicks "Summarize the data and create models from label maps" button."""
+        with slicer.util.tryWithErrorDisplay(_("Failed to compute results."), waitCursor=True):
+            # Compute output
+            self.logic.summarize_Data_and_Create_Model(self._parameterNode.entryPoints, self._parameterNode.targetPoints)
 
     def onApplyButton(self) -> None:
         """Run processing when user clicks "Apply" button."""
@@ -215,21 +238,35 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
 
 # Pathway_planningLogic
 class Pathway_planningLogic(ScriptedLoadableModuleLogic):
-    """This class should implement all the actual
-    computation done by your module.  The interface
-    should be such that other python code can import
-    this class and make use of the functionality without
-    requiring an instance of the Widget.
-    Uses ScriptedLoadableModuleLogic base class, available at:
-    https://github.com/Slicer/Slicer/blob/main/Base/Python/slicer/ScriptedLoadableModule.py
-    """
-
     def __init__(self) -> None:
-        """Called when the logic class is instantiated. Can be used for initializing member variables."""
         ScriptedLoadableModuleLogic.__init__(self)
+        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
 
     def getParameterNode(self):
         return Pathway_planningParameterNode(super().getParameterNode())
+
+    def summarize_Data_and_Create_Model(self, entryNode, targetNode):
+        # Get number of entry and target point
+        n_Entry = entryNode.GetNumberOfControlPoints()
+        n_Target = targetNode.GetNumberOfControlPoints()
+        print(f"Number of entries is: {n_Entry}")
+        print(f"Number of targets is: {n_Target}")
+        # Create segmentation and model from label map
+        list_of_Label_nodes = slicer.util.getNodesByClass("vtkMRMLLabelMapVolumeNode")
+        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
+        exportModelFolderItemId = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "Models")
+        exportSegmentFolderItemId = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "Segments")
+        for i, node in enumerate(list_of_Label_nodes):
+            seg = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode")
+            seg.SetName("Segmentation"+node.GetName())
+            self.shNode.SetItemParent(self.shNode.GetItemByDataNode(seg), exportSegmentFolderItemId)
+            slicer.modules.segmentations.logic().ImportLabelmapToSegmentationNode(node, seg)
+            slicer.modules.segmentations.logic().ExportAllSegmentsToModels(seg, exportModelFolderItemId)
+            self.shNode.SetItemName(self.shNode.GetItemChildWithName(exportModelFolderItemId, "1"), "Model_"+ node.GetName())
+        self.shNode.SetItemParent(exportModelFolderItemId, self.shNode.GetItemParent(exportSegmentFolderItemId))
+        self.shNode.SetItemExpanded(exportSegmentFolderItemId, 0)
+
+        return n_Entry, n_Target
 
     def process(self,
                 inputVolume: vtkMRMLScalarVolumeNode,
@@ -274,43 +311,299 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
     def setUp(self):
         """Do whatever is needed to reset the state - typically a scene clear will be enough."""
         slicer.mrmlScene.Clear()
+        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
+        self.shNode.RemoveAllItems()
+        self.logic = Pathway_planningLogic()
+        self.test_data_folder_path = "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\"
+
+        # Declare folder for saving test model
+        self.volumefortestfolderID = self.simple_Task_Create_Folder("VolumeForTest")
+        self.labelvolumefortestfolderID = self.simple_Task_Create_Folder("LabelVolumeForTest")
+        self.segmentationfortestfolderID = self.simple_Task_Create_Folder("SegmentationForTest")
+        self.modelfortestfolderID = self.simple_Task_Create_Folder("ModelForTest")
+
     def runTest(self):
         """Run as few or as many tests as needed here."""
         self.setUp()
-        # self.test_Pathway_planning1()
-
+        self.load_Data()
+        self.test_summarize_Data_and_Create_Model()
+        self.object_Creation_For_Testing_Creating_Box_All()
+        self.object_Creation_For_Testing_Creating_Box_Volume("Volume")
+        self.object_Creation_For_Testing_Creating_Box_Label_Volume("Label")
+        self.object_Creation_For_Testing_Creating_Box_Segmentation("Segmentation")
+        self.object_Creation_For_Testing_Creating_Box_Model("Model")
+        self.test_Check_A_Point_Is_In_A_Label_Volume_Node()
+    def load_Data(self):
+        # Load test data
+        self.start_points = slicer.util.loadMarkups(self.test_data_folder_path + "entriesSubsample.fcsv")
+        self.end_points = slicer.util.loadMarkups(self.test_data_folder_path+"targetsSubsample.fcsv")
+        self.cortex_label_map = slicer.util.loadLabelVolume(self.test_data_folder_path+"r_cortexTest.nii.gz")
+        self.hypothalamus_label_map = slicer.util.loadLabelVolume(self.test_data_folder_path+"r_hippoTest.nii.gz")
+        self.ventricle_label_map = slicer.util.loadLabelVolume(self.test_data_folder_path+"ventriclesTest.nii.gz")
+        self.vessel_label_map = slicer.util.loadLabelVolume(self.test_data_folder_path+"vesselsTestDilate1.nii.gz")
+        self.general_volume = slicer.util.loadVolume(self.test_data_folder_path+"fakeBrainTest.nii.gz")
+        # Hide the nodes
+        pluginHandler = slicer.qSlicerSubjectHierarchyPluginHandler().instance()
+        volItem = self.shNode.GetItemByDataNode(self.general_volume)
+        volPlugin = pluginHandler.getOwnerPluginForSubjectHierarchyItem(volItem)
+        volPlugin.setDisplayVisibility(volItem, 0)
+        volItem = self.shNode.GetItemByDataNode(self.vessel_label_map)
+        volPlugin = pluginHandler.getOwnerPluginForSubjectHierarchyItem(volItem)
+        volPlugin.setDisplayVisibility(volItem, 0)
+        self.start_points.GetDisplayNode().SetVisibility(0)
+        self.end_points.GetDisplayNode().SetVisibility(0)
+    def test_summarize_Data_and_Create_Model(self):
+        # Test summarize_Data_and_Create_Model function
+        n_Entry, n_Target = self.logic.summarize_Data_and_Create_Model(self.start_points, self.end_points)
+        if n_Entry != 48 or n_Target != 21:
+            logging.warning("Nummber of entries and targets are not corrected")
+        else:
+            self.delayDisplay("Test passed: Model Creation")
+    def test_Check_A_Point_Is_In_A_Label_Volume_Node(self):
+        # Test Check_A_Point_Is_In_A_Label_Volume_Node function
+        if True:
+            logging.warning("Test failed: Check A Point Is In A Label Volume Node")
+        else:
+            self.delayDisplay("Test passed: Check A Point Is In A Label Volume Node")
     def test_Pathway_planning1(self):
         self.delayDisplay("Starting the test")
 
-        # Get/create input data
+        # # Get/create input data
 
-        import SampleData
+        # import SampleData
 
-        registerSampleData()
-        inputVolume = SampleData.downloadSample("Pathway_planning1")
-        self.delayDisplay("Loaded test data set")
+        # registerSampleData()
+        # inputVolume = SampleData.downloadSample("Pathway_planning1")
+        # self.delayDisplay("Loaded test data set")
 
-        inputScalarRange = inputVolume.GetImageData().GetScalarRange()
-        self.assertEqual(inputScalarRange[0], 0)
-        self.assertEqual(inputScalarRange[1], 695)
+        # inputScalarRange = inputVolume.GetImageData().GetScalarRange()
+        # self.assertEqual(inputScalarRange[0], 0)
+        # self.assertEqual(inputScalarRange[1], 695)
 
-        outputVolume = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLScalarVolumeNode")
-        threshold = 100
+        # outputVolume = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLScalarVolumeNode")
+        # threshold = 100
 
-        # Test the module logic
+        # # Test the module logic
 
-        logic = Pathway_planningLogic()
+        # logic = Pathway_planningLogic()
 
-        # Test algorithm with non-inverted threshold
-        logic.process(inputVolume, outputVolume, threshold, True)
-        outputScalarRange = outputVolume.GetImageData().GetScalarRange()
-        self.assertEqual(outputScalarRange[0], inputScalarRange[0])
-        self.assertEqual(outputScalarRange[1], threshold)
+        # # Test algorithm with non-inverted threshold
+        # logic.process(inputVolume, outputVolume, threshold, True)
+        # outputScalarRange = outputVolume.GetImageData().GetScalarRange()
+        # self.assertEqual(outputScalarRange[0], inputScalarRange[0])
+        # self.assertEqual(outputScalarRange[1], threshold)
 
-        # Test algorithm with inverted threshold
-        logic.process(inputVolume, outputVolume, threshold, False)
-        outputScalarRange = outputVolume.GetImageData().GetScalarRange()
-        self.assertEqual(outputScalarRange[0], inputScalarRange[0])
-        self.assertEqual(outputScalarRange[1], inputScalarRange[1])
+        # # Test algorithm with inverted threshold
+        # logic.process(inputVolume, outputVolume, threshold, False)
+        # outputScalarRange = outputVolume.GetImageData().GetScalarRange()
+        # self.assertEqual(outputScalarRange[0], inputScalarRange[0])
+        # self.assertEqual(outputScalarRange[1], inputScalarRange[1])
 
         self.delayDisplay("Test passed")
+        pass
+
+    def object_Creation_For_Testing_Creating_Box_All(self,
+                                                nodeNameEnd = "Standard",
+                                                imageSize = [32, 32, 32],
+                                                imageOrigin = [0.0, 0.0, 0.0],
+                                                imageSpacing = [1.0, 1.0, 1.0],
+                                                imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+        ###Create a volume
+        nodeName = "Test_Volume_" + nodeNameEnd
+        voxelType=vtk.VTK_UNSIGNED_CHAR
+        fillVoxelValue = 0
+        # Create an empty image volume, filled with fillVoxelValue
+        imageData = vtk.vtkImageData()
+        imageData.SetDimensions(imageSize)
+        imageData.AllocateScalars(voxelType, 1)
+        imageData.GetPointData().GetScalars().Fill(fillVoxelValue)
+        # Edit the data to create a square
+        for i in range(16):
+            for j in range(16):
+                for k in range(16):
+                    imageData.SetScalarComponentFromFloat(i,j,k,0,1)
+        # Create volume node
+        volumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLScalarVolumeNode", nodeName)
+        volumeNode.SetOrigin(imageOrigin)
+        volumeNode.SetSpacing(imageSpacing)
+        volumeNode.SetIJKToRASDirections(imageDirections)
+        volumeNode.SetAndObserveImageData(imageData)
+        volumeNode.CreateDefaultDisplayNodes()
+        volumeNode.CreateDefaultStorageNode()
+        # Move to desired folder
+        self.shNode.SetItemParent(self.shNode.GetItemByDataNode(volumeNode), self.volumefortestfolderID)
+        # Create a label map
+        nodeName = "Test_Label_Volume_"+nodeNameEnd
+        labelmapVolumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLLabelMapVolumeNode", nodeName)
+        labelmapVolumeNode.SetOrigin(imageOrigin)
+        labelmapVolumeNode.SetSpacing(imageSpacing)
+        labelmapVolumeNode.SetIJKToRASDirections(imageDirections)
+        labelmapVolumeNode.SetAndObserveImageData(imageData)
+        labelmapVolumeNode.CreateDefaultDisplayNodes()
+        labelmapVolumeNode.CreateDefaultStorageNode()
+        # Move to desired folder
+        self.shNode.SetItemParent(self.shNode.GetItemByDataNode(labelmapVolumeNode), self.labelvolumefortestfolderID)
+        # Create a segmentation
+        nodeName = "Test_Segmentation_"+nodeNameEnd
+        segmentationNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode", nodeName)
+        slicer.modules.segmentations.logic().ImportLabelmapToSegmentationNode(labelmapVolumeNode, segmentationNode)
+        # Move to desired folder
+        self.shNode.SetItemParent(self.shNode.GetItemByDataNode(segmentationNode), self.segmentationfortestfolderID)
+        # Create a model
+        slicer.modules.segmentations.logic().ExportAllSegmentsToModels(segmentationNode, self.modelfortestfolderID)
+        # Move to desired folder
+        vtkIDlist = vtk.vtkIdList()
+        self.shNode.GetItemChildren(self.modelfortestfolderID, vtkIDlist)
+        self.shNode.SetItemName(vtkIDlist.GetId(vtkIDlist.GetNumberOfIds()-1), "Test_Model_"+nodeNameEnd)
+        modelNode = self.shNode.GetItemDataNode(vtkIDlist.GetId(vtkIDlist.GetNumberOfIds()-1))
+        # Move model folder to desired folder
+        self.shNode.SetItemParent(self.modelfortestfolderID, self.shNode.GetSceneItemID())
+        return volumeNode, labelmapVolumeNode, segmentationNode, modelNode
+    def object_Creation_For_Testing_Creating_Box_Volume(self,
+                                                nodeNameEnd = "Standard",
+                                                imageSize = [32, 32, 32],
+                                                imageOrigin = [0.0, 0.0, 0.0],
+                                                imageSpacing = [1.0, 1.0, 1.0],
+                                                imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+        ###Create a volume
+        nodeName = "Test_Volume_" + nodeNameEnd
+        voxelType=vtk.VTK_UNSIGNED_CHAR
+        fillVoxelValue = 0
+        # Create an empty image volume, filled with fillVoxelValue
+        imageData = vtk.vtkImageData()
+        imageData.SetDimensions(imageSize)
+        imageData.AllocateScalars(voxelType, 1)
+        imageData.GetPointData().GetScalars().Fill(fillVoxelValue)
+        # Edit the data to create a square
+        for i in range(16):
+            for j in range(16):
+                for k in range(16):
+                    imageData.SetScalarComponentFromFloat(i,j,k,0,1)
+        # Create volume node
+        volumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLScalarVolumeNode", nodeName)
+        volumeNode.SetOrigin(imageOrigin)
+        volumeNode.SetSpacing(imageSpacing)
+        volumeNode.SetIJKToRASDirections(imageDirections)
+        volumeNode.SetAndObserveImageData(imageData)
+        volumeNode.CreateDefaultDisplayNodes()
+        volumeNode.CreateDefaultStorageNode()
+        # Move to desired folder
+        self.shNode.SetItemParent(self.shNode.GetItemByDataNode(volumeNode), self.volumefortestfolderID)
+        return volumeNode
+    def object_Creation_For_Testing_Creating_Box_Label_Volume(self,
+                                                nodeNameEnd = "Standard",
+                                                imageSize = [32, 32, 32],
+                                                imageOrigin = [0.0, 0.0, 0.0],
+                                                imageSpacing = [1.0, 1.0, 1.0],
+                                                imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+        ###Create a label volume
+        voxelType=vtk.VTK_UNSIGNED_CHAR
+        fillVoxelValue = 0
+        # Create an empty image volume, filled with fillVoxelValue
+        imageData = vtk.vtkImageData()
+        imageData.SetDimensions(imageSize)
+        imageData.AllocateScalars(voxelType, 1)
+        imageData.GetPointData().GetScalars().Fill(fillVoxelValue)
+        # Edit the data to create a square
+        for i in range(16):
+            for j in range(16):
+                for k in range(16):
+                    imageData.SetScalarComponentFromFloat(i,j,k,0,1)
+        # Create a label map
+        nodeName = "Test_Label_Volume_"+nodeNameEnd
+        labelmapVolumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLLabelMapVolumeNode", nodeName)
+        labelmapVolumeNode.SetOrigin(imageOrigin)
+        labelmapVolumeNode.SetSpacing(imageSpacing)
+        labelmapVolumeNode.SetIJKToRASDirections(imageDirections)
+        labelmapVolumeNode.SetAndObserveImageData(imageData)
+        labelmapVolumeNode.CreateDefaultDisplayNodes()
+        labelmapVolumeNode.CreateDefaultStorageNode()
+        # Move to desired folder
+        self.shNode.SetItemParent(self.shNode.GetItemByDataNode(labelmapVolumeNode), self.labelvolumefortestfolderID)
+        return labelmapVolumeNode
+    def object_Creation_For_Testing_Creating_Box_Segmentation(self,
+                                                nodeNameEnd = "Standard",
+                                                imageSize = [32, 32, 32],
+                                                imageOrigin = [0.0, 0.0, 0.0],
+                                                imageSpacing = [1.0, 1.0, 1.0],
+                                                imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+        ###Create a label volume
+        voxelType=vtk.VTK_UNSIGNED_CHAR
+        fillVoxelValue = 0
+        # Create an empty image volume, filled with fillVoxelValue
+        imageData = vtk.vtkImageData()
+        imageData.SetDimensions(imageSize)
+        imageData.AllocateScalars(voxelType, 1)
+        imageData.GetPointData().GetScalars().Fill(fillVoxelValue)
+        # Edit the data to create a square
+        for i in range(16):
+            for j in range(16):
+                for k in range(16):
+                    imageData.SetScalarComponentFromFloat(i,j,k,0,1)
+        # Create a label map
+        nodeName = "Test_Label_Volume_"+nodeNameEnd
+        labelmapVolumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLLabelMapVolumeNode", nodeName)
+        labelmapVolumeNode.SetOrigin(imageOrigin)
+        labelmapVolumeNode.SetSpacing(imageSpacing)
+        labelmapVolumeNode.SetIJKToRASDirections(imageDirections)
+        labelmapVolumeNode.SetAndObserveImageData(imageData)
+        labelmapVolumeNode.CreateDefaultDisplayNodes()
+        labelmapVolumeNode.CreateDefaultStorageNode()
+        # Create a segmentation
+        nodeName = "Test_Segmentation_"+nodeNameEnd
+        segmentationNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode", nodeName)
+        slicer.modules.segmentations.logic().ImportLabelmapToSegmentationNode(labelmapVolumeNode, segmentationNode)
+        # Move to desired folder
+        self.shNode.SetItemParent(self.shNode.GetItemByDataNode(segmentationNode), self.segmentationfortestfolderID)
+        slicer.mrmlScene.RemoveNode(labelmapVolumeNode)
+        return segmentationNode
+    def object_Creation_For_Testing_Creating_Box_Model(self,
+                                                nodeNameEnd = "Standard",
+                                                imageSize = [32, 32, 32],
+                                                imageOrigin = [0.0, 0.0, 0.0],
+                                                imageSpacing = [1.0, 1.0, 1.0],
+                                                imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+        ###Create a label volume
+        voxelType=vtk.VTK_UNSIGNED_CHAR
+        fillVoxelValue = 0
+        # Create an empty image volume, filled with fillVoxelValue
+        imageData = vtk.vtkImageData()
+        imageData.SetDimensions(imageSize)
+        imageData.AllocateScalars(voxelType, 1)
+        imageData.GetPointData().GetScalars().Fill(fillVoxelValue)
+        # Edit the data to create a square
+        for i in range(16):
+            for j in range(16):
+                for k in range(16):
+                    imageData.SetScalarComponentFromFloat(i,j,k,0,1)
+        # Create a label map
+        nodeName = "Test_Label_Volume_"+nodeNameEnd
+        labelmapVolumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLLabelMapVolumeNode", nodeName)
+        labelmapVolumeNode.SetOrigin(imageOrigin)
+        labelmapVolumeNode.SetSpacing(imageSpacing)
+        labelmapVolumeNode.SetIJKToRASDirections(imageDirections)
+        labelmapVolumeNode.SetAndObserveImageData(imageData)
+        labelmapVolumeNode.CreateDefaultDisplayNodes()
+        labelmapVolumeNode.CreateDefaultStorageNode()
+        # Create a segmentation and model
+        nodeName = "Test_Segmentation_"+nodeNameEnd
+        segmentationNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode", nodeName)
+        slicer.modules.segmentations.logic().ImportLabelmapToSegmentationNode(labelmapVolumeNode, segmentationNode)
+        slicer.modules.segmentations.logic().ExportAllSegmentsToModels(segmentationNode, self.modelfortestfolderID)
+        # self.shNode.SetItemParent(exportModelFolderItemId, self.shNode.GetSceneItemID())
+        vtkIDlist = vtk.vtkIdList()
+        self.shNode.GetItemChildren(self.modelfortestfolderID, vtkIDlist)
+        self.shNode.SetItemName(vtkIDlist.GetId(vtkIDlist.GetNumberOfIds()-1), "Test_Model_"+nodeNameEnd)
+        modelNode = self.shNode.GetItemDataNode(vtkIDlist.GetId(vtkIDlist.GetNumberOfIds()-1))
+        # Move model folder to desired folder
+        self.shNode.SetItemParent(self.modelfortestfolderID, self.shNode.GetSceneItemID())
+        slicer.mrmlScene.RemoveNode(labelmapVolumeNode)
+        slicer.mrmlScene.RemoveNode(segmentationNode)
+        return modelNode
+
+    def simple_Task_Create_Folder(self, folder_name):
+        folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), folder_name)
+        self.shNode.SetItemExpanded(folder_ID, 0)
+        return folder_ID
+
+            

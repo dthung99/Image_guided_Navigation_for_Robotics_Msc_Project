@@ -1,0 +1,490 @@
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Session start time .......: 20240319_221914
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Memory ...................: 7834 MB physical, 11930 MB virtual
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 19.03.2024 22:19:14 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 19.03.2024 22:19:16 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 19.03.2024 22:19:16 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 19.03.2024 22:19:16 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 19.03.2024 22:19:38 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 19.03.2024 22:19:42 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 19.03.2024 22:19:46 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:19:46 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:19:47 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 22:19:47 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 22:19:47 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 22:19:47 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test model creation  - passed
+[DEBUG][Qt] 19.03.2024 22:20:11 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 19.03.2024 22:26:12 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 19.03.2024 22:26:12 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 19.03.2024 22:26:12 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) -
+[ERROR][VTK] 19.03.2024 22:26:13 [vtkMRMLSubjectHierarchyNode (000001709953CE10)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:13 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 22:26:13 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 22:26:13 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 19.03.2024 22:26:28 [vtkMRMLSubjectHierarchyNode (000001709953A350)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 19.03.2024 22:26:28 [vtkMRMLSubjectHierarchyNode (000001709953A350)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:26:28 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 22:26:28 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 22:26:29 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 19.03.2024 22:26:29 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:355) - Test failed: Check A Point Is In A Label Map
+[DEBUG][Qt] 19.03.2024 22:27:17 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 19.03.2024 22:27:56 [] (unknown:0) - Python console user input: x = getNode("r_hippoTest")
+[DEBUG][Qt] 19.03.2024 22:27:57 [] (unknown:0) - Python console user input: x
+[INFO][Stream] 19.03.2024 22:27:57 [] (unknown:0) - <MRMLCorePython.vtkMRMLLabelMapVolumeNode(0x000001708FEBC0D0) at 0x000001708E65D2E0>
+[DEBUG][Qt] 19.03.2024 22:29:17 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 19.03.2024 22:29:17 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 19.03.2024 22:29:17 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:18 [] (unknown:0) -
+[ERROR][VTK] 19.03.2024 22:29:18 [vtkMRMLSubjectHierarchyNode (00000170A0F19BF0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:29:18 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:18 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 19.03.2024 22:29:19 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 22:29:19 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:19 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:19 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:19 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 22:29:19 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 22:29:19 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 22:29:19 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 19.03.2024 22:29:20 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:355) - Test failed: Check A Point Is In A Label Volume Node
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:29:51 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 22:29:51 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 22:29:51 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 19.03.2024 22:29:52 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:355) - Test failed: Check A Point Is In A Label Volume Node
+[DEBUG][Qt] 19.03.2024 22:36:48 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 19.03.2024 22:40:14 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 19.03.2024 22:40:14 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 19.03.2024 22:40:14 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) -
+[ERROR][VTK] 19.03.2024 22:40:15 [vtkMRMLSubjectHierarchyNode (00000170B0B506D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 19.03.2024 22:40:15 [vtkMRMLSubjectHierarchyNode (00000170B0B506D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[ERROR][VTK] 19.03.2024 22:40:15 [vtkMRMLSubjectHierarchyNode (00000170B0B506D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 22:40:15 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 22:40:15 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 22:40:15 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[WARNING][Python] 19.03.2024 22:40:16 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:352) - Test failed: Check A Point Is In A Label Volume Node
+[DEBUG][Qt] 19.03.2024 22:40:18 [] (unknown:0) - Switch to module:  "Data"
+[CRITICAL][Stream] 19.03.2024 22:40:46 [] (unknown:0) -   File "<string>", line 1
+[CRITICAL][Stream] 19.03.2024 22:40:46 [] (unknown:0) -     nodeName = "MyNewVolume"
+[CRITICAL][Stream] 19.03.2024 22:40:46 [] (unknown:0) - IndentationError: unexpected indent
+[CRITICAL][Stream] 19.03.2024 22:40:48 [] (unknown:0) -   File "<string>", line 1
+[CRITICAL][Stream] 19.03.2024 22:40:48 [] (unknown:0) -     nodeName = "MyNewVolume"
+[CRITICAL][Stream] 19.03.2024 22:40:48 [] (unknown:0) - IndentationError: unexpected indent
+[DEBUG][Qt] 19.03.2024 22:44:45 [] (unknown:0) - Python console user input: imageData.GetNumberOfPoints()
+[INFO][Stream] 19.03.2024 22:44:45 [] (unknown:0) - 134217728
+[DEBUG][Qt] 19.03.2024 22:45:08 [] (unknown:0) - Python console user input: imageData.GetNumberOfCells()
+[INFO][Stream] 19.03.2024 22:45:08 [] (unknown:0) - 133432831
+[DEBUG][Qt] 19.03.2024 22:45:15 [] (unknown:0) - Python console user input: imageData.GetNumberOfElements()
+[CRITICAL][Stream] 19.03.2024 22:45:15 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 22:45:15 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 22:45:15 [] (unknown:0) - TypeError: GetNumberOfElements() takes exactly 1 argument (0 given)
+[DEBUG][Qt] 19.03.2024 22:45:24 [] (unknown:0) - Python console user input: imageSize = [512, 512, 512]
+[DEBUG][Qt] 19.03.2024 22:45:32 [] (unknown:0) - Python console user input: 512*512*512
+[INFO][Stream] 19.03.2024 22:45:32 [] (unknown:0) - 134217728
+[DEBUG][Qt] 19.03.2024 22:47:14 [] (unknown:0) - Python console user input: imageData.GetPointData(1)
+[CRITICAL][Stream] 19.03.2024 22:47:14 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 22:47:14 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 22:47:14 [] (unknown:0) - TypeError: GetPointData() takes exactly 0 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 22:49:10 [] (unknown:0) - Python console user input: imageData.GetScalarIndex(1,2,3)
+[INFO][Stream] 19.03.2024 22:49:10 [] (unknown:0) - 787457
+[DEBUG][Qt] 19.03.2024 22:49:16 [] (unknown:0) - Python console user input: imageData.GetScalarIndex(0,0,0)
+[INFO][Stream] 19.03.2024 22:49:16 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 22:49:19 [] (unknown:0) - Python console user input: imageData.GetScalarIndex(0,0,1)
+[INFO][Stream] 19.03.2024 22:49:19 [] (unknown:0) - 262144
+[DEBUG][Qt] 19.03.2024 22:49:22 [] (unknown:0) - Python console user input: imageData.GetScalarIndex(1,0,0)
+[INFO][Stream] 19.03.2024 22:49:22 [] (unknown:0) - 1
+[DEBUG][Qt] 19.03.2024 22:49:25 [] (unknown:0) - Python console user input: imageData.GetScalarIndex(2,0,0)
+[INFO][Stream] 19.03.2024 22:49:25 [] (unknown:0) - 2
+[DEBUG][Qt] 19.03.2024 22:49:56 [] (unknown:0) - Python console user input: GetScalarComponentAsFloat()
+[CRITICAL][Stream] 19.03.2024 22:49:56 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 22:49:56 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 22:49:56 [] (unknown:0) - NameError: name 'GetScalarComponentAsFloat' is not defined
+[DEBUG][Qt] 19.03.2024 22:50:44 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,int)
+[CRITICAL][Stream] 19.03.2024 22:50:44 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 22:50:44 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 22:50:44 [] (unknown:0) - TypeError: GetScalarComponentAsFloat argument 4: an integer is required (got type type)
+[DEBUG][Qt] 19.03.2024 22:50:47 [] (unknown:0) - Python console user input: int a
+[CRITICAL][Stream] 19.03.2024 22:50:47 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 19.03.2024 22:50:47 [] (unknown:0) -     int a
+[CRITICAL][Stream] 19.03.2024 22:50:47 [] (unknown:0) -         ^
+[CRITICAL][Stream] 19.03.2024 22:50:47 [] (unknown:0) - SyntaxError: invalid syntax
+[DEBUG][Qt] 19.03.2024 22:51:00 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,1)
+[ERROR][VTK] 19.03.2024 22:51:00 [vtkImageData (0000017091DAC080)] (vtkImageData.cxx:1449) - Bad component index 1
+[INFO][Stream] 19.03.2024 22:51:00 [] (unknown:0) - 0.0
+[DEBUG][Qt] 19.03.2024 22:51:04 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,2)
+[ERROR][VTK] 19.03.2024 22:51:04 [vtkImageData (0000017091DAC080)] (vtkImageData.cxx:1449) - Bad component index 2
+[INFO][Stream] 19.03.2024 22:51:04 [] (unknown:0) - 0.0
+[DEBUG][Qt] 19.03.2024 22:51:09 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,0)
+[INFO][Stream] 19.03.2024 22:51:09 [] (unknown:0) - 1.0
+[DEBUG][Qt] 19.03.2024 22:51:14 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,-1)
+[ERROR][VTK] 19.03.2024 22:51:14 [vtkImageData (0000017091DAC080)] (vtkImageData.cxx:1449) - Bad component index -1
+[INFO][Stream] 19.03.2024 22:51:14 [] (unknown:0) - 0.0
+[DEBUG][Qt] 19.03.2024 22:51:16 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,0)
+[INFO][Stream] 19.03.2024 22:51:16 [] (unknown:0) - 1.0
+[DEBUG][Qt] 19.03.2024 22:51:18 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(2,1,1,0)
+[INFO][Stream] 19.03.2024 22:51:18 [] (unknown:0) - 1.0
+[DEBUG][Qt] 19.03.2024 22:54:32 [] (unknown:0) - Python console user input: imageData.GetScalarPointer(0, 0, 0)
+[INFO][Stream] 19.03.2024 22:54:32 [] (unknown:0) - '_00000170bf9f6040_p_void'
+[DEBUG][Qt] 19.03.2024 22:54:36 [] (unknown:0) - Python console user input: t = imageData.GetScalarPointer(0, 0, 0)
+[DEBUG][Qt] 19.03.2024 22:55:05 [] (unknown:0) - Python console user input: *t
+[CRITICAL][Stream] 19.03.2024 22:55:05 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 19.03.2024 22:55:05 [] (unknown:0) - SyntaxError: can't use starred expression here
+[DEBUG][Qt] 19.03.2024 22:56:53 [] (unknown:0) - Python console user input: imageData.GetNumberOfScalarComponents()
+[INFO][Stream] 19.03.2024 22:56:53 [] (unknown:0) - 1
+[DEBUG][Qt] 19.03.2024 22:56:58 [] (unknown:0) - Python console user input: imageData.GetNumberOfPoints()
+[INFO][Stream] 19.03.2024 22:56:58 [] (unknown:0) - 134217728
+[DEBUG][Qt] 19.03.2024 22:58:52 [] (unknown:0) - Python console user input: x
+[INFO][Stream] 19.03.2024 22:58:52 [] (unknown:0) - <MRMLCorePython.vtkMRMLLabelMapVolumeNode(0x000001708FEBC0D0) at 0x000001708E65D2E0>
+[DEBUG][Qt] 19.03.2024 22:59:10 [] (unknown:0) - Python console user input: x = 0.00
+[DEBUG][Qt] 19.03.2024 22:59:40 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(0,0,0,x)
+[CRITICAL][Stream] 19.03.2024 22:59:40 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 22:59:40 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 22:59:40 [] (unknown:0) - TypeError: GetScalarComponentAsFloat argument 4: integer argument expected, got float
+[DEBUG][Qt] 19.03.2024 22:59:56 [] (unknown:0) - Python console user input: x = 0
+[DEBUG][Qt] 19.03.2024 22:59:59 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(0,0,0,x)
+[INFO][Stream] 19.03.2024 22:59:59 [] (unknown:0) - 1.0
+[DEBUG][Qt] 19.03.2024 23:00:06 [] (unknown:0) - Python console user input: x = 1
+[DEBUG][Qt] 19.03.2024 23:00:08 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(0,0,0,x)
+[ERROR][VTK] 19.03.2024 23:00:08 [vtkImageData (0000017091DAC080)] (vtkImageData.cxx:1449) - Bad component index 1
+[INFO][Stream] 19.03.2024 23:00:08 [] (unknown:0) - 0.0
+[DEBUG][Qt] 19.03.2024 23:00:11 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(0,0,0,0)
+[INFO][Stream] 19.03.2024 23:00:11 [] (unknown:0) - 1.0
+[DEBUG][Qt] 19.03.2024 23:00:18 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(0,0,0,0)
+[INFO][Stream] 19.03.2024 23:00:18 [] (unknown:0) - 1.0
+[DEBUG][Qt] 19.03.2024 23:00:37 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 19.03.2024 23:00:37 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 19.03.2024 23:00:37 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 19.03.2024 23:00:38 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 23:00:38 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 23:00:38 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 19.03.2024 23:00:38 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[ERROR][VTK] 19.03.2024 23:00:39 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[WARNING][Python] 19.03.2024 23:00:39 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:352) - Test failed: Check A Point Is In A Label Volume Node
+[DEBUG][Qt] 19.03.2024 23:00:42 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 19.03.2024 23:00:45 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[DEBUG][Qt] 19.03.2024 23:00:47 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 19.03.2024 23:00:49 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[DEBUG][Qt] 19.03.2024 23:00:49 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 19.03.2024 23:01:06 [] (unknown:0) - Python console user input: x = getNode("MyNewVolume")
+[CRITICAL][Stream] 19.03.2024 23:01:42 [] (unknown:0) -   File "<string>", line 1
+[CRITICAL][Stream] 19.03.2024 23:01:42 [] (unknown:0) -     fillVoxelValue = 0
+[CRITICAL][Stream] 19.03.2024 23:01:42 [] (unknown:0) - IndentationError: unexpected indent
+[DEBUG][Qt] 19.03.2024 23:02:06 [] (unknown:0) - Python console user input: x = imageData.GetPoint(0)
+[DEBUG][Qt] 19.03.2024 23:02:07 [] (unknown:0) - Python console user input: x
+[INFO][Stream] 19.03.2024 23:02:07 [] (unknown:0) - (0.0, 0.0, 0.0)
+[DEBUG][Qt] 19.03.2024 23:02:21 [] (unknown:0) - Python console user input: x = imageData.GetPointCells(0)
+[CRITICAL][Stream] 19.03.2024 23:02:21 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:02:21 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:02:21 [] (unknown:0) - TypeError: GetPointCells() takes exactly 2 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 23:02:26 [] (unknown:0) - Python console user input: x = imageData.GetPoint()
+[CRITICAL][Stream] 19.03.2024 23:02:26 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:02:26 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:02:26 [] (unknown:0) - TypeError: no overloads of GetPoint() take 0 arguments
+[DEBUG][Qt] 19.03.2024 23:03:31 [] (unknown:0) - Python console user input: imageData.GetNumberOfPoints()
+[INFO][Stream] 19.03.2024 23:03:31 [] (unknown:0) - 134217728
+[DEBUG][Qt] 19.03.2024 23:03:42 [] (unknown:0) - Python console user input: imageData.GetPoint(0)
+[INFO][Stream] 19.03.2024 23:03:42 [] (unknown:0) - (0.0, 0.0, 0.0)
+[DEBUG][Qt] 19.03.2024 23:03:50 [] (unknown:0) - Python console user input: imageData.GetPoint(134217728)
+[INFO][Stream] 19.03.2024 23:03:50 [] (unknown:0) - (0.0, 0.0, 512.0)
+[DEBUG][Qt] 19.03.2024 23:03:57 [] (unknown:0) - Python console user input: imageData.GetPoint(134217729)
+[INFO][Stream] 19.03.2024 23:03:57 [] (unknown:0) - (1.0, 0.0, 512.0)
+[DEBUG][Qt] 19.03.2024 23:04:02 [] (unknown:0) - Python console user input: imageData.GetPoint(134217727)
+[INFO][Stream] 19.03.2024 23:04:02 [] (unknown:0) - (511.0, 511.0, 511.0)
+[DEBUG][Qt] 19.03.2024 23:04:29 [] (unknown:0) - Python console user input: imageData.GetScalarIndex(511, 511, 511)
+[INFO][Stream] 19.03.2024 23:04:29 [] (unknown:0) - 134217727
+[DEBUG][Qt] 19.03.2024 23:05:01 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(1,1,1,0)
+[INFO][Stream] 19.03.2024 23:05:01 [] (unknown:0) - 0.0
+[DEBUG][Qt] 19.03.2024 23:08:53 [] (unknown:0) - Python console user input: imageData.SetScalarComponentFromFloat(0,0,0,0,1)
+[DEBUG][Qt] 19.03.2024 23:09:05 [] (unknown:0) - Python console user input: imageData.GetScalarComponentAsFloat(0,0,0,0)
+[INFO][Stream] 19.03.2024 23:09:05 [] (unknown:0) - 1.0
+[ERROR][VTK] 19.03.2024 23:09:34 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 23:13:39 [] (unknown:0) - Python console user input: imageData.GetPoint(0)
+[INFO][Stream] 19.03.2024 23:13:39 [] (unknown:0) - (0.0, 0.0, 0.0)
+[DEBUG][Qt] 19.03.2024 23:40:02 [] (unknown:0) - Python console user input: shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
+[DEBUG][Qt] 19.03.2024 23:40:13 [] (unknown:0) - Python console user input: shNode.GetID()
+[INFO][Stream] 19.03.2024 23:40:13 [] (unknown:0) - 'vtkMRMLSubjectHierarchyNode1'
+[DEBUG][Qt] 19.03.2024 23:41:22 [] (unknown:0) - Python console user input: shNode.GetItemByName("Models")
+[INFO][Stream] 19.03.2024 23:41:22 [] (unknown:0) - 227
+[DEBUG][Qt] 19.03.2024 23:41:39 [] (unknown:0) - Python console user input: shNode.GetItemParent(227)
+[INFO][Stream] 19.03.2024 23:41:39 [] (unknown:0) - 208
+[DEBUG][Qt] 19.03.2024 23:42:00 [] (unknown:0) - Python console user input: shNode.GetID()
+[INFO][Stream] 19.03.2024 23:42:00 [] (unknown:0) - 'vtkMRMLSubjectHierarchyNode1'
+[CRITICAL][Stream] 19.03.2024 23:42:33 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:42:33 [] (unknown:0) -   File "<string>", line 5, in <module>
+[CRITICAL][Stream] 19.03.2024 23:42:33 [] (unknown:0) - TypeError: ExportAllSegmentsToModels argument 2: an integer is required (got type str)
+[DEBUG][Qt] 19.03.2024 23:42:52 [] (unknown:0) - Python console user input: slicer.modules.segmentations.logic().ExportAllSegmentsToModels(segmentationNode, 208)
+[ERROR][VTK] 19.03.2024 23:42:52 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2777) - SetItemParent: Cannot set an item as its own parent: 208
+[INFO][Stream] 19.03.2024 23:42:52 [] (unknown:0) - True
+[DEBUG][Qt] 19.03.2024 23:43:27 [] (unknown:0) - Python console user input: shNode.GetItemChildren()
+[CRITICAL][Stream] 19.03.2024 23:43:27 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:43:27 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:43:27 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 0 arguments
+[DEBUG][Qt] 19.03.2024 23:43:29 [] (unknown:0) - Python console user input: shNode.GetItemChildren(0)
+[CRITICAL][Stream] 19.03.2024 23:43:29 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:43:29 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:43:29 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 1 argument
+[DEBUG][Qt] 19.03.2024 23:43:35 [] (unknown:0) - Python console user input: shNode.GetItemChildren()
+[CRITICAL][Stream] 19.03.2024 23:43:35 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:43:35 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:43:35 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 0 arguments
+[DEBUG][Qt] 19.03.2024 23:43:46 [] (unknown:0) - Python console user input: shNode.GetItemLevel()
+[CRITICAL][Stream] 19.03.2024 23:43:46 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:43:46 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:43:46 [] (unknown:0) - TypeError: GetItemLevel() takes exactly 1 argument (0 given)
+[DEBUG][Qt] 19.03.2024 23:43:50 [] (unknown:0) - Python console user input: shNode.GetItemName()
+[CRITICAL][Stream] 19.03.2024 23:43:50 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:43:50 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:43:50 [] (unknown:0) - TypeError: GetItemName() takes exactly 1 argument (0 given)
+[DEBUG][Qt] 19.03.2024 23:43:54 [] (unknown:0) - Python console user input: shNode.GetItemName(0)
+[WARNING][VTK] 19.03.2024 23:43:54 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2171) - GetItemName: Invalid item ID given
+[INFO][Stream] 19.03.2024 23:43:54 [] (unknown:0) - ''
+[DEBUG][Qt] 19.03.2024 23:43:56 [] (unknown:0) - Python console user input: shNode.GetItemName(208)
+[INFO][Stream] 19.03.2024 23:43:56 [] (unknown:0) - 'Scene'
+[DEBUG][Qt] 19.03.2024 23:44:17 [] (unknown:0) - Python console user input: shNode.GetItemUID(0)
+[CRITICAL][Stream] 19.03.2024 23:44:17 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:44:17 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:44:17 [] (unknown:0) - TypeError: GetItemUID() takes exactly 2 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 23:44:30 [] (unknown:0) - Python console user input: shNode.GetItemChildren(0)
+[CRITICAL][Stream] 19.03.2024 23:44:30 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:44:30 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:44:30 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 1 argument
+[DEBUG][Qt] 19.03.2024 23:44:32 [] (unknown:0) - Python console user input: shNode.GetItemChildren()
+[CRITICAL][Stream] 19.03.2024 23:44:32 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:44:32 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:44:32 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 0 arguments
+[DEBUG][Qt] 19.03.2024 23:44:45 [] (unknown:0) - Python console user input: shNode.GetItemByPositionUnderParent(0)
+[CRITICAL][Stream] 19.03.2024 23:44:45 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:44:45 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:44:45 [] (unknown:0) - TypeError: GetItemByPositionUnderParent() takes exactly 2 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 23:44:47 [] (unknown:0) - Python console user input: shNode.GetItemByPositionUnderParent()
+[CRITICAL][Stream] 19.03.2024 23:44:47 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:44:47 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:44:47 [] (unknown:0) - TypeError: GetItemByPositionUnderParent() takes exactly 2 arguments (0 given)
+[DEBUG][Qt] 19.03.2024 23:44:58 [] (unknown:0) - Python console user input: shNode.GetItemUID()
+[CRITICAL][Stream] 19.03.2024 23:44:58 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:44:58 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:44:58 [] (unknown:0) - TypeError: GetItemUID() takes exactly 2 arguments (0 given)
+[DEBUG][Qt] 19.03.2024 23:45:01 [] (unknown:0) - Python console user input: shNode.GetItemUID(0,1)
+[CRITICAL][Stream] 19.03.2024 23:45:01 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:45:01 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:45:01 [] (unknown:0) - TypeError: GetItemUID argument 2: string is required
+[DEBUG][Qt] 19.03.2024 23:45:06 [] (unknown:0) - Python console user input: shNode
+[INFO][Stream] 19.03.2024 23:45:06 [] (unknown:0) - <MRMLCorePython.vtkMRMLSubjectHierarchyNode(0x00000170B0B4CF00) at 0x000001708E65DE20>
+[DEBUG][Qt] 19.03.2024 23:46:07 [] (unknown:0) - Python console user input: shNode.GetID()
+[INFO][Stream] 19.03.2024 23:46:07 [] (unknown:0) - 'vtkMRMLSubjectHierarchyNode1'
+[DEBUG][Qt] 19.03.2024 23:46:34 [] (unknown:0) - Python console user input: shNode.GetID().capitalize()
+[INFO][Stream] 19.03.2024 23:46:34 [] (unknown:0) - 'Vtkmrmlsubjecthierarchynode1'
+[DEBUG][Qt] 19.03.2024 23:47:08 [] (unknown:0) - Python console user input: shNode.GetName()
+[INFO][Stream] 19.03.2024 23:47:08 [] (unknown:0) - 'SubjectHierarchy'
+[DEBUG][Qt] 19.03.2024 23:47:36 [] (unknown:0) - Python console user input: shNode.GetItemByName("Scene")
+[INFO][Stream] 19.03.2024 23:47:36 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:48:01 [] (unknown:0) - Python console user input: shNode.GetItemChildren(0)
+[CRITICAL][Stream] 19.03.2024 23:48:01 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:48:01 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:48:01 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 1 argument
+[DEBUG][Qt] 19.03.2024 23:48:09 [] (unknown:0) - Python console user input: shNode.GetItemChildren(208)
+[CRITICAL][Stream] 19.03.2024 23:48:09 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:48:09 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:48:09 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 1 argument
+[DEBUG][Qt] 19.03.2024 23:48:20 [] (unknown:0) - Python console user input: shNode.GetItemLevel(0)
+[WARNING][VTK] 19.03.2024 23:48:20 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2210) - GetItemLevel: Invalid item ID given
+[INFO][Stream] 19.03.2024 23:48:20 [] (unknown:0) - ''
+[DEBUG][Qt] 19.03.2024 23:48:25 [] (unknown:0) - Python console user input: shNode.GetItemLevel(208)
+[INFO][Stream] 19.03.2024 23:48:25 [] (unknown:0) - 'Scene'
+[DEBUG][Qt] 19.03.2024 23:48:33 [] (unknown:0) - Python console user input: shNode.GetItemLevel(227)
+[INFO][Stream] 19.03.2024 23:48:33 [] (unknown:0) - 'Folder'
+[DEBUG][Qt] 19.03.2024 23:48:50 [] (unknown:0) - Python console user input: shNode.GetItemName(208)
+[INFO][Stream] 19.03.2024 23:48:50 [] (unknown:0) - 'Scene'
+[DEBUG][Qt] 19.03.2024 23:49:05 [] (unknown:0) - Python console user input: shNode.GetItemsByName('Scene')
+[CRITICAL][Stream] 19.03.2024 23:49:05 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:49:05 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:49:05 [] (unknown:0) - TypeError: GetItemsByName() takes at least 2 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 23:49:10 [] (unknown:0) - Python console user input: shNode.GetItemsByName('Scene',0)
+[CRITICAL][Stream] 19.03.2024 23:49:10 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:49:10 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:49:10 [] (unknown:0) - TypeError: GetItemsByName argument 2: method requires a VTK object
+[DEBUG][Qt] 19.03.2024 23:49:11 [] (unknown:0) - Python console user input: shNode.GetItemsByName('Scene',1)
+[CRITICAL][Stream] 19.03.2024 23:49:11 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:49:11 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:49:11 [] (unknown:0) - TypeError: GetItemsByName argument 2: method requires a VTK object
+[DEBUG][Qt] 19.03.2024 23:49:33 [] (unknown:0) - Python console user input: shNode.GetItemChildren()
+[CRITICAL][Stream] 19.03.2024 23:49:33 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:49:33 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:49:33 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 0 arguments
+[DEBUG][Qt] 19.03.2024 23:50:27 [] (unknown:0) - Python console user input: shNode.GetItemByName('jake)
+[CRITICAL][Stream] 19.03.2024 23:50:27 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 19.03.2024 23:50:27 [] (unknown:0) -     shNode.GetItemByName('jake)
+[CRITICAL][Stream] 19.03.2024 23:50:27 [] (unknown:0) -                                ^
+[CRITICAL][Stream] 19.03.2024 23:50:27 [] (unknown:0) - SyntaxError: EOL while scanning string literal
+[DEBUG][Qt] 19.03.2024 23:50:30 [] (unknown:0) - Python console user input: shNode.GetItemByName('jake')
+[WARNING][VTK] 19.03.2024 23:50:30 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:3017) - GetItemByName: Multiple subject hierarchy item found with name 'jake. Returning first
+[INFO][Stream] 19.03.2024 23:50:30 [] (unknown:0) - 252
+[DEBUG][Qt] 19.03.2024 23:50:42 [] (unknown:0) - Python console user input: shNode.GetItemByName('Scene')
+[INFO][Stream] 19.03.2024 23:50:42 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:50:45 [] (unknown:0) - Python console user input: shNode.GetItemByName('Scene')
+[INFO][Stream] 19.03.2024 23:50:45 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:50:53 [] (unknown:0) - Python console user input: shNode.GetName()
+[INFO][Stream] 19.03.2024 23:50:53 [] (unknown:0) - 'SubjectHierarchy'
+[DEBUG][Qt] 19.03.2024 23:50:56 [] (unknown:0) - Python console user input: shNode.GetName(0)
+[CRITICAL][Stream] 19.03.2024 23:50:56 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:50:56 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:50:56 [] (unknown:0) - TypeError: GetName() takes exactly 0 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 23:51:09 [] (unknown:0) - Python console user input: shNode.GetItemName()
+[CRITICAL][Stream] 19.03.2024 23:51:09 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:51:09 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:51:09 [] (unknown:0) - TypeError: GetItemName() takes exactly 1 argument (0 given)
+[DEBUG][Qt] 19.03.2024 23:51:12 [] (unknown:0) - Python console user input: shNode.GetItemName(0)
+[WARNING][VTK] 19.03.2024 23:51:12 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2171) - GetItemName: Invalid item ID given
+[INFO][Stream] 19.03.2024 23:51:12 [] (unknown:0) - ''
+[DEBUG][Qt] 19.03.2024 23:51:16 [] (unknown:0) - Python console user input: shNode.GetItemName(208)
+[INFO][Stream] 19.03.2024 23:51:16 [] (unknown:0) - 'Scene'
+[DEBUG][Qt] 19.03.2024 23:51:28 [] (unknown:0) - Python console user input: shNode.GetItemParent(208)
+[INFO][Stream] 19.03.2024 23:51:28 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:52:39 [] (unknown:0) - Python console user input: shNode.GetItemPositionUnderParent(0,1)
+[CRITICAL][Stream] 19.03.2024 23:52:39 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:52:39 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:52:39 [] (unknown:0) - TypeError: GetItemPositionUnderParent() takes exactly 1 argument (2 given)
+[DEBUG][Qt] 19.03.2024 23:52:43 [] (unknown:0) - Python console user input: shNode.GetItemPositionUnderParent(0)
+[WARNING][VTK] 19.03.2024 23:52:43 [vtkMRMLSubjectHierarchyNode (00000170B0B4CF00)] (vtkMRMLSubjectHierarchyNode.cxx:2308) - GetItemPositionUnderParent: Invalid item ID given
+[INFO][Stream] 19.03.2024 23:52:43 [] (unknown:0) - -1
+[DEBUG][Qt] 19.03.2024 23:52:46 [] (unknown:0) - Python console user input: shNode.GetItemPositionUnderParent(208)
+[INFO][Stream] 19.03.2024 23:52:46 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:52:59 [] (unknown:0) - Python console user input: shNode.GetItemPositionUnderParent(227)
+[INFO][Stream] 19.03.2024 23:52:59 [] (unknown:0) - 8
+[DEBUG][Qt] 19.03.2024 23:54:06 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene")
+[CRITICAL][Stream] 19.03.2024 23:54:06 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:54:06 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:54:06 [] (unknown:0) - TypeError: GetItemByUID() takes exactly 2 arguments (1 given)
+[DEBUG][Qt] 19.03.2024 23:54:25 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene".0)
+[CRITICAL][Stream] 19.03.2024 23:54:25 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 19.03.2024 23:54:25 [] (unknown:0) -     shNode.GetItemByUID("Scene".0)
+[CRITICAL][Stream] 19.03.2024 23:54:25 [] (unknown:0) -                                ^
+[CRITICAL][Stream] 19.03.2024 23:54:25 [] (unknown:0) - SyntaxError: invalid syntax
+[DEBUG][Qt] 19.03.2024 23:54:28 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene",0)
+[CRITICAL][Stream] 19.03.2024 23:54:28 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 19.03.2024 23:54:28 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 19.03.2024 23:54:28 [] (unknown:0) - TypeError: GetItemByUID argument 2: string or None required
+[DEBUG][Qt] 19.03.2024 23:54:35 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene",0"Scene")
+[CRITICAL][Stream] 19.03.2024 23:54:35 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 19.03.2024 23:54:35 [] (unknown:0) -     shNode.GetItemByUID("Scene",0"Scene")
+[CRITICAL][Stream] 19.03.2024 23:54:35 [] (unknown:0) -                                  ^
+[CRITICAL][Stream] 19.03.2024 23:54:35 [] (unknown:0) - SyntaxError: invalid syntax
+[DEBUG][Qt] 19.03.2024 23:54:37 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene","Scene")
+[INFO][Stream] 19.03.2024 23:54:37 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:54:38 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene","Scene")
+[INFO][Stream] 19.03.2024 23:54:38 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:54:50 [] (unknown:0) - Python console user input: shNode.GetItemByUID("jake","jake")
+[INFO][Stream] 19.03.2024 23:54:50 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:54:55 [] (unknown:0) - Python console user input: shNode.GetItemByUID("Scene","jake")
+[INFO][Stream] 19.03.2024 23:54:55 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:55:02 [] (unknown:0) - Python console user input: shNode.GetItemByUID("jake","Scene")
+[INFO][Stream] 19.03.2024 23:55:02 [] (unknown:0) - 0
+[DEBUG][Qt] 19.03.2024 23:55:06 [] (unknown:0) - Switch to module:  ""

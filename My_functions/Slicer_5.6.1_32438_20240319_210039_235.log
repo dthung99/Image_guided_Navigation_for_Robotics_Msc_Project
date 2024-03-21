@@ -1,0 +1,72 @@
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Session start time .......: 20240319_210039
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Memory ...................: 7834 MB physical, 11930 MB virtual
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 19.03.2024 21:00:39 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 19.03.2024 21:00:59 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 19.03.2024 21:00:59 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 19.03.2024 21:00:59 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 19.03.2024 21:01:30 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:02:06 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 21:02:06 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.07s]"
+[DEBUG][Qt] 19.03.2024 21:02:06 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 21:02:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.08s]"
+[DEBUG][Qt] 19.03.2024 21:02:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 21:02:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:02:07 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:02:07 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.09s]"
+[INFO][Stream] 19.03.2024 21:02:07 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 21:02:07 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[ERROR][VTK] 19.03.2024 21:07:06 [vtkMRMLSubjectHierarchyNode (000001E462916120)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 21:07:06 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 21:07:06 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) - ------------------------------
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) -
+[INFO][Stream] 19.03.2024 21:09:07 [] (unknown:0) -
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[ERROR][VTK] 19.03.2024 21:09:08 [vtkMRMLSubjectHierarchyNode (000001E462912360)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 19.03.2024 21:09:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 19.03.2024 21:09:08 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 19.03.2024 21:09:08 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 19.03.2024 21:09:30 [] (unknown:0) - Switch to module:  ""

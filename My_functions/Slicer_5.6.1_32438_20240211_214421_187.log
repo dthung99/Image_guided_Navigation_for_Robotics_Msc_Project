@@ -1,0 +1,1305 @@
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Session start time .......: 20240211_214421
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Memory ...................: 7834 MB physical, 12954 MB virtual
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 11.02.2024 21:44:21 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 11.02.2024 21:44:36 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 11.02.2024 21:44:36 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 11.02.2024 21:44:36 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 11.02.2024 21:44:52 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:47:11 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:47:11 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Python] 11.02.2024 21:47:11 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Starting the test
+[INFO][Python] 11.02.2024 21:47:12 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed
+[DEBUG][Qt] 11.02.2024 21:47:16 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 21:47:22 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 21:47:22 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 21:47:22 [] (unknown:0) -   warn("does not have observer")
+[DEBUG][Qt] 11.02.2024 21:47:51 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 21:47:55 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 21:47:55 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 21:47:55 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:16 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:48:28 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 21:48:33 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:47 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:48:50 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:48:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Python] 11.02.2024 21:48:50 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Starting the test
+[INFO][Python] 11.02.2024 21:48:51 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed
+[DEBUG][Qt] 11.02.2024 21:48:52 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 21:48:54 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:49:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:00 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:01 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:01 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:239) - Hi
+[INFO][Stream] 11.02.2024 21:50:01 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:50:01 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:01 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:239) - Hi
+[INFO][Stream] 11.02.2024 21:50:01 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:50:01 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:01 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:239) - Hi
+[INFO][Stream] 11.02.2024 21:50:01 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:50:02 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:02 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:239) - Hi
+[INFO][Stream] 11.02.2024 21:50:02 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:50:26 [] (unknown:0) -
+[INFO][Python] 11.02.2024 21:50:27 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:238) - Hi
+[INFO][Stream] 11.02.2024 21:50:27 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:28 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:238) - Hi
+[INFO][Stream] 11.02.2024 21:50:28 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:28 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:238) - Hi
+[INFO][Stream] 11.02.2024 21:50:28 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:238) - Hi
+[INFO][Stream] 11.02.2024 21:50:34 [] (unknown:0) - 2
+[INFO][Python] 11.02.2024 21:50:39 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:238) - Hi
+[INFO][Stream] 11.02.2024 21:50:39 [] (unknown:0) - 2
+[DEBUG][Qt] 11.02.2024 21:51:37 [] (unknown:0) - Python console user input: logging.info("This is an info message")
+[INFO][Python] 11.02.2024 21:51:37 [Python] (<console>:1) - This is an info message
+[DEBUG][Qt] 11.02.2024 21:51:38 [] (unknown:0) - Python console user input: logging.info("This is an info message")
+[INFO][Python] 11.02.2024 21:51:38 [Python] (<console>:1) - This is an info message
+[DEBUG][Qt] 11.02.2024 21:51:41 [] (unknown:0) - Python console user input: logging.info("This is an info message")
+[INFO][Python] 11.02.2024 21:51:41 [Python] (<console>:1) - This is an info message
+[DEBUG][Python] 11.02.2024 21:51:46 [Python] (<string>:7) - This is a debug message
+[INFO][Python] 11.02.2024 21:51:46 [Python] (<string>:8) - This is an info message
+[WARNING][Python] 11.02.2024 21:51:46 [Python] (<string>:9) - This is a warning message
+[ERROR][Python] 11.02.2024 21:51:46 [Python] (<string>:10) - This is an error message
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) - --- Logging error ---
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "<string>", line 61, in emit
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) - KeyError: 50
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) - Call stack:
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "<string>", line 11, in <module>
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 2052, in critical
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -     root.critical(msg, *args, **kwargs)
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1493, in critical
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -     self._log(CRITICAL, msg, args, **kwargs)
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1589, in _log
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -     self.handle(record)
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1599, in handle
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -     self.callHandlers(record)
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1661, in callHandlers
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -     hdlr.handle(record)
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 952, in handle
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -     self.emit(record)
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) -   File "<string>", line 63, in emit
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) - Message: 'This is a critical message'
+[CRITICAL][Stream] 11.02.2024 21:51:46 [] (unknown:0) - Arguments: ()
+[DEBUG][Qt] 11.02.2024 21:52:12 [] (unknown:0) - Python console user input: logging.basicConfig(level=logging.INFO)
+[DEBUG][Qt] 11.02.2024 21:52:16 [] (unknown:0) - Python console user input: logging.debug("This is a debug message")
+[DEBUG][Python] 11.02.2024 21:52:16 [Python] (<console>:1) - This is a debug message
+[DEBUG][Qt] 11.02.2024 21:52:20 [] (unknown:0) - Python console user input: logging.info("This is an info message")
+[INFO][Python] 11.02.2024 21:52:20 [Python] (<console>:1) - This is an info message
+[DEBUG][Qt] 11.02.2024 21:52:25 [] (unknown:0) - Python console user input: logging.warning("This is a warning message")
+[WARNING][Python] 11.02.2024 21:52:25 [Python] (<console>:1) - This is a warning message
+[DEBUG][Qt] 11.02.2024 21:52:27 [] (unknown:0) - Python console user input: logging.warning("This is a warning message")
+[WARNING][Python] 11.02.2024 21:52:27 [Python] (<console>:1) - This is a warning message
+[DEBUG][Qt] 11.02.2024 21:52:31 [] (unknown:0) - Python console user input: logging.error("This is an error message")
+[ERROR][Python] 11.02.2024 21:52:31 [Python] (<console>:1) - This is an error message
+[DEBUG][Qt] 11.02.2024 21:52:35 [] (unknown:0) - Python console user input: logging.critical("This is a critical message")
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) - --- Logging error ---
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "<string>", line 61, in emit
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) - KeyError: 50
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) - Call stack:
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\code.py", line 258, in push
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     more = self.runsource(source, self.filename)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\code.py", line 74, in runsource
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     self.runcode(code)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\code.py", line 90, in runcode
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     exec(code, self.locals)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 2052, in critical
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     root.critical(msg, *args, **kwargs)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1493, in critical
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     self._log(CRITICAL, msg, args, **kwargs)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1589, in _log
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     self.handle(record)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1599, in handle
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     self.callHandlers(record)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 1661, in callHandlers
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     hdlr.handle(record)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\lib\Python\Lib\logging\__init__.py", line 952, in handle
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -     self.emit(record)
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) -   File "<string>", line 63, in emit
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) - Message: 'This is a critical message'
+[CRITICAL][Stream] 11.02.2024 21:52:35 [] (unknown:0) - Arguments: ()
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:55:59 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:56:01 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 21:57:36 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:37 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:57:37 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:37 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:37 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 21:57:37 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:38 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:38 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:38 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 11.02.2024 21:57:38 [] (unknown:0) - 2
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:51 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:57:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) - 3
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 21:57:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 21:57:52 [] (unknown:0) - 3
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:21 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:02:21 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:02:22 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:02:22 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:22 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:02:22 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:02:22 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:02:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:02:23 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:02:23 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:03:45 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:03:45 [] (unknown:0) - Number of targets is: 21
+[INFO][Python] 11.02.2024 22:03:45 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed
+[DEBUG][Qt] 11.02.2024 22:04:15 [] (unknown:0) - Python console user input: logging.error("Hi)
+[CRITICAL][Stream] 11.02.2024 22:04:15 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 11.02.2024 22:04:15 [] (unknown:0) -     logging.error("Hi)
+[CRITICAL][Stream] 11.02.2024 22:04:15 [] (unknown:0) -                       ^
+[CRITICAL][Stream] 11.02.2024 22:04:15 [] (unknown:0) - SyntaxError: EOL while scanning string literal
+[DEBUG][Qt] 11.02.2024 22:04:16 [] (unknown:0) - Python console user input: logging.error("Hi")
+[ERROR][Python] 11.02.2024 22:04:16 [Python] (<console>:1) - Hi
+[DEBUG][Qt] 11.02.2024 22:04:32 [] (unknown:0) - Python console user input: logging.warn("h")
+[CRITICAL][Stream] 11.02.2024 22:04:32 [] (unknown:0) - <console>:1: DeprecationWarning: The 'warn' function is deprecated, use 'warning' instead
+[WARNING][Python] 11.02.2024 22:04:32 [Python] (<console>:1) - h
+[DEBUG][Qt] 11.02.2024 22:04:42 [] (unknown:0) - Python console user input: logging.warning(2)
+[WARNING][Python] 11.02.2024 22:04:42 [Python] (<console>:1) - 2
+[DEBUG][Qt] 11.02.2024 22:06:12 [] (unknown:0) - Python console user input: 1!=2
+[INFO][Stream] 11.02.2024 22:06:12 [] (unknown:0) - True
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:24 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:07:24 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:24 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:24 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:07:24 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:24 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:24 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:25 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 11.02.2024 22:07:25 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:07:25 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:07:26 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:33 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:34 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:07:34 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:07:34 [] (unknown:0) - Number of targets is: 21
+[WARNING][Python] 11.02.2024 22:07:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:320) - Nummber of entries and targets are not corrected
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:43 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:07:43 [] (unknown:0) - Number of targets is: 21
+[WARNING][Python] 11.02.2024 22:07:43 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:320) - Nummber of entries and targets are not corrected
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:45 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:46 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:07:46 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:07:46 [] (unknown:0) - Number of targets is: 21
+[WARNING][Python] 11.02.2024 22:07:46 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:320) - Nummber of entries and targets are not corrected
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:07:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:07:51 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 22:11:18 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 22:11:22 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 22:11:22 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 22:11:22 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:11:23 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 22:11:23 [vtkMRMLSubjectHierarchyNode (00000260197DF490)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:11:23 [vtkMRMLSubjectHierarchyNode (00000260197DF490)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[ERROR][VTK] 11.02.2024 22:11:23 [vtkMRMLSubjectHierarchyNode (00000260197DF490)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:11:23 [vtkMRMLSubjectHierarchyNode (00000260197DF490)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:11:23 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:11:24 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:11:24 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 22:11:36 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 22:12:52 [] (unknown:0) - Python console user input: list_of_Label_nodes = slicer.util.getNodesByClass("vtkMRMLLabelMapVolumeNode")
+[DEBUG][Qt] 11.02.2024 22:12:54 [] (unknown:0) - Python console user input: list_of_Label_nodes = slicer.util.getNodesByClass("vtkMRMLLabelMapVolumeNode")
+[DEBUG][Qt] 11.02.2024 22:12:58 [] (unknown:0) - Python console user input: list_of_Label_nodes = slicer.util.getNodesByClass("vtkMRMLLabelMapVolumeNode")
+[DEBUG][Qt] 11.02.2024 22:13:06 [] (unknown:0) - Python console user input: shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
+[DEBUG][Qt] 11.02.2024 22:13:20 [] (unknown:0) - Python console user input: exportFolderItemId = shNode.CreateFolderItem(shNode.GetSceneItemID(), "Segments")
+[DEBUG][Qt] 11.02.2024 22:14:28 [] (unknown:0) - Python console user input: t = slicer.mrmlScene.GetSubjectHierarchyNode()
+[DEBUG][Qt] 11.02.2024 22:15:55 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 22:15:55 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 22:15:55 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:15:58 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:15:58 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:15:58 [vtkMRMLSubjectHierarchyNode (00000260197DED70)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:15:59 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:15:59 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:15:59 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:15:59 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:15:59 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:15:59 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:15:59 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:15:59 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 22:16:08 [vtkMRMLSubjectHierarchyNode (000002600AE5FD30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.01s]"
+[ERROR][VTK] 11.02.2024 22:16:08 [vtkMRMLSubjectHierarchyNode (000002600AE5FD30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:16:08 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:16:08 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:16:09 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 22:16:09 [vtkMRMLSubjectHierarchyNode (00000260197DC9D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:16:09 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:16:09 [vtkMRMLSubjectHierarchyNode (00000260197DC9D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:16:09 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:16:10 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:16:10 [vtkMRMLSubjectHierarchyNode (00000260197DC9D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:16:10 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:16:10 [vtkMRMLSubjectHierarchyNode (00000260197DC9D0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:16:10 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:16:10 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:16:10 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:16:10 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:16:10 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 22:16:11 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 22:17:41 [] (unknown:0) - Python console user input: shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
+[DEBUG][Qt] 11.02.2024 22:17:46 [] (unknown:0) - Python console user input: shNode
+[INFO][Stream] 11.02.2024 22:17:46 [] (unknown:0) - <MRMLCorePython.vtkMRMLSubjectHierarchyNode(0x00000260197DC9D0) at 0x00000260072135E0>
+[DEBUG][Qt] 11.02.2024 22:18:14 [] (unknown:0) - Switch to module:  "My_function"
+[DEBUG][Qt] 11.02.2024 22:26:23 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 22:26:24 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 22:26:24 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 22:26:24 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:26:26 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:26:26 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:26:26 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:26:26 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 22:26:29 [] (unknown:0) - Switch to module:  "Data"
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 470
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 470
+[WARNING][Qt] 11.02.2024 22:28:21 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 470 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 468
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 468
+[WARNING][Qt] 11.02.2024 22:28:21 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 468 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 473
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 473
+[WARNING][Qt] 11.02.2024 22:28:21 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 473 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 476
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 476
+[WARNING][Qt] 11.02.2024 22:28:21 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 476 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 479
+[ERROR][VTK] 11.02.2024 22:28:21 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 479
+[WARNING][Qt] 11.02.2024 22:28:21 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 479 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 484
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 484
+[WARNING][Qt] 11.02.2024 22:28:43 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 484 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 482
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 482
+[WARNING][Qt] 11.02.2024 22:28:43 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 482 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 487
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 487
+[WARNING][Qt] 11.02.2024 22:28:43 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 487 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 490
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 490
+[WARNING][Qt] 11.02.2024 22:28:43 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 490 , name:  )
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 493
+[ERROR][VTK] 11.02.2024 22:28:43 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 493
+[WARNING][Qt] 11.02.2024 22:28:43 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 493 , name:  )
+[ERROR][VTK] 11.02.2024 22:30:25 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 498
+[ERROR][VTK] 11.02.2024 22:30:25 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 498
+[WARNING][Qt] 11.02.2024 22:30:25 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 498 , name:  )
+[ERROR][VTK] 11.02.2024 22:30:25 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2644) - RemoveItem: Failed to find subject hierarchy item by ID 496
+[ERROR][VTK] 11.02.2024 22:30:25 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2177) - GetItemName: Failed to find subject hierarchy item by ID 496
+[WARNING][Qt] 11.02.2024 22:30:25 [] (unknown:0) - void __cdecl qMRMLSubjectHierarchyTreeView::deleteSelectedItems(void) : Failed to remove subject hierarchy item (ID: 496 , name:  )
+[ERROR][VTK] 11.02.2024 22:30:52 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2789) - SetItemParent: Failed to find subject hierarchy item by ID 497
+[DEBUG][Qt] 11.02.2024 22:31:54 [] (unknown:0) - Python console user input: slicer.modules.segmentations.logic().ExportAllSegmentsToModels(seg, exportModelFolderItemId)
+[INFO][Stream] 11.02.2024 22:31:54 [] (unknown:0) - True
+[DEBUG][Qt] 11.02.2024 22:32:04 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 22:32:04 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 22:32:04 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 22:32:05 [vtkMRMLSubjectHierarchyNode (000002601F4A5D30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:32:05 [vtkMRMLSubjectHierarchyNode (000002601F4A5D30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:32:05 [vtkMRMLSubjectHierarchyNode (000002601F4A5D30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:32:05 [vtkMRMLSubjectHierarchyNode (000002601F4A5D30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:32:05 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:32:05 [] (unknown:0) - Number of targets is: 21
+[ERROR][VTK] 11.02.2024 22:32:05 [vtkMRMLSubjectHierarchyNode (000002601F4A5D30)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:32:06 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 22:32:54 [] (unknown:0) - Python console user input: shNode.SetItemParent(exportModelFolderItemId, exportSegmentFolderItemId)
+[DEBUG][Qt] 11.02.2024 22:32:56 [] (unknown:0) - Python console user input: shNode.SetItemParent(exportModelFolderItemId, exportSegmentFolderItemId)
+[DEBUG][Qt] 11.02.2024 22:33:01 [] (unknown:0) - Python console user input: shNode.SetItemParent(exportModelFolderItemId, exportSegmentFolderItemId)
+[DEBUG][Qt] 11.02.2024 22:33:16 [] (unknown:0) - Python console user input: shNode.SetItemParent(exportModelFolderItemId, 0)
+[WARNING][VTK] 11.02.2024 22:33:16 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2772) - SetItemParent: Invalid parent item ID given
+[DEBUG][Qt] 11.02.2024 22:33:23 [] (unknown:0) - Python console user input: shNode.SetItemParent(exportModelFolderItemId, exportSegmentFolderItemId)
+[DEBUG][Qt] 11.02.2024 22:33:37 [] (unknown:0) - Python console user input: shNode.SetItemParent(exportSegmentFolderItemId, exportModelFolderItemId)
+[ERROR][VTK] 11.02.2024 22:33:37 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2802) - SetItemParent: Circular parenthood detected, parenting aborted: given parent item 503 is a child of the reparented item 504
+[DEBUG][Qt] 11.02.2024 22:34:20 [] (unknown:0) - Python console user input: shNode.GetItemByName("Models")
+[INFO][Stream] 11.02.2024 22:34:20 [] (unknown:0) - 503
+[DEBUG][Qt] 11.02.2024 22:34:26 [] (unknown:0) - Python console user input: shNode.GetItemByName("Segments")
+[INFO][Stream] 11.02.2024 22:34:26 [] (unknown:0) - 504
+[DEBUG][Qt] 11.02.2024 22:35:19 [] (unknown:0) - Python console user input: shNode.SetItemParent(503, 504)
+[DEBUG][Qt] 11.02.2024 22:35:33 [] (unknown:0) - Python console user input: shNode.SetItemParent(503, 504)
+[DEBUG][Qt] 11.02.2024 22:35:35 [] (unknown:0) - Python console user input: shNode.SetItemParent(503, 0)
+[WARNING][VTK] 11.02.2024 22:35:35 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2772) - SetItemParent: Invalid parent item ID given
+[DEBUG][Qt] 11.02.2024 22:35:46 [] (unknown:0) - Python console user input: shNode
+[INFO][Stream] 11.02.2024 22:35:46 [] (unknown:0) - <MRMLCorePython.vtkMRMLSubjectHierarchyNode(0x000002602187DB70) at 0x0000026018823520>
+[DEBUG][Qt] 11.02.2024 22:35:54 [] (unknown:0) - Python console user input: shNode.GetID()
+[INFO][Stream] 11.02.2024 22:35:54 [] (unknown:0) - 'vtkMRMLSubjectHierarchyNode1'
+[DEBUG][Qt] 11.02.2024 22:36:04 [] (unknown:0) - Python console user input: shNode.GetItemLevel()
+[CRITICAL][Stream] 11.02.2024 22:36:04 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:36:04 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:36:04 [] (unknown:0) - TypeError: GetItemLevel() takes exactly 1 argument (0 given)
+[DEBUG][Qt] 11.02.2024 22:36:12 [] (unknown:0) - Python console user input: shNode.GetItemChildren()
+[CRITICAL][Stream] 11.02.2024 22:36:12 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:36:12 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:36:12 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 0 arguments
+[DEBUG][Qt] 11.02.2024 22:36:27 [] (unknown:0) - Python console user input: shNode
+[INFO][Stream] 11.02.2024 22:36:27 [] (unknown:0) - <MRMLCorePython.vtkMRMLSubjectHierarchyNode(0x000002602187DB70) at 0x0000026018823520>
+[DEBUG][Qt] 11.02.2024 22:37:30 [] (unknown:0) - Python console user input: shNode.GetItemByDataNode(shNode)
+[INFO][Stream] 11.02.2024 22:37:30 [] (unknown:0) - 0
+[DEBUG][Qt] 11.02.2024 22:37:42 [] (unknown:0) - Python console user input: shNode.SetItemParent(503, 0)
+[WARNING][VTK] 11.02.2024 22:37:42 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2772) - SetItemParent: Invalid parent item ID given
+[DEBUG][Qt] 11.02.2024 22:38:14 [] (unknown:0) - Python console user input: t = getNode("entriesSubsample")
+[DEBUG][Qt] 11.02.2024 22:38:19 [] (unknown:0) - Python console user input: shNode.GetItemByDataNode(t)
+[INFO][Stream] 11.02.2024 22:38:19 [] (unknown:0) - 510
+[DEBUG][Qt] 11.02.2024 22:38:44 [] (unknown:0) - Python console user input: h = getNode("Segments")
+[CRITICAL][Stream] 11.02.2024 22:38:44 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:38:44 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:38:44 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py", line 1566, in getNode
+[CRITICAL][Stream] 11.02.2024 22:38:44 [] (unknown:0) -     raise MRMLNodeNotFoundException("could not find nodes in the scene by name or id '%s'" % (pattern if (isinstance(pattern, str)) else ""))
+[CRITICAL][Stream] 11.02.2024 22:38:44 [] (unknown:0) - slicer.util.MRMLNodeNotFoundException: could not find nodes in the scene by name or id 'Segments'
+[DEBUG][Qt] 11.02.2024 22:40:23 [] (unknown:0) - Python console user input: shNode.GetItemLevel(0)
+[WARNING][VTK] 11.02.2024 22:40:23 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2210) - GetItemLevel: Invalid item ID given
+[INFO][Stream] 11.02.2024 22:40:23 [] (unknown:0) - ''
+[DEBUG][Qt] 11.02.2024 22:40:27 [] (unknown:0) - Python console user input: shNode.GetItemLevel(510)
+[INFO][Stream] 11.02.2024 22:40:27 [] (unknown:0) - ''
+[DEBUG][Qt] 11.02.2024 22:40:31 [] (unknown:0) - Python console user input: shNode.GetItemLevel(504)
+[INFO][Stream] 11.02.2024 22:40:31 [] (unknown:0) - 'Folder'
+[DEBUG][Qt] 11.02.2024 22:40:44 [] (unknown:0) - Python console user input: shNode.GetItemLevel(503)
+[INFO][Stream] 11.02.2024 22:40:44 [] (unknown:0) - 'Folder'
+[DEBUG][Qt] 11.02.2024 22:44:06 [] (unknown:0) - Python console user input: shNode.GetItemDisplayVisibility(503)
+[INFO][Stream] 11.02.2024 22:44:06 [] (unknown:0) - 1
+[DEBUG][Qt] 11.02.2024 22:44:33 [] (unknown:0) - Python console user input: shNode.SetItemDisplayVisibility(503, 0)
+[DEBUG][Qt] 11.02.2024 22:45:26 [] (unknown:0) - Python console user input: shNode.SetDisplayVisibilityForBranch(503, 0)
+[WARNING][VTK] 11.02.2024 22:45:26 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:3120) - SetDisplayVisibilityForBranch: Deprecated function. Please use SetItemDisplayVisibility instead
+[DEBUG][Qt] 11.02.2024 22:45:34 [] (unknown:0) - Python console user input: shNode.SetItemDisplayVisibility(504, 0)
+[DEBUG][Qt] 11.02.2024 22:50:21 [] (unknown:0) - Python console user input: shNode.GetItemParent(504)
+[INFO][Stream] 11.02.2024 22:50:21 [] (unknown:0) - 449
+[DEBUG][Qt] 11.02.2024 22:50:23 [] (unknown:0) - Python console user input: shNode.GetItemParent(503)
+[INFO][Stream] 11.02.2024 22:50:23 [] (unknown:0) - 504
+[DEBUG][Qt] 11.02.2024 22:51:13 [] (unknown:0) - Python console user input: shNode.GetItemByUID(449)
+[CRITICAL][Stream] 11.02.2024 22:51:13 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:51:13 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:51:13 [] (unknown:0) - TypeError: GetItemByUID() takes exactly 2 arguments (1 given)
+[DEBUG][Qt] 11.02.2024 22:51:50 [] (unknown:0) - Python console user input: shNode
+[INFO][Stream] 11.02.2024 22:51:50 [] (unknown:0) - <MRMLCorePython.vtkMRMLSubjectHierarchyNode(0x000002602187DB70) at 0x0000026018823520>
+[DEBUG][Qt] 11.02.2024 22:51:57 [] (unknown:0) - Python console user input: vtkMRMLSubjectHierarchyNode
+[CRITICAL][Stream] 11.02.2024 22:51:57 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:51:57 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:51:57 [] (unknown:0) - NameError: name 'vtkMRMLSubjectHierarchyNode' is not defined
+[DEBUG][Qt] 11.02.2024 22:52:10 [] (unknown:0) - Python console user input: shNode.GetItemByName("Scene")
+[INFO][Stream] 11.02.2024 22:52:10 [] (unknown:0) - 0
+[WARNING][Qt] 11.02.2024 22:52:40 [] (unknown:0) - QTextCursor::setPosition: Position '20377' out of range
+[WARNING][Qt] 11.02.2024 22:52:40 [] (unknown:0) - QTextCursor::setPosition: Position '20377' out of range
+[DEBUG][Qt] 11.02.2024 22:52:41 [] (unknown:0) - Python console user input: vtkMRMLSubjectHierarchyNode
+[CRITICAL][Stream] 11.02.2024 22:52:41 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:52:41 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:52:41 [] (unknown:0) - NameError: name 'vtkMRMLSubjectHierarchyNode' is not defined
+[DEBUG][Qt] 11.02.2024 22:52:47 [] (unknown:0) - Python console user input: shNode.GetItemParent(503)
+[INFO][Stream] 11.02.2024 22:52:47 [] (unknown:0) - 504
+[DEBUG][Qt] 11.02.2024 22:52:49 [] (unknown:0) - Python console user input: shNode.GetItemParent(504)
+[INFO][Stream] 11.02.2024 22:52:49 [] (unknown:0) - 449
+[DEBUG][Qt] 11.02.2024 22:52:52 [] (unknown:0) - Python console user input: shNode.GetItemParent(449)
+[INFO][Stream] 11.02.2024 22:52:52 [] (unknown:0) - 0
+[DEBUG][Qt] 11.02.2024 22:53:11 [] (unknown:0) - Python console user input: shNode.GetItemChildren(0)
+[CRITICAL][Stream] 11.02.2024 22:53:11 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:53:11 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:53:11 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 1 argument
+[DEBUG][Qt] 11.02.2024 22:53:19 [] (unknown:0) - Python console user input: shNode.GetItemChildren(504)
+[CRITICAL][Stream] 11.02.2024 22:53:19 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:53:19 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:53:19 [] (unknown:0) - TypeError: no overloads of GetItemChildren() take 1 argument
+[DEBUG][Qt] 11.02.2024 22:55:08 [] (unknown:0) - Python console user input: sceneID = vtk.vtkIdList()
+[DEBUG][Qt] 11.02.2024 22:55:17 [] (unknown:0) - Python console user input: shNode.GetItemChildren(0, sceneID)
+[WARNING][VTK] 11.02.2024 22:55:17 [vtkMRMLSubjectHierarchyNode (000002602187DB70)] (vtkMRMLSubjectHierarchyNode.cxx:2847) - GetItemChildren: Invalid item ID given
+[DEBUG][Qt] 11.02.2024 22:55:28 [] (unknown:0) - Python console user input: shNode.GetItemChildren(449, sceneID)
+[DEBUG][Qt] 11.02.2024 22:55:31 [] (unknown:0) - Python console user input: sceneID
+[INFO][Stream] 11.02.2024 22:55:31 [] (unknown:0) - <vtkmodules.vtkCommonCore.vtkIdList(0x000002601F223CA0) at 0x0000026018837E80>
+[DEBUG][Qt] 11.02.2024 22:56:41 [] (unknown:0) - Python console user input: shNode.GetItemAttributeNames(449
+[DEBUG][Qt] 11.02.2024 22:56:43 [] (unknown:0) - Python console user input: )
+[INFO][Stream] 11.02.2024 22:56:43 [] (unknown:0) - ('Level',)
+[DEBUG][Qt] 11.02.2024 22:56:45 [] (unknown:0) - Python console user input: shNode.GetItemAttributeNames(449)
+[INFO][Stream] 11.02.2024 22:56:45 [] (unknown:0) - ('Level',)
+[DEBUG][Qt] 11.02.2024 22:56:51 [] (unknown:0) - Python console user input: shNode.GetItemAttributeNames(504)
+[INFO][Stream] 11.02.2024 22:56:51 [] (unknown:0) - ('Level',)
+[DEBUG][Qt] 11.02.2024 22:57:04 [] (unknown:0) - Python console user input: shNode.GetItemNames(504)
+[CRITICAL][Stream] 11.02.2024 22:57:04 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:57:04 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 22:57:04 [] (unknown:0) - AttributeError: 'MRMLCorePython.vtkMRMLSubjectHierarchyNode' object has no attribute 'GetItemNames'
+[DEBUG][Qt] 11.02.2024 22:57:20 [] (unknown:0) - Python console user input: shNode.GetItemName(504)
+[INFO][Stream] 11.02.2024 22:57:20 [] (unknown:0) - 'Segments'
+[DEBUG][Qt] 11.02.2024 22:57:22 [] (unknown:0) - Python console user input: shNode.GetItemName(449)
+[INFO][Stream] 11.02.2024 22:57:22 [] (unknown:0) - 'Scene'
+[DEBUG][Qt] 11.02.2024 22:57:37 [] (unknown:0) - Python console user input: shNode.GetItemByName('Scene')
+[INFO][Stream] 11.02.2024 22:57:37 [] (unknown:0) - 0
+[DEBUG][Qt] 11.02.2024 22:58:04 [] (unknown:0) - Python console user input: shNode.GetItemByName('Segments')
+[INFO][Stream] 11.02.2024 22:58:04 [] (unknown:0) - 504
+[DEBUG][Qt] 11.02.2024 22:59:19 [] (unknown:0) - Python console user input: shNode.GetItemParent(504)
+[INFO][Stream] 11.02.2024 22:59:19 [] (unknown:0) - 449
+[DEBUG][Qt] 11.02.2024 22:59:37 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 22:59:37 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 22:59:37 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:59:42 [vtkMRMLSubjectHierarchyNode (00000260039E1B20)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:59:42 [vtkMRMLSubjectHierarchyNode (00000260039E1B20)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:42 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:59:42 [] (unknown:0) - Number of targets is: 21
+[ERROR][Python] 11.02.2024 22:59:43 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:3009) - Reload and Test failed.
+
+name 'shNode' is not defined
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 265, in onReloadAndTest
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -     test(msec=int(slicer.app.userSettings().value("Developer/SelfTestDisplayMessageDelay")), **kwargs)
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\ScriptedLoadableModule.py", line 83, in runTest
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -     testCase.runTest(**kwargs)
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 308, in runTest
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -     self.test_summarize_Data_and_Create_Model()
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 333, in test_summarize_Data_and_Create_Model
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -     n_Entry, n_Target = self.logic.summarize_Data_and_Create_Model(self.start_points, self.end_points)
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 254, in summarize_Data_and_Create_Model
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) -     self.shNode.SetItemParent(exportModelFolderItemId, shNode.GetItemParent(exportSegmentFolderItemId))
+[CRITICAL][Stream] 11.02.2024 22:59:45 [] (unknown:0) - NameError: name 'shNode' is not defined
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:51 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 22:59:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[ERROR][VTK] 11.02.2024 22:59:52 [vtkMRMLSubjectHierarchyNode (000002601E0AF1C0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:52 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:59:52 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:59:52 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 22:59:54 [] (unknown:0) - Python console user input: shNode.GetItemParent(504)
+[INFO][Stream] 11.02.2024 22:59:54 [] (unknown:0) - 449
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 22:59:56 [vtkMRMLSubjectHierarchyNode (0000026021E361A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:59:56 [vtkMRMLSubjectHierarchyNode (0000026021E361A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:59:56 [vtkMRMLSubjectHierarchyNode (0000026021E361A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 22:59:56 [vtkMRMLSubjectHierarchyNode (0000026021E361A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 22:59:56 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 22:59:56 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 23:00:00 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:00:38 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 23:00:38 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 23:00:38 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:00:40 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:00:40 [vtkMRMLSubjectHierarchyNode (00000260192AFD80)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:00:40 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:00:40 [vtkMRMLSubjectHierarchyNode (00000260192AFD80)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:00:40 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:00:40 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:00:40 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:00:40 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:00:40 [vtkMRMLSubjectHierarchyNode (00000260192AFD80)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:00:40 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.03s]"
+[ERROR][VTK] 11.02.2024 23:00:41 [vtkMRMLSubjectHierarchyNode (00000260192AFD80)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:00:41 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:00:41 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:00:41 [] (unknown:0) - Number of targets is: 21
+[ERROR][VTK] 11.02.2024 23:00:41 [vtkMRMLSubjectHierarchyNode (00000260192AFD80)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:00:42 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:01:24 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[ERROR][Python] 11.02.2024 23:01:27 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:3009) - Failed to compute results.
+
+summarize_Data_and_Create_Model() missing 2 required positional arguments: 'entryNode' and 'targetNode'
+[CRITICAL][Stream] 11.02.2024 23:01:31 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:01:31 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 213, in dataCleaning
+[CRITICAL][Stream] 11.02.2024 23:01:31 [] (unknown:0) -     self.logic.summarize_Data_and_Create_Model()
+[CRITICAL][Stream] 11.02.2024 23:01:31 [] (unknown:0) - TypeError: summarize_Data_and_Create_Model() missing 2 required positional arguments: 'entryNode' and 'targetNode'
+[ERROR][Python] 11.02.2024 23:01:33 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:3009) - Failed to compute results.
+
+summarize_Data_and_Create_Model() missing 2 required positional arguments: 'entryNode' and 'targetNode'
+[CRITICAL][Stream] 11.02.2024 23:01:34 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:01:34 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 213, in dataCleaning
+[CRITICAL][Stream] 11.02.2024 23:01:34 [] (unknown:0) -     self.logic.summarize_Data_and_Create_Model()
+[CRITICAL][Stream] 11.02.2024 23:01:34 [] (unknown:0) - TypeError: summarize_Data_and_Create_Model() missing 2 required positional arguments: 'entryNode' and 'targetNode'
+[DEBUG][Qt] 11.02.2024 23:01:38 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 11.02.2024 23:01:41 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:01:45 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 11.02.2024 23:01:49 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:01:50 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:01:50 [vtkMRMLSubjectHierarchyNode (00000260246C40B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:01:50 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:01:50 [vtkMRMLSubjectHierarchyNode (00000260246C40B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:01:50 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:01:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:01:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:01:50 [vtkMRMLSubjectHierarchyNode (00000260246C40B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:01:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:01:50 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:01:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:01:51 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:01:51 [] (unknown:0) - Number of targets is: 21
+[ERROR][VTK] 11.02.2024 23:01:51 [vtkMRMLSubjectHierarchyNode (00000260246C40B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:31 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:02:31 [vtkMRMLSubjectHierarchyNode (00000260249C3CF0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:02:31 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:02:31 [vtkMRMLSubjectHierarchyNode (00000260249C3CF0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:02:31 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:02:31 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:02:31 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:02:32 [vtkMRMLSubjectHierarchyNode (00000260249C3CF0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:02:32 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:02:32 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:02:32 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:02:32 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:02:32 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:02:32 [] (unknown:0) - Finished
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:02:35 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:02:35 [vtkMRMLSubjectHierarchyNode (000002601E42CBE0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:02:35 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:02:35 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:02:35 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:02:35 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:02:36 [vtkMRMLSubjectHierarchyNode (000002601E42CBE0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:02:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:02:36 [vtkMRMLSubjectHierarchyNode (000002601E42CBE0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:02:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:02:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:02:36 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:02:36 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:02:36 [] (unknown:0) - Finished
+[DEBUG][Qt] 11.02.2024 23:04:21 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:05:11 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[DEBUG][Qt] 11.02.2024 23:20:32 [] (unknown:0) - Switch to module:  "Data"
+[ERROR][VTK] 11.02.2024 23:20:36 [vtkMRMLSubjectHierarchyNode (000002601E42CBE0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:20:46 [] (unknown:0) - Python console user input: getNode("entriesSubsample")
+[INFO][Stream] 11.02.2024 23:20:46 [] (unknown:0) - <vtkSlicerMarkupsModuleMRMLPython.vtkMRMLMarkupsFiducialNode(0x00000260090692D0) at 0x00000260188E8D60>
+[DEBUG][Qt] 11.02.2024 23:21:03 [] (unknown:0) - Python console user input: getNode("entriesSubsampler_cortexTest")
+[CRITICAL][Stream] 11.02.2024 23:21:03 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:21:03 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 23:21:03 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py", line 1566, in getNode
+[CRITICAL][Stream] 11.02.2024 23:21:03 [] (unknown:0) -     raise MRMLNodeNotFoundException("could not find nodes in the scene by name or id '%s'" % (pattern if (isinstance(pattern, str)) else ""))
+[CRITICAL][Stream] 11.02.2024 23:21:03 [] (unknown:0) - slicer.util.MRMLNodeNotFoundException: could not find nodes in the scene by name or id 'entriesSubsampler_cortexTest'
+[DEBUG][Qt] 11.02.2024 23:21:17 [] (unknown:0) - Python console user input: getNode("r_cortexTest")
+[INFO][Stream] 11.02.2024 23:21:17 [] (unknown:0) - <MRMLCorePython.vtkMRMLLabelMapVolumeNode(0x0000026006423DC0) at 0x00000260188E8160>
+[DEBUG][Qt] 11.02.2024 23:22:10 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 23:22:10 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 23:22:10 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:22:11 [] (unknown:0) -
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 127, in setup
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -     self.initializeParameterNode()
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 162, in initializeParameterNode
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -     self.setParameterNode(self.logic.getParameterNode())
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 185, in setParameterNode
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -     self._checkCanApply()
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) -     if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:22:11 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'inputVolume'
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 155, in onSceneEndClose
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -     self.initializeParameterNode()
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 162, in initializeParameterNode
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -     self.setParameterNode(self.logic.getParameterNode())
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 185, in setParameterNode
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -     self._checkCanApply()
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -     if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'inputVolume'
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -     if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'inputVolume'
+[ERROR][VTK] 11.02.2024 23:22:12 [vtkMRMLSubjectHierarchyNode (000002602AC8DA00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:22:12 [vtkMRMLSubjectHierarchyNode (000002602AC8DA00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) -     if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:22:12 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'inputVolume'
+[DEBUG][Qt] 11.02.2024 23:22:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:22:12 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:22:12 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:22:12 [] (unknown:0) - Finished
+[DEBUG][Qt] 11.02.2024 23:23:22 [] (unknown:0) - Python console user input: getNode("entriesSubsample")
+[INFO][Stream] 11.02.2024 23:23:22 [] (unknown:0) - <vtkSlicerMarkupsModuleMRMLPython.vtkMRMLMarkupsFiducialNode(0x000002600906CD50) at 0x00000260188C8B20>
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:32 [] (unknown:0) -
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 127, in setup
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -     self.initializeParameterNode()
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 162, in initializeParameterNode
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -     self.setParameterNode(self.logic.getParameterNode())
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 185, in setParameterNode
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -     self._checkCanApply()
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) -     if self._parameterNode and self._parameterNode.entryPoints and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:24:32 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'thresholdedVolume'
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) -     if self._parameterNode and self._parameterNode.entryPoints and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'thresholdedVolume'
+[ERROR][VTK] 11.02.2024 23:24:33 [vtkMRMLSubjectHierarchyNode (0000026025F3FB20)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:24:33 [vtkMRMLSubjectHierarchyNode (0000026025F3FB20)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) -   File "C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py", line 188, in _checkCanApply
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) -     if self._parameterNode and self._parameterNode.entryPoints and self._parameterNode.thresholdedVolume:
+[CRITICAL][Stream] 11.02.2024 23:24:33 [] (unknown:0) - AttributeError: 'Pathway_planningParameterNode' object has no attribute 'thresholdedVolume'
+[DEBUG][Qt] 11.02.2024 23:24:33 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.06s]"
+[INFO][Stream] 11.02.2024 23:24:33 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:24:33 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:24:33 [] (unknown:0) - Finished
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:24:51 [vtkMRMLSubjectHierarchyNode (00000260236D12B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:24:51 [vtkMRMLSubjectHierarchyNode (00000260236D12B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:24:51 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.06s]"
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:24:51 [] (unknown:0) - Number of targets is: 21
+[ERROR][VTK] 11.02.2024 23:24:51 [vtkMRMLSubjectHierarchyNode (00000260236D12B0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[INFO][Stream] 11.02.2024 23:24:52 [] (unknown:0) - Finished
+[DEBUG][Qt] 11.02.2024 23:26:45 [] (unknown:0) - Python console user input: getNode("r_cortexTest")
+[INFO][Stream] 11.02.2024 23:26:45 [] (unknown:0) - <MRMLCorePython.vtkMRMLLabelMapVolumeNode(0x000002600962E880) at 0x0000026018906FA0>
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:28:27 [vtkMRMLSubjectHierarchyNode (00000260248BBF00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[ERROR][VTK] 11.02.2024 23:28:27 [vtkMRMLSubjectHierarchyNode (00000260248BBF00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:28:27 [vtkMRMLSubjectHierarchyNode (00000260248BBF00)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:28:27 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:28:27 [] (unknown:0) - Finished
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:28:52 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:34:05 [] (unknown:0) -
+[DEBUG][Qt] 11.02.2024 23:34:32 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:34:36 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 23:34:36 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 23:34:36 [] (unknown:0) -   warn("does not have observer")
+[DEBUG][Qt] 11.02.2024 23:34:38 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:35:00 [] (unknown:0) - Python console user input: shNode
+[INFO][Stream] 11.02.2024 23:35:00 [] (unknown:0) - <MRMLCorePython.vtkMRMLSubjectHierarchyNode(0x000002602187DB70) at 0x0000026018823520>
+[DEBUG][Qt] 11.02.2024 23:36:20 [] (unknown:0) - Python console user input: shNode.GetItemByName("Models")
+[INFO][Stream] 11.02.2024 23:36:20 [] (unknown:0) - 503
+[DEBUG][Qt] 11.02.2024 23:36:42 [] (unknown:0) - Python console user input: shNode.GetItemDisplayVisibility(503))
+[CRITICAL][Stream] 11.02.2024 23:36:42 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 11.02.2024 23:36:42 [] (unknown:0) -     shNode.GetItemDisplayVisibility(503))
+[CRITICAL][Stream] 11.02.2024 23:36:42 [] (unknown:0) -                                         ^
+[CRITICAL][Stream] 11.02.2024 23:36:42 [] (unknown:0) - SyntaxError: unmatched ')'
+[DEBUG][Qt] 11.02.2024 23:36:45 [] (unknown:0) - Python console user input: shNode.GetItemDisplayVisibility(503)
+[INFO][Stream] 11.02.2024 23:36:45 [] (unknown:0) - 1
+[DEBUG][Qt] 11.02.2024 23:36:52 [] (unknown:0) - Python console user input: shNode.SetItemDisplayVisibility(503,0)
+[DEBUG][Qt] 11.02.2024 23:36:54 [] (unknown:0) - Python console user input: shNode.GetItemDisplayVisibility(503)
+[INFO][Stream] 11.02.2024 23:36:54 [] (unknown:0) - 1
+[DEBUG][Qt] 11.02.2024 23:37:20 [] (unknown:0) - Python console user input: shNode.SetItemDisplayVisibility(503, int(0))
+[DEBUG][Qt] 11.02.2024 23:37:24 [] (unknown:0) - Python console user input: shNode.GetItemDisplayVisibility(503)
+[INFO][Stream] 11.02.2024 23:37:24 [] (unknown:0) - 1
+[DEBUG][Qt] 11.02.2024 23:40:12 [] (unknown:0) - Python console user input: pluginHandler=slicer.qSlicerSubjectHierarchyPluginHandler().instance() folderPlugin=pluginHandler.pluginByName("Folder")
+[CRITICAL][Stream] 11.02.2024 23:40:12 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 11.02.2024 23:40:12 [] (unknown:0) -     pluginHandler=slicer.qSlicerSubjectHierarchyPluginHandler().instance() folderPlugin=pluginHandler.pluginByName("Folder")
+[CRITICAL][Stream] 11.02.2024 23:40:12 [] (unknown:0) -                                                                            ^
+[CRITICAL][Stream] 11.02.2024 23:40:12 [] (unknown:0) - SyntaxError: invalid syntax
+[DEBUG][Qt] 11.02.2024 23:40:24 [] (unknown:0) - Python console user input: pluginHandler=slicer.qSlicerSubjectHierarchyPluginHandler().instance() folderPlugin=pluginHandler.pluginByName("Models")
+[CRITICAL][Stream] 11.02.2024 23:40:24 [] (unknown:0) -   File "<console>", line 1
+[CRITICAL][Stream] 11.02.2024 23:40:24 [] (unknown:0) -     pluginHandler=slicer.qSlicerSubjectHierarchyPluginHandler().instance() folderPlugin=pluginHandler.pluginByName("Models")
+[CRITICAL][Stream] 11.02.2024 23:40:24 [] (unknown:0) -                                                                            ^
+[CRITICAL][Stream] 11.02.2024 23:40:24 [] (unknown:0) - SyntaxError: invalid syntax
+[DEBUG][Qt] 11.02.2024 23:40:32 [] (unknown:0) - Python console user input: pluginHandler=slicer.qSlicerSubjectHierarchyPluginHandler().instance()
+[DEBUG][Qt] 11.02.2024 23:40:43 [] (unknown:0) - Python console user input: folderPlugin=pluginHandler.pluginByName("Folder")
+[DEBUG][Qt] 11.02.2024 23:40:56 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(503,1)
+[DEBUG][Qt] 11.02.2024 23:41:09 [] (unknown:0) - Python console user input: folderPlugin=pluginHandler.pluginByName("Models")
+[DEBUG][Qt] 11.02.2024 23:41:11 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(503,1)
+[DEBUG][Qt] 11.02.2024 23:41:56 [] (unknown:0) - Python console user input: shNode.SetItemDisplayVisibility(503, 0)
+[DEBUG][Qt] 11.02.2024 23:43:33 [] (unknown:0) - Python console user input: volPlugin = pluginHandler.getOwnerPluginForSubjectHierarchyItem(503)
+[DEBUG][Qt] 11.02.2024 23:43:42 [] (unknown:0) - Python console user input: volPlugin.setDisplayVisibility(volItem, 0)
+[CRITICAL][Stream] 11.02.2024 23:43:42 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 11.02.2024 23:43:42 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 11.02.2024 23:43:42 [] (unknown:0) - NameError: name 'volItem' is not defined
+[DEBUG][Qt] 11.02.2024 23:44:03 [] (unknown:0) - Python console user input: volPlugin.setDisplayVisibility(503, 0)
+[DEBUG][Qt] 11.02.2024 23:45:27 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(503, 1)
+[DEBUG][Qt] 11.02.2024 23:45:29 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(503, 0)
+[DEBUG][Qt] 11.02.2024 23:45:31 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(503, 0)
+[DEBUG][Qt] 11.02.2024 23:45:58 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(503, 0)
+[DEBUG][Qt] 11.02.2024 23:46:28 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(504, 0)
+[DEBUG][Qt] 11.02.2024 23:46:33 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(504, 2)
+[DEBUG][Qt] 11.02.2024 23:46:36 [] (unknown:0) - Python console user input: folderPlugin.setDisplayVisibility(504, False)
+[DEBUG][Qt] 11.02.2024 23:47:00 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 11.02.2024 23:47:00 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 11.02.2024 23:47:00 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:47:01 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:47:01 [vtkMRMLSubjectHierarchyNode (0000026022FDCEB0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:47:01 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.03s]"
+[ERROR][VTK] 11.02.2024 23:47:01 [vtkMRMLSubjectHierarchyNode (0000026022FDCEB0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:47:01 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:47:01 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.04s]"
+[ERROR][VTK] 11.02.2024 23:47:01 [vtkMRMLSubjectHierarchyNode (0000026022FDCEB0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:47:02 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:47:02 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[ERROR][VTK] 11.02.2024 23:47:02 [vtkMRMLSubjectHierarchyNode (0000026022FDCEB0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:47:02 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 11.02.2024 23:47:02 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 11.02.2024 23:47:02 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:47:02 [] (unknown:0) - Number of targets is: 21
+[ERROR][VTK] 11.02.2024 23:47:02 [vtkMRMLSubjectHierarchyNode (0000026022FDCEB0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[INFO][Stream] 11.02.2024 23:47:02 [] (unknown:0) - Finished
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:06 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:08 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:08 [] (unknown:0) - Number of targets is: 48
+[ERROR][VTK] 11.02.2024 23:48:08 [vtkMRMLSubjectHierarchyNode (0000026022FDCEB0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[INFO][Stream] 11.02.2024 23:48:11 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:11 [] (unknown:0) - Number of targets is: 48
+[INFO][Stream] 11.02.2024 23:48:17 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:17 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:18 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:18 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:18 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:18 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:19 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:19 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:19 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:19 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:20 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:20 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:21 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:21 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:21 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:21 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:22 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:22 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:23 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:23 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:24 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:24 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:48:27 [] (unknown:0) -
+[ERROR][VTK] 11.02.2024 23:48:28 [vtkMRMLSubjectHierarchyNode (00000260501CF8A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.03s]"
+[ERROR][VTK] 11.02.2024 23:48:28 [vtkMRMLSubjectHierarchyNode (00000260501CF8A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Markups" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.06s]"
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.05s]"
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.03s]"
+[DEBUG][Qt] 11.02.2024 23:48:28 [] (unknown:0) - "Volume" Reader has successfully read the file "C:\\Users\\DANG THE HUNG\\OneDrive - King's College London\\Msc study\\7MRI0070 - Navigation in Robotic\\Module\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.07s]"
+[INFO][Stream] 11.02.2024 23:48:28 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:28 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:29 [] (unknown:0) - Finished
+[INFO][Stream] 11.02.2024 23:48:31 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:31 [] (unknown:0) - Number of targets is: 48
+[INFO][Stream] 11.02.2024 23:48:36 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:36 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:37 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:37 [] (unknown:0) - Number of targets is: 21
+[ERROR][VTK] 11.02.2024 23:48:37 [vtkMRMLSubjectHierarchyNode (00000260501CF8A0)] (vtkMRMLSubjectHierarchyNode.cxx:2983) - vtkSubjectHierarchyItem::DataNodeCache inconsistency found
+[INFO][Stream] 11.02.2024 23:48:39 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:39 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:39 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:39 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:40 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:40 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:40 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:40 [] (unknown:0) - Number of targets is: 21
+[INFO][Stream] 11.02.2024 23:48:41 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:48:41 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 23:48:47 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:49:03 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) - ------------------------------
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:49:07 [] (unknown:0) -
+[INFO][Stream] 11.02.2024 23:49:10 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 11.02.2024 23:49:10 [] (unknown:0) - Number of targets is: 21
+[DEBUG][Qt] 11.02.2024 23:49:19 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 11.02.2024 23:49:23 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[DEBUG][Qt] 11.02.2024 23:49:44 [] (unknown:0) - Switch to module:  ""
