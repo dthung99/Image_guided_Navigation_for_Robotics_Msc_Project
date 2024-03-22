@@ -1,7 +1,7 @@
 import logging
 import os
 from typing import Annotated, Optional
-import vtk
+import vtk, SimpleITK, sitkUtils
 import slicer
 from slicer.i18n import tr as _
 from slicer.i18n import translate
@@ -13,6 +13,7 @@ from slicer.parameterNodeWrapper import (
 )
 from slicer import vtkMRMLScalarVolumeNode, vtkMRMLMarkupsFiducialNode, vtkMRMLLabelMapVolumeNode
 import numpy as np
+import math
 
 # Pathway_planning
 class Pathway_planning(ScriptedLoadableModule):
@@ -297,6 +298,72 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             else:
                 result[i] = False
         return result
+    def get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(self, input_line_list: np.ndarray((100,2,3)), label_volume_node: vtkMRMLLabelMapVolumeNode, discretize_distance = 1):
+        """Get a list of lines as np.array and a label volume node"""
+        """Return a np.array(-1,) contain the distance of each line to that model
+        If they intersect the distance is 0
+        If the line is outside label volume the distance return -1"""
+        """The algorithm will discretize the lines with a step of discretize_distance"""
+        # Check input types
+        if type(input_line_list) != np.ndarray:
+            return "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
+        if type(label_volume_node) != vtkMRMLLabelMapVolumeNode:
+            return "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = np.empty((input_line_list.shape[0],)) # Declare result vector
+        # TESTING VALUE DELETE LATER
+        input_volume_array = slicer.util.arrayFromVolume(label_volume_node) # Conver the node into np array
+
+        # Calculate the distance matrix
+        sitkInput = sitkUtils.PullVolumeFromSlicer(label_volume_node)
+        distanceFilter = SimpleITK.SignedMaurerDistanceMapImageFilter()
+        distanceFilter.UseImageSpacingOn()
+        distanceFilter.SquaredDistanceOn()
+        sitkOutput = distanceFilter.Execute(sitkInput)
+        outputVolume = sitkUtils.PushVolumeToSlicer(sitkOutput, None, 'distanceMap')
+        # Transform the distance volume into array
+        label_volume_array = slicer.util.arrayFromVolume(outputVolume) # Conver the node into np array
+        distance_max = np.max(label_volume_array)
+        # Get necessary variables to convert RAS to IJK
+        spacing = np.array(label_volume_node.GetSpacing())
+        rotation = vtk.vtkMatrix4x4()
+        label_volume_node.GetIJKToRASDirectionMatrix(rotation)
+        rotation = slicer.util.arrayFromVTKMatrix(rotation)[0:3,0:3]
+        origin = np.array(label_volume_node.GetOrigin())
+        # Loop through the line list
+        indices_of_line_that_do_not_pass_through_label_volume = []
+        for i_line_list_iterator, line  in enumerate(input_line_list):
+            start_point = line[0]
+            end_point = line[1]
+            start_point  = self.convert_RAS_to_IJK(input = start_point,
+                                                   spacing = spacing, 
+                                                   rotation = rotation,
+                                                   origin = origin)
+            end_point    = self.convert_RAS_to_IJK(input = end_point,
+                                                   spacing = spacing, 
+                                                   rotation = rotation,
+                                                   origin = origin)
+            # Simple interator through each point on the the line
+            unit_vector = end_point - start_point
+            segment_length = np.linalg.norm(unit_vector)
+            unit_vector = unit_vector/segment_length*discretize_distance
+            number_of_segments = math.ceil(segment_length/discretize_distance)
+            distance_loop = distance_max
+            passing_through_label_volume = False
+            for i_line_point_iterator in range(number_of_segments + 1):
+                x, y, z = np.round(start_point + unit_vector*i_line_point_iterator).astype(int)
+                if (x<0) or (y<0) or (z<0) or (x>=label_volume_array.shape[0]) or (y>=label_volume_array.shape[1]) or (z>=label_volume_array.shape[2]):
+                    continue
+                current_distance = label_volume_array[x,y,z]
+                passing_through_label_volume = True
+                if current_distance < distance_loop:
+                    distance_loop = current_distance
+            if not(passing_through_label_volume):
+                indices_of_line_that_do_not_pass_through_label_volume.append(i_line_list_iterator)
+                continue    
+            result[i_line_list_iterator] = distance_loop
+        result[result<0] = 0
+        result[indices_of_line_that_do_not_pass_through_label_volume] = -1
+        return result
 
     def convert_IJK_to_RAS(self,
                            input: np.ndarray((3,)),
@@ -326,16 +393,33 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             print("Convert_RAS_to_IJK failed, the rotation matrix must be non-singular")
             return
     def get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(self, x: int, y: int, z: int, array: np.ndarray):
+        """Get 3x3x3 matrix from a bigger volume at a specific point"""
         result = np.zeros((3,3,3))
-        for i in [x-1,x,x+1]:
-            for j in [y-1,y,y+1]:
-                for k in [z-1,z,z+1]:
-                    condition = i>=array.shape[0] + j>=array.shape[1] + k>=array.shape[2] + i<0 + j<0 + k<0
-                    condition = (i>=array.shape[0]) + (j>=array.shape[1]) + (k>=array.shape[2]) + (i<0) + (j<0) + (k<0)                    
-                    if condition == 0:
-                        result[i-x+1,j-y+1,k-z+1] = array[i,j,k]
-                    else:
-                        result[i-x+1,j-y+1,k-z+1] = 0
+        x_upper = min(x+2, array.shape[0])
+        x_lower = max(x-1, 0)
+
+        y_upper = min(y+2, array.shape[1])
+        y_lower = max(y-1, 0)
+        z_upper = min(z+2, array.shape[2])
+        z_lower = max(z-1, 0)
+        if (x_lower>x_upper) or (y_lower>y_upper) or (z_lower>z_upper):
+            return result         
+        x_result_upper = min(3, array.shape[0]-x_lower)
+        x_result_lower = max(0, 3-x_upper)
+        y_result_upper = min(3, array.shape[1]-y_lower)
+        y_result_lower = max(0, 3-y_upper)
+        z_result_upper = min(3, array.shape[2]-z_lower)
+        z_result_lower = max(0, 3-z_upper)
+        result[x_result_lower:x_result_upper,y_result_lower:y_result_upper,z_result_lower:z_result_upper] = array[x_lower:x_upper,y_lower:y_upper,z_lower:z_upper]
+        # for i in [x-1,x,x+1]:
+        #     for j in [y-1,y,y+1]:
+        #         for k in [z-1,z,z+1]:
+        #             condition = i>=array.shape[0] + j>=array.shape[1] + k>=array.shape[2] + i<0 + j<0 + k<0
+        #             condition = (i>=array.shape[0]) + (j>=array.shape[1]) + (k>=array.shape[2]) + (i<0) + (j<0) + (k<0)                    
+        #             if condition == 0:
+        #                 result[i-x+1,j-y+1,k-z+1] = array[i,j,k]
+        #             else:
+        #                 result[i-x+1,j-y+1,k-z+1] = 0
         return result
 
     def process(self,
@@ -430,6 +514,8 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
 
 
         self.test_check_A_Point_Is_In_A_Label_Volume_Node()
+        self.test_get_Distance_from_A_Line_in_List_to_A_Label_Volume_Node()
+
         self.unit_test_convert_IJK_to_RAS()
         self.unit_test_convert_RAS_tos_IJK()
         self.unit_test_get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position()
@@ -502,50 +588,97 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         
         # Log the result
         self.simple_Task_Logging_Test_Outcome("Check a Point is in a Label Volume Node", successful_tested)
+    def test_get_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(self):
+        """Test get_Distance_from_A_Line_in_List_to_A_Label_Volume_Node function"""
+        successful_tested = 1
+        ### Example 1
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_line_list = None
+        expected_result = "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if expected_result != result:
+            successful_tested = 0
+        ### Example 2
+        # Create a label volume node and point
+        label_volume_node = None
+        input_line_list = np.array([0,0,0])
+        expected_result = "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if expected_result != result:
+            successful_tested = 0
+        ### Example 3 - one line is outside label volume-> return -1 for that line
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_line_list = np.array([[[1,1,1], [-1,-1,-1]],
+                                    [[3,1,2], [6,3,2]],
+                                    [[3,1,2], [1,2,2]]])
+        expected_result = np.array([0, -1, 0])
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if np.linalg.norm(result - expected_result) > 0.001:
+            successful_tested = 0        
+        ### Example 4
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_line_list = np.array([[[1,1,1], [-1,-1,-1]],
+                                    [[3,3,36], [5,6,100]],
+                                    [[3,1,2], [1,2,2]]])
+        expected_result = np.array([0, 36, 0])
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if np.linalg.norm(result - expected_result) > 0.001:
+            successful_tested = 0        
+        # Log the result
+        self.simple_Task_Logging_Test_Outcome("Get Distance from a Line in List to a Label Volume Node", successful_tested)
 
-    # def test_check_A_Line_Pass_Through_A_Label_Volume_Node(self):
-    #     """Test check_A_Line_Pass_Through_A_Label_Volume_Node function"""
-    #     successful_tested = 1
-    #     ### Example 1
-    #     # Create a label volume node and point
-    #     label_volume_node = self.test_standard_label_volume
-    #     input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
-    #     expected_result = np.array([True, True, False])
-    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=False)
-    #     # Check
-    #     if not(np.array_equal(expected_result, result)):
-    #         successful_tested = 0
-    #     ### Example 2 - test the borderline point
-    #     # Create a label volume node and point
-    #     label_volume_node = self.test_standard_label_volume
-    #     input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
-    #     expected_result = np.array([False, True, False])
-    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=True)
-    #     # Check
-    #     if not(np.array_equal(expected_result, result)):
-    #         successful_tested = 0            
-    #     ### Example 3
-    #     # Create a label volume node and point
-    #     label_volume_node = self.test_standard_label_volume
-    #     input_point = None
-    #     expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
-    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
-    #     # Check
-    #     if expected_result != result:
-    #         successful_tested = 0
-    #     ### Example 4
-    #     # Create a label volume node and point
-    #     label_volume_node = None
-    #     input_point = np.array([0,0,0])
-    #     expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
-    #     result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
-    #     # Check
-    #     if expected_result != result:
-    #         successful_tested = 0
-        
-    #     # Log the result
-    #     self.simple_Task_Logging_Test_Outcome("Check a Point is in a Label Volume Node", successful_tested)
-
+    def test_get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(self):
+        """Test get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node function"""
+        successful_tested = 1
+        ### Example 1
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_line_list = None
+        expected_result = "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if expected_result != result:
+            successful_tested = 0
+        ### Example 2
+        # Create a label volume node and point
+        label_volume_node = None
+        input_line_list = np.array([0,0,0])
+        expected_result = "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if expected_result != result:
+            successful_tested = 0
+        ### Example 3 - one line is outside label volume-> return -1 for that line
+        # Create a label volume node and point
+        label_volume_node = self.test_standard_label_volume
+        input_line_list = np.array([[[1,1,1], [-1,-1,-1]],
+                                    [[3,1,2], [6,3,2]],
+                                    [[3,1,2], [1,2,2]]])
+        expected_result = np.array([0, -1, 0])
+        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # Check
+        if np.linalg.norm(result - expected_result) > 0.001:
+            successful_tested = 0        
+        # ### Example 4
+        # # Create a label volume node and point
+        # label_volume_node = self.test_standard_label_volume
+        # input_line_list = np.array([[[1,1,1], [-1,-1,-1]],
+        #                             [[3,3,36], [5,6,100]],
+        #                             [[3,1,2], [1,2,2]]])
+        # expected_result = np.array([0, 36, 0])
+        # result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        # # Check
+        # if np.linalg.norm(result - expected_result) > 0.001:
+        #     successful_tested = 0        
+        # # Log the result
+        self.simple_Task_Logging_Test_Outcome("Get Angle from a Line in List to a Label Volume Node", successful_tested)
 
     def unit_test_convert_IJK_to_RAS(self):
         """Test convert_IJK_to_RAS function"""
@@ -861,12 +994,12 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
     def simple_Task_Create_Folder(self, folder_name):
         """Create a folder and collapse it"""
         folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), folder_name)
-        # Collapse the folder
-        self.shNode.SetItemExpanded(folder_ID, 0)
         # Hide the folder
         pluginHandler = slicer.qSlicerSubjectHierarchyPluginHandler().instance()
         volPlugin = pluginHandler.getOwnerPluginForSubjectHierarchyItem(folder_ID)
         volPlugin.setDisplayVisibility(folder_ID, 0)
+        # Collapse the folder
+        self.shNode.SetItemExpanded(folder_ID, 0)
         return folder_ID
     def simple_Task_Logging_Test_Outcome(self, test_name = "Standard", successful_tested = False):
         """Logging test results"""

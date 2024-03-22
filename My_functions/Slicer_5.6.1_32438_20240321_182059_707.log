@@ -3206,3 +3206,4 @@ vtkSlicerSegmentationsModuleLogic::GetSegmentForSegmentSubjectHierarchyItem: Inv
 [CRITICAL][Stream] 21.03.2024 21:15:43 [] (unknown:0) - Unit test passed: Get 9x9 Matrix at one Position from a bigger Matrix
 [INFO][Python] 21.03.2024 21:15:43 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:881) - Unit test passed: Get 9x9 Matrix at one Position from a bigger Matrix
 [DEBUG][Qt] 21.03.2024 21:15:43 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 21.03.2024 21:20:13 [] (unknown:0) - Switch to module:  ""
