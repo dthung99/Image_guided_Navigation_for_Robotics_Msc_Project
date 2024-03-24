@@ -1,0 +1,67 @@
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Session start time .......: 20240324_115123
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Memory ...................: 7834 MB physical, 12186 MB virtual
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 24.03.2024 11:51:23 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 24.03.2024 11:51:39 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 24.03.2024 11:51:39 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 24.03.2024 11:51:39 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 24.03.2024 11:52:24 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 11:52:42 [] (unknown:0) -
+[DEBUG][Qt] 24.03.2024 11:52:42 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.07s]"
+[DEBUG][Qt] 24.03.2024 11:52:42 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 11:52:42 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.09s]"
+[DEBUG][Qt] 24.03.2024 11:52:43 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 11:52:43 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 11:52:43 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 11:52:43 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.07s]"
+[INFO][Stream] 24.03.2024 11:52:43 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 24.03.2024 11:52:43 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 24.03.2024 11:52:43 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 11:52:43 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1172) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 11:52:43 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 24.03.2024 11:52:44 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 11:52:44 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1172) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 11:52:44 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1172) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 11:52:45 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1179) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1179) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1179) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1179) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[WARNING][VTK] 24.03.2024 11:52:45 [] (unknown:0) - Generic Warning: In vtkMRMLSubjectHierarchyNode.cxx, line 3671
+vtkMRMLSubjectHierarchyNode::GetSubjectHierarchyNode: Invalid scene given
+[CRITICAL][Qt] 24.03.2024 11:52:45 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onNodeAboutToBeRemoved(class vtkObject *,class vtkObject *) : Failed to access subject hierarchy node
+[ERROR][VTK] 24.03.2024 11:52:45 [vtkMRMLScene (0000019972878B30)] (vtkMRMLScene.cxx:3353) - GetReferencingNodes: null node or referenced node
+[WARNING][VTK] 24.03.2024 11:52:45 [] (unknown:0) - Generic Warning: In vtkMRMLSubjectHierarchyNode.cxx, line 3671
+vtkMRMLSubjectHierarchyNode::GetSubjectHierarchyNode: Invalid scene given
+[CRITICAL][Qt] 24.03.2024 11:52:45 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onNodeAboutToBeRemoved(class vtkObject *,class vtkObject *) : Failed to access subject hierarchy node
+[ERROR][VTK] 24.03.2024 11:52:45 [vtkMRMLScene (0000019972878B30)] (vtkMRMLScene.cxx:3353) - GetReferencingNodes: null node or referenced node
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Unit test passed: Convert Label Volume to Model
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1179) - Unit test passed: Convert Label Volume to Model
+[WARNING][VTK] 24.03.2024 11:52:45 [] (unknown:0) - Generic Warning: In vtkMRMLSubjectHierarchyNode.cxx, line 3671
+vtkMRMLSubjectHierarchyNode::GetSubjectHierarchyNode: Invalid scene given
+[CRITICAL][Qt] 24.03.2024 11:52:45 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onNodeAboutToBeRemoved(class vtkObject *,class vtkObject *) : Failed to access subject hierarchy node
+[ERROR][VTK] 24.03.2024 11:52:45 [vtkMRMLScene (0000019972878B30)] (vtkMRMLScene.cxx:3353) - GetReferencingNodes: null node or referenced node
+[CRITICAL][Stream] 24.03.2024 11:52:45 [] (unknown:0) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 11:52:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1172) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 11:52:45 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Angle from a Line in List to a Label Volume Node

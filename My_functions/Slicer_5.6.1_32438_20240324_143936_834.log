@@ -1,0 +1,1255 @@
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Session start time .......: 20240324_143936
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Memory ...................: 7834 MB physical, 12186 MB virtual
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 24.03.2024 14:39:36 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 24.03.2024 14:39:58 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 24.03.2024 14:39:58 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 24.03.2024 14:39:58 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 24.03.2024 14:40:02 [] (unknown:0) - Python console user input: slicer.util.loadScene("D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\BrainParcellation\\2024-03-23-Scene.mrml")
+[DEBUG][Qt] 24.03.2024 14:40:03 [] (unknown:0) - "MRML Scene" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\BrainParcellation\\2024-03-23-Scene.mrml" "[1.32s]"
+[DEBUG][Qt] 24.03.2024 14:40:06 [] (unknown:0) - Switch to module:  "Data"
+[CRITICAL][Stream] 24.03.2024 14:42:32 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 14:42:32 [] (unknown:0) -   File "<string>", line 3, in <module>
+[CRITICAL][Stream] 24.03.2024 14:42:32 [] (unknown:0) - NameError: name 'sitkUtils' is not defined
+[DEBUG][Qt] 24.03.2024 14:42:39 [] (unknown:0) - Python console user input: import sitkUtils
+[DEBUG][Qt] 24.03.2024 14:42:44 [] (unknown:0) - Python console user input: import SimpleITK
+[CRITICAL][Stream] 24.03.2024 14:42:49 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 14:42:49 [] (unknown:0) -   File "<string>", line 11, in <module>
+[CRITICAL][Stream] 24.03.2024 14:42:49 [] (unknown:0) - NameError: name 'np' is not defined
+[CRITICAL][Stream] 24.03.2024 14:42:51 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 14:42:51 [] (unknown:0) -   File "<string>", line 11, in <module>
+[CRITICAL][Stream] 24.03.2024 14:42:51 [] (unknown:0) - NameError: name 'np' is not defined
+[DEBUG][Qt] 24.03.2024 14:42:55 [] (unknown:0) - Python console user input: import numpy as np
+[DEBUG][Qt] 24.03.2024 14:43:18 [] (unknown:0) - Python console user input: import time
+[INFO][Stream] 24.03.2024 14:43:46 [] (unknown:0) - 0.21563860000000545
+[INFO][Stream] 24.03.2024 14:43:47 [] (unknown:0) - 0.23731209999999692
+[INFO][Stream] 24.03.2024 14:43:48 [] (unknown:0) - 0.24830590000001962
+[INFO][Stream] 24.03.2024 14:43:49 [] (unknown:0) - 0.24032850000000394
+[INFO][Stream] 24.03.2024 14:43:50 [] (unknown:0) - 0.24776109999999107
+[INFO][Stream] 24.03.2024 14:43:50 [] (unknown:0) - 0.2528338999999846
+[INFO][Stream] 24.03.2024 14:43:51 [] (unknown:0) - 0.2914837999999804
+[INFO][Stream] 24.03.2024 14:43:51 [] (unknown:0) - 0.32890469999995275
+[INFO][Stream] 24.03.2024 14:43:51 [] (unknown:0) - 0.2540087999999514
+[INFO][Stream] 24.03.2024 14:43:52 [] (unknown:0) - 0.2575152000000003
+[INFO][Stream] 24.03.2024 14:43:52 [] (unknown:0) - 0.2566841000000295
+[INFO][Stream] 24.03.2024 14:43:52 [] (unknown:0) - 0.30116700000002083
+[INFO][Stream] 24.03.2024 14:43:53 [] (unknown:0) - 0.2635606999999709
+[INFO][Stream] 24.03.2024 14:43:53 [] (unknown:0) - 0.27544280000000754
+[INFO][Stream] 24.03.2024 14:43:53 [] (unknown:0) - 0.2748024999999643
+[INFO][Stream] 24.03.2024 14:43:54 [] (unknown:0) - 0.3692303999999922
+[INFO][Stream] 24.03.2024 14:43:54 [] (unknown:0) - 0.29985599999997703
+[INFO][Stream] 24.03.2024 14:43:54 [] (unknown:0) - 0.2753258000000187
+[INFO][Stream] 24.03.2024 14:43:55 [] (unknown:0) - 0.3846206000000052
+[INFO][Stream] 24.03.2024 14:43:55 [] (unknown:0) - 0.31351560000001655
+[INFO][Stream] 24.03.2024 14:43:56 [] (unknown:0) - 0.38424880000002304
+[INFO][Stream] 24.03.2024 14:43:56 [] (unknown:0) - 0.2876649000000384
+[INFO][Stream] 24.03.2024 14:43:56 [] (unknown:0) - 0.3241702999999916
+[INFO][Stream] 24.03.2024 14:44:05 [] (unknown:0) - 0.24521539999994957
+[INFO][Stream] 24.03.2024 14:44:05 [] (unknown:0) - 0.263369799999964
+[INFO][Stream] 24.03.2024 14:44:06 [] (unknown:0) - 0.2662674000000038
+[INFO][Stream] 24.03.2024 14:44:06 [] (unknown:0) - 0.2591878000000065
+[INFO][Stream] 24.03.2024 14:44:07 [] (unknown:0) - 0.27086730000002035
+[INFO][Stream] 24.03.2024 14:44:30 [] (unknown:0) - 3.9283977999999706
+[INFO][Stream] 24.03.2024 14:44:35 [] (unknown:0) - 3.84573690000002
+[INFO][Stream] 24.03.2024 14:44:42 [] (unknown:0) - 3.8611372999999958
+[INFO][Stream] 24.03.2024 14:44:58 [] (unknown:0) - 0.27271930000000566
+[INFO][Stream] 24.03.2024 14:44:59 [] (unknown:0) - 0.27174929999995356
+[INFO][Stream] 24.03.2024 14:45:14 [] (unknown:0) - 3.933883499999979
+[DEBUG][Qt] 24.03.2024 14:45:38 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 24.03.2024 14:45:38 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2771: UserWarning: already has observer
+[CRITICAL][Stream] 24.03.2024 14:45:38 [] (unknown:0) -   warn("already has observer")
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:46:02 [] (unknown:0) -
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.05s]"
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.07s]"
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:46:03 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.08s]"
+[INFO][Stream] 24.03.2024 14:46:03 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 24.03.2024 14:46:03 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 24.03.2024 14:46:03 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 14:46:03 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1182) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 14:46:03 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 24.03.2024 14:46:04 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 14:46:04 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1182) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 14:46:04 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 14:46:05 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:46:05 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1182) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:46:05 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 14:46:06 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 24.03.2024 14:46:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1189) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 24.03.2024 14:46:06 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 24.03.2024 14:46:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1189) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 24.03.2024 14:46:06 [] (unknown:0) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 14:46:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1189) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 14:46:06 [] (unknown:0) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 14:46:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1189) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 14:46:06 [] (unknown:0) - Unit test passed: Convert Label Volume to Model
+[INFO][Python] 24.03.2024 14:46:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1189) - Unit test passed: Convert Label Volume to Model
+[CRITICAL][Stream] 24.03.2024 14:46:06 [] (unknown:0) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:46:06 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1182) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:46:06 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) -
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 24.03.2024 14:50:32 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 24.03.2024 14:50:33 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 14:50:33 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 14:50:33 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 24.03.2024 14:50:33 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:33 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:33 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 14:50:34 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:34 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 14:50:35 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 24.03.2024 14:50:35 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 24.03.2024 14:50:35 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 24.03.2024 14:50:35 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 24.03.2024 14:50:35 [] (unknown:0) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 14:50:35 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 14:50:35 [] (unknown:0) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 14:50:35 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 14:50:35 [] (unknown:0) - Unit test passed: Convert Label Volume to Model
+[INFO][Python] 24.03.2024 14:50:35 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert Label Volume to Model
+[CRITICAL][Stream] 24.03.2024 14:50:35 [] (unknown:0) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:35 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:35 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:50:52 [] (unknown:0) -
+[DEBUG][Qt] 24.03.2024 14:50:52 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:52 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 24.03.2024 14:50:52 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 24.03.2024 14:50:53 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:53 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:53 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 14:50:53 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.03s]"
+[INFO][Stream] 24.03.2024 14:50:53 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 24.03.2024 14:50:53 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 24.03.2024 14:50:53 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 14:50:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 14:50:53 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 24.03.2024 14:50:54 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:54 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 14:50:54 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:54 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 14:50:55 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 24.03.2024 14:50:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 24.03.2024 14:50:55 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 24.03.2024 14:50:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 24.03.2024 14:50:55 [] (unknown:0) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 14:50:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 14:50:55 [] (unknown:0) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 14:50:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 14:50:55 [] (unknown:0) - Unit test passed: Convert Label Volume to Model
+[INFO][Python] 24.03.2024 14:50:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert Label Volume to Model
+[CRITICAL][Stream] 24.03.2024 14:50:55 [] (unknown:0) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:50:55 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 14:51:05 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:05 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 14:51:05 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 14:51:10 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:10 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.16 seconds
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - Processing completed in 0.16 seconds
+[INFO][Python] 24.03.2024 14:51:10 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:10 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.16 seconds
+[INFO][Stream] 24.03.2024 14:51:10 [] (unknown:0) - Processing completed in 0.16 seconds
+[INFO][Python] 24.03.2024 14:51:10 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:11 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.16 seconds
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - Processing completed in 0.16 seconds
+[INFO][Python] 24.03.2024 14:51:11 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:11 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.16 seconds
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - Processing completed in 0.16 seconds
+[INFO][Python] 24.03.2024 14:51:11 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:11 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.16 seconds
+[INFO][Stream] 24.03.2024 14:51:11 [] (unknown:0) - Processing completed in 0.16 seconds
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:19 [] (unknown:0) -
+[INFO][Python] 24.03.2024 14:51:21 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:21 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:21 [] (unknown:0) - Processing completed in 0.18 seconds
+[INFO][Python] 24.03.2024 14:51:22 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:22 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:22 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Python] 24.03.2024 14:51:22 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:23 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:23 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:25 [] (unknown:0) -
+[INFO][Python] 24.03.2024 14:51:27 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:27 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:27 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Python] 24.03.2024 14:51:28 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:28 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Python] 24.03.2024 14:51:28 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:28 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:28 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Python] 24.03.2024 14:51:36 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:37 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Python] 24.03.2024 14:51:37 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:37 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:37 [] (unknown:0) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:49 [] (unknown:0) -
+[INFO][Python] 24.03.2024 14:51:50 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:50 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.21 seconds
+[INFO][Stream] 24.03.2024 14:51:50 [] (unknown:0) - Processing completed in 0.21 seconds
+[INFO][Python] 24.03.2024 14:51:51 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:51 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:51 [] (unknown:0) - Processing completed in 0.18 seconds
+[INFO][Python] 24.03.2024 14:51:52 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:52 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.19 seconds
+[INFO][Stream] 24.03.2024 14:51:52 [] (unknown:0) - Processing completed in 0.19 seconds
+[INFO][Python] 24.03.2024 14:51:52 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - Processing completed in 0.18 seconds
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:53 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 14:51:53 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 14:51:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.20 seconds
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - Processing completed in 0.20 seconds
+[INFO][Python] 24.03.2024 14:51:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - Processing completed in 0.18 seconds
+[INFO][Python] 24.03.2024 14:51:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 14:51:54 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 14:51:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 14:51:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 14:51:55 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 14:51:55 [] (unknown:0) - Processing completed in 0.18 seconds
+[DEBUG][Qt] 24.03.2024 14:59:58 [] (unknown:0) - Python console user input: import itk
+[CRITICAL][Stream] 24.03.2024 14:59:58 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 14:59:58 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 24.03.2024 14:59:58 [] (unknown:0) - ModuleNotFoundError: No module named 'itk'
+[DEBUG][Qt] 24.03.2024 15:00:17 [] (unknown:0) - Python console user input: itkImageFromVolume()
+[CRITICAL][Stream] 24.03.2024 15:00:17 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 15:00:17 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 24.03.2024 15:00:17 [] (unknown:0) - TypeError: itkImageFromVolume() missing 1 required positional argument: 'volumeNode'
+[DEBUG][Qt] 24.03.2024 15:02:55 [] (unknown:0) - Python console user input: import itk
+[CRITICAL][Stream] 24.03.2024 15:02:55 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 15:02:55 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 24.03.2024 15:02:55 [] (unknown:0) - ModuleNotFoundError: No module named 'itk'
+[DEBUG][Qt] 24.03.2024 15:02:58 [] (unknown:0) - Python console user input: import Itk
+[CRITICAL][Stream] 24.03.2024 15:02:58 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 15:02:58 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 24.03.2024 15:02:58 [] (unknown:0) - ModuleNotFoundError: No module named 'Itk'
+[DEBUG][Qt] 24.03.2024 15:03:08 [] (unknown:0) - Python console user input: import ITK
+[CRITICAL][Stream] 24.03.2024 15:03:08 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 24.03.2024 15:03:08 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 24.03.2024 15:03:08 [] (unknown:0) - ModuleNotFoundError: No module named 'ITK'
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) - ------------------------------
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:31 [] (unknown:0) -
+[DEBUG][Qt] 24.03.2024 15:14:31 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.03s]"
+[DEBUG][Qt] 24.03.2024 15:14:31 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 15:14:31 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.04s]"
+[DEBUG][Qt] 24.03.2024 15:14:31 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 15:14:31 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 15:14:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 24.03.2024 15:14:32 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 24.03.2024 15:14:32 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 24.03.2024 15:14:32 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 24.03.2024 15:14:32 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 15:14:32 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Model Creation
+[INFO][Python] 24.03.2024 15:14:32 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 24.03.2024 15:14:33 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:33 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:33 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 15:14:33 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:33 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:33 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 24.03.2024 15:14:34 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 24.03.2024 15:14:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 24.03.2024 15:14:34 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 24.03.2024 15:14:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 24.03.2024 15:14:34 [] (unknown:0) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 15:14:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Get 3x3x3 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 15:14:34 [] (unknown:0) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[INFO][Python] 24.03.2024 15:14:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Get 2x2x2 Matrix at one Position from a bigger Matrix
+[CRITICAL][Stream] 24.03.2024 15:14:34 [] (unknown:0) - Unit test passed: Convert Label Volume to Model
+[INFO][Python] 24.03.2024 15:14:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1191) - Unit test passed: Convert Label Volume to Model
+[CRITICAL][Stream] 24.03.2024 15:14:34 [] (unknown:0) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:34 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1184) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:34 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Angle from a Line in List to a Label Volume Node
+[INFO][Python] 24.03.2024 15:14:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 15:14:45 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.17 seconds
+[INFO][Stream] 24.03.2024 15:14:45 [] (unknown:0) - Processing completed in 0.17 seconds
+[INFO][Python] 24.03.2024 15:14:48 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:534) - Processing started
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) - [ 956.07933696 1398.2754761  1520.34301261 1471.62734165 1151.46068404
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  1078.3736564   829.73303417  829.58484831  491.77713262  481.97780093]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) - [[[210.127 106.682 136.854]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[211.493 109.294 113.447]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[210.618 110.553 120.834]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[207.595 109.037 159.089]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[206.807 113.484 158.365]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[208.897 118.504 121.064]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[206.107 119.694 151.081]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[208.08  122.079 121.388]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[207.525 123.882 126.768]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -  [[206.867 126.505 130.049]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) -   [154.    106.    123.   ]]]
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) - [16. 16. 16. 16. 16. 16. 16. 16. 16. 16.]
+[INFO][Python] 24.03.2024 15:14:48 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:589) - Processing completed in 0.18 seconds
+[INFO][Stream] 24.03.2024 15:14:48 [] (unknown:0) - Processing completed in 0.18 seconds
+[DEBUG][Qt] 24.03.2024 15:15:02 [] (unknown:0) - Switch to module:  "Data"

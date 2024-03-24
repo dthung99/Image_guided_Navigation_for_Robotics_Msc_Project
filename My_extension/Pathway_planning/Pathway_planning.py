@@ -135,6 +135,7 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
     def enter(self) -> None:
         """Called each time the user opens this module."""
         # Make sure parameter node exists and observed
+        self.addObserver(self._parameterNode, vtk.vtkCommand.ModifiedEvent, self._checkCanApply)
         self.initializeParameterNode()
 
     def exit(self) -> None:
@@ -263,7 +264,6 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         print(f"Number of targets is: {n_Target}")
         # Create segmentation and model from label map
         list_of_Label_nodes = slicer.util.getNodesByClass("vtkMRMLLabelMapVolumeNode")
-        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
         exportModelFolderItemId = self.simple_Task_Create_Folder("Models")
         exportSegmentFolderItemId = self.simple_Task_Create_Folder("Segments")
         for i, node in enumerate(list_of_Label_nodes):
@@ -323,7 +323,6 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         if type(label_volume_node) != vtkMRMLLabelMapVolumeNode:
             return "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
         result = np.zeros((input_line_list.shape[0],)) # Declare result vector
-
         # Calculate the distance matrix
         sitkInput = sitkUtils.PullVolumeFromSlicer(label_volume_node)
         distanceFilter = SimpleITK.SignedMaurerDistanceMapImageFilter()
@@ -340,6 +339,7 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         label_volume_node.GetIJKToRASDirectionMatrix(rotation)
         rotation = slicer.util.arrayFromVTKMatrix(rotation)[0:3,0:3]
         origin = np.array(label_volume_node.GetOrigin())
+        discretize_distance = discretize_distance / np.linalg.norm(spacing)
         # Loop through the line list
         indices_of_line_that_do_not_pass_through_label_volume = []
         for i_line_list_iterator, line  in enumerate(input_line_list):
@@ -360,7 +360,7 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             number_of_segments = math.ceil(segment_length/discretize_distance)
             distance_loop = distance_max
             passing_through_label_volume = False
-            for i_line_point_iterator in range(number_of_segments + 1):
+            for i_line_point_iterator in range(number_of_segments):
                 x, y, z = np.round(start_point + unit_vector*i_line_point_iterator).astype(int)
                 if (x<0) or (y<0) or (z<0) or (x>=label_volume_array.shape[0]) or (y>=label_volume_array.shape[1]) or (z>=label_volume_array.shape[2]):
                     continue
@@ -368,6 +368,8 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
                 passing_through_label_volume = True
                 if current_distance < distance_loop:
                     distance_loop = current_distance
+                    if current_distance<=0:
+                        break
             if not(passing_through_label_volume):
                 indices_of_line_that_do_not_pass_through_label_volume.append(i_line_list_iterator)
                 continue    
@@ -381,7 +383,6 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         """Return a np.array((-1,)) contain the angle of each line to that model
         One point of the line must be inside the model, one point must be outside
         Both are inside or both outside, return -1"""
-        """The algorithm will discretize the lines with a step of discretize_distance"""
         # Check input types
         if type(input_line_list) != np.ndarray:
             return "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
@@ -495,9 +496,8 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         return result
     def convert_Label_Volume_To_Model(self, label_node: vtkMRMLModelNode):
         seg = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode")
-        # seg.SetName("Segmentation"+node.GetName())
-        # self.shNode.SetItemParent(self.shNode.GetItemByDataNode(seg), exportSegmentFolderItemId)
         slicer.modules.segmentations.logic().ImportLabelmapToSegmentationNode(label_node, seg)
+        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
         folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "Subfolder")
         slicer.modules.segmentations.logic().ExportAllSegmentsToModels(seg, folder_ID)
         idlist = vtk.vtkIdList()
@@ -506,6 +506,7 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         slicer.mrmlScene.RemoveNode(seg)
         model_node = self.shNode.GetItemDataNode(modelID)
         model_node.SetName(str(np.random.random()))
+        self.shNode.SetItemParent(modelID, self.shNode.GetSceneItemID())
         self.shNode.RemoveItem(folder_ID)
         return model_node
 
@@ -536,25 +537,24 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         # Turn point to array
         entryPoints = slicer.util.arrayFromMarkupsControlPoints(entryPoints)
         targetPoints = slicer.util.arrayFromMarkupsControlPoints(targetPoints)
-
         # Check if the target get into hypothalamus
         list_of_inside_points = self.check_A_Point_in_List_Is_In_A_Label_Volume_Node(input_point_array=targetPoints,label_volume_node=hypothalamusLabelMap, strictly_inside_mode=False)
         # Filter the remaining target points that is inside
         targetPoints = targetPoints[list_of_inside_points==True]
-
         # Construct a list of line by a combination of start points and end points
         list_of_line = []
         for entryPoint in entryPoints:
             for targetPoint in targetPoints:
                 list_of_line.append([entryPoint,targetPoint])
         list_of_line = np.array(list_of_line)
-
         # Find the angle of lines
         angles_to_cortex = self.get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list=list_of_line, label_volume_node=cortexLabelMap)
         # Filter the lines meeting the angle condition
-        list_of_line = list_of_line[angles_to_cortex<cortexangleThreshold*np.pi/180]
-        angles_to_cortex = angles_to_cortex[angles_to_cortex<cortexangleThreshold*np.pi/180]
-
+        angles_to_cortex = angles_to_cortex*180/np.pi
+        list_of_line = list_of_line[angles_to_cortex<cortexangleThreshold]
+        angles_to_cortex = angles_to_cortex[angles_to_cortex<cortexangleThreshold]
+        list_of_line = list_of_line[angles_to_cortex>0]
+        angles_to_cortex = angles_to_cortex[angles_to_cortex>0]
         # Finding the distance to vessels
         distance_to_vessels = self.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list=list_of_line, label_volume_node=vesselsLabelMap, discretize_distance=1)
         # Filter the remaining lines do not intersect inside
@@ -569,26 +569,29 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         angles_to_cortex = angles_to_cortex[distance_to_ventricles!=0]
         distance_to_ventricles = distance_to_ventricles[distance_to_ventricles!=0]
         # Visualize the Lines
-        for line in list_of_line:
-            start_point = line[0]
-            end_point = line[1]
-            qualified_line = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsLineNode")
-            qualified_line.SetName(" ")            
-            qualified_line.SetLineStartPosition(start_point)
-            qualified_line.SetLineEndPosition(end_point)
+        # for i, line in enumerate(list_of_line):
+        #     start_point = line[0]
+        #     end_point = line[1]
+        #     qualified_line = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsLineNode")
+        #     qualified_line.SetName(f"Angle {round(angles_to_cortex[i])} - Distance {distance_to_ventricles[i]}")            
+        #     qualified_line.SetLineStartPosition(start_point)
+        #     qualified_line.SetLineEndPosition(end_point)
 
         print(angles_to_cortex*180/np.pi)
+        print(list_of_line)
+        print(distance_to_vessels)
 
-        # # # Visualize the points
-        # # points = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsFiducialNode", "Points")
-        # # for point in targetPoints:
-        # #     points.AddControlPoint(point)
+        # # # # Visualize the points
+        # # # points = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsFiducialNode", "Points")
+        # # # for point in targetPoints:
+        # # #     points.AddControlPoint(point)
         stopTime = time.time()
         logging.info(f"Processing completed in {stopTime-startTime:.2f} seconds")
         print(f"Processing completed in {stopTime-startTime:.2f} seconds")
 
     def simple_Task_Create_Folder(self, folder_name):
         """Create a folder and collapse it"""
+        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
         folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), folder_name)
         # Collapse the folder
         self.shNode.SetItemExpanded(folder_ID, 0)
@@ -602,10 +605,14 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
 class Pathway_planningTest(ScriptedLoadableModuleTest):
     def setUp(self):
         """Do whatever is needed to reset the state - typically a scene clear will be enough."""
+        # Clear
+        self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
+        self.shNode.RemoveAllItems()
+        slicer.mrmlScene.RemoveNode(slicer.mrmlScene.RemoveNode(self.shNode))
+        # Restart
         slicer.mrmlScene.Clear()
         # Declare variable to control system
         self.shNode = slicer.mrmlScene.GetSubjectHierarchyNode()
-        self.shNode.RemoveAllItems()
         self.logic = Pathway_planningLogic()
         self.test_data_folder_path = "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\" #Path to place that store data
         # Create my custom logger
@@ -651,6 +658,11 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         self.unit_test_get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position()
         self.unit_test_convert_Label_Volume_To_Model()
         self.test_get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node()
+
+        self.shNode.RemoveItem(self.volumefortestfolderID)
+        self.shNode.RemoveItem(self.labelvolumefortestfolderID)
+        self.shNode.RemoveItem(self.segmentationfortestfolderID)
+        self.shNode.RemoveItem(self.modelfortestfolderID)
         
     def load_Data(self):
         """Load data and set their visual"""
