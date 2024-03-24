@@ -11,7 +11,7 @@ from slicer.parameterNodeWrapper import (
     parameterNodeWrapper,
     WithinRange,
 )
-from slicer import vtkMRMLScalarVolumeNode, vtkMRMLMarkupsFiducialNode, vtkMRMLLabelMapVolumeNode
+from slicer import vtkMRMLScalarVolumeNode, vtkMRMLMarkupsFiducialNode, vtkMRMLLabelMapVolumeNode, vtkMRMLModelNode
 import numpy as np
 import math
 
@@ -76,9 +76,10 @@ def registerSampleData():
 class Pathway_planningParameterNode:
     entryPoints: vtkMRMLMarkupsFiducialNode
     targetPoints: vtkMRMLMarkupsFiducialNode
-    targetLabelMap: vtkMRMLLabelMapVolumeNode
-    obstacleLabelMap: vtkMRMLLabelMapVolumeNode
-    softconstraintLabelMap: vtkMRMLLabelMapVolumeNode
+    hypothalamusLabelMap: vtkMRMLLabelMapVolumeNode
+    vesselsLabelMap: vtkMRMLLabelMapVolumeNode
+    ventricleLabelMap: vtkMRMLLabelMapVolumeNode
+    cortexLabelMap: vtkMRMLLabelMapVolumeNode
     outputVolume: vtkMRMLLabelMapVolumeNode
 
 # Pathway_planningWidget
@@ -173,20 +174,25 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
             if firstVolumeNode:
                 self._parameterNode.targetPoints = firstVolumeNode
 
-        if not self._parameterNode.targetLabelMap:
+        if not self._parameterNode.hypothalamusLabelMap:
             firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
             if firstVolumeNode:
-                self._parameterNode.targetLabelMap = firstVolumeNode
+                self._parameterNode.hypothalamusLabelMap = firstVolumeNode
 
-        if not self._parameterNode.obstacleLabelMap:
+        if not self._parameterNode.vesselsLabelMap:
             firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
             if firstVolumeNode:
-                self._parameterNode.obstacleLabelMap = firstVolumeNode
+                self._parameterNode.vesselsLabelMap = firstVolumeNode
 
-        if not self._parameterNode.softconstraintLabelMap:
+        if not self._parameterNode.ventricleLabelMap:
             firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
             if firstVolumeNode:
-                self._parameterNode.softconstraintLabelMap = firstVolumeNode
+                self._parameterNode.ventricleLabelMap = firstVolumeNode
+
+        if not self._parameterNode.cortexLabelMap:
+            firstVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLLabelMapVolumeNode")
+            if firstVolumeNode:
+                self._parameterNode.cortexLabelMap = firstVolumeNode
 
     def setParameterNode(self, inputParameterNode: Optional[Pathway_planningParameterNode]) -> None:
         """
@@ -206,16 +212,18 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
             self._checkCanApply()
 
     def _checkCanApply(self, caller=None, event=None) -> None:
-        if self._parameterNode and self._parameterNode.entryPoints:
+        if self._parameterNode and self._parameterNode.entryPoints and self._parameterNode.targetPoints and self._parameterNode.hypothalamusLabelMap and self._parameterNode.vesselsLabelMap and self._parameterNode.ventricleLabelMap and self._parameterNode.cortexLabelMap:
             self.ui.applyButton.toolTip = _("Compute output volume")
             self.ui.applyButton.enabled = True
         else:
             self.ui.applyButton.toolTip = _("Select input and output volume nodes")
             self.ui.applyButton.enabled = False
 
-        if self._parameterNode and self._parameterNode.entryPoints:
+        if self._parameterNode and self._parameterNode.entryPoints and self._parameterNode.targetPoints:
+            self.ui.dataCleaning.toolTip = _("Count the number of points and generate Models")
             self.ui.dataCleaning.enabled = True
         else:
+            self.ui.dataCleaning.toolTip = _("Please select the list of points")
             self.ui.dataCleaning.enabled = False
 
     def dataCleaning(self) -> None:
@@ -228,14 +236,14 @@ class Pathway_planningWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         """Run processing when user clicks "Apply" button."""
         with slicer.util.tryWithErrorDisplay(_("Failed to compute results."), waitCursor=True):
             # Compute output
-            self.logic.process(self.ui.inputSelector.currentNode(), self.ui.outputSelector.currentNode(),
-                               self.ui.imageThresholdSliderWidget.value, self.ui.invertOutputCheckBox.checked)
-
-            # Compute inverted output (if needed)
-            if self.ui.invertedOutputSelector.currentNode():
-                # If additional output volume is selected then result with inverted threshold is written there
-                self.logic.process(self.ui.inputSelector.currentNode(), self.ui.invertedOutputSelector.currentNode(),
-                                   self.ui.imageThresholdSliderWidget.value, not self.ui.invertOutputCheckBox.checked, showResult=False)
+            self.logic.process(entryPoints = self._parameterNode.entryPoints,
+                               targetPoints = self._parameterNode.targetPoints,
+                               hypothalamusLabelMap = self._parameterNode.hypothalamusLabelMap,
+                               vesselsLabelMap = self._parameterNode.vesselsLabelMap,
+                               ventricleLabelMap = self._parameterNode.ventricleLabelMap,
+                               cortexLabelMap = self._parameterNode.cortexLabelMap,
+                               outputVolume = self._parameterNode.outputVolume,
+                               cortexangleThreshold = self.ui.cortexangleThreshold.value)
 
 # Pathway_planningLogic
 class Pathway_planningLogic(ScriptedLoadableModuleLogic):
@@ -267,20 +275,19 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             self.shNode.SetItemName(self.shNode.GetItemChildWithName(exportModelFolderItemId, "1"), "Model_"+ node.GetName())
         self.shNode.SetItemParent(exportModelFolderItemId, self.shNode.GetItemParent(exportSegmentFolderItemId))
         self.shNode.SetItemExpanded(exportSegmentFolderItemId, 0)
-        return n_Entry, n_Target
-    def check_A_Point_Is_In_A_Label_Volume_Node(self, input_point_array: np.ndarray((100,3)), label_volume_node: vtkMRMLLabelMapVolumeNode, strictly_inside_mode = True):
+        return n_Entry, n_Target, exportModelFolderItemId, exportSegmentFolderItemId
+    def check_A_Point_in_List_Is_In_A_Label_Volume_Node(self, input_point_array: np.ndarray((100,3)), label_volume_node: vtkMRMLLabelMapVolumeNode, strictly_inside_mode = True):
         """Get a list of point as np.array and a label volume node"""
         """Return a np.array(-1,) of boolean where True if a point is inside, and False if it is outside"""
         """If strictly_inside_mode is True, the function will return 1 only if 8 cubes around it is inside
         If strictly_inside_mode is False, the function will return 1 if at least 1 in 9 cubes around it is inside"""
         # Check input types
         if type(input_point_array) != np.ndarray:
-            return "check_A_Point_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
+            return "check_A_Point_in_List_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
         if type(label_volume_node) != vtkMRMLLabelMapVolumeNode:
-            return "check_A_Point_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
-        result = np.empty((input_point_array.shape[0],)) # Declare result vector
-        strictly_inside_mode = strictly_inside_mode*8
-        label_volume_array = slicer.util.arrayFromVolume(label_volume_node) # Conver the node into np array
+            return "check_A_Point_in_List_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = np.zeros((input_point_array.shape[0],)) # Declare result vector
+        label_volume_array = slicer.util.arrayFromVolume(label_volume_node).transpose() # Conver the node into np array
         # Loop through list of points, convert to IJK space, and check value of 8 cubes around it.
         spacing = np.array(label_volume_node.GetSpacing())
         rotation = vtk.vtkMatrix4x4()
@@ -292,11 +299,17 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
                                                         spacing = spacing, 
                                                         rotation = rotation,
                                                         origin = origin)).astype(int)
-            matrix_surround_current_point = self.get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(x, y, z, label_volume_array) #The value of the image at x y z coordinate and 8 cubes around
-            if np.sum(matrix_surround_current_point)>strictly_inside_mode:
-                result[i] = True
+            if strictly_inside_mode:
+                matrix_surround_current_point = self.get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(x, y, z, label_volume_array) #The value of the image at x y z coordinate and 8 cubes around
+                checking_value = matrix_surround_current_point[1,1,1]+matrix_surround_current_point[0,1,1]+matrix_surround_current_point[2,1,1]+matrix_surround_current_point[1,0,1]+matrix_surround_current_point[1,2,1]+matrix_surround_current_point[1,1,0]+matrix_surround_current_point[1,1,2]
+                # if np.sum(matrix_surround_current_point) == 27:
+                if checking_value == 7:
+                    result[i] = True
             else:
-                result[i] = False
+                matrix_surround_current_point = self.get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position(x, y, z, label_volume_array) #The value of the image at x y z coordinate and 8 cubes around
+                if np.sum(matrix_surround_current_point) == 8:
+                    result[i] = True
+                pass
         return result
     def get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(self, input_line_list: np.ndarray((100,2,3)), label_volume_node: vtkMRMLLabelMapVolumeNode, discretize_distance = 1):
         """Get a list of lines as np.array and a label volume node"""
@@ -309,9 +322,7 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             return "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
         if type(label_volume_node) != vtkMRMLLabelMapVolumeNode:
             return "get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
-        result = np.empty((input_line_list.shape[0],)) # Declare result vector
-        # TESTING VALUE DELETE LATER
-        input_volume_array = slicer.util.arrayFromVolume(label_volume_node) # Conver the node into np array
+        result = np.zeros((input_line_list.shape[0],)) # Declare result vector
 
         # Calculate the distance matrix
         sitkInput = sitkUtils.PullVolumeFromSlicer(label_volume_node)
@@ -321,7 +332,7 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         sitkOutput = distanceFilter.Execute(sitkInput)
         outputVolume = sitkUtils.PushVolumeToSlicer(sitkOutput, None, 'distanceMap')
         # Transform the distance volume into array
-        label_volume_array = slicer.util.arrayFromVolume(outputVolume) # Conver the node into np array
+        label_volume_array = slicer.util.arrayFromVolume(outputVolume).transpose() # Conver the node into np array
         distance_max = np.max(label_volume_array)
         # Get necessary variables to convert RAS to IJK
         spacing = np.array(label_volume_node.GetSpacing())
@@ -363,6 +374,56 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
             result[i_line_list_iterator] = distance_loop
         result[result<0] = 0
         result[indices_of_line_that_do_not_pass_through_label_volume] = -1
+        slicer.mrmlScene.RemoveNode(outputVolume)
+        return result
+    def get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(self, input_line_list: np.ndarray((100,2,3)), label_volume_node: vtkMRMLLabelMapVolumeNode):
+        """Get a list of lines as np.array and a label volume node"""
+        """Return a np.array((-1,)) contain the angle of each line to that model
+        One point of the line must be inside the model, one point must be outside
+        Both are inside or both outside, return -1"""
+        """The algorithm will discretize the lines with a step of discretize_distance"""
+        # Check input types
+        if type(input_line_list) != np.ndarray:
+            return "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
+        if type(label_volume_node) != vtkMRMLLabelMapVolumeNode:
+            return "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = -np.ones((input_line_list.shape[0],)) # Declare result vector
+        # Transform label volume to Model
+        model_node = self.convert_Label_Volume_To_Model(label_node=label_volume_node)
+        # Find intersection
+        # Start locator - find intersection point
+        tree = vtk.vtkOBBTree()
+        tree.SetDataSet(model_node.GetPolyData()) 
+        tree.BuildLocator()
+        intersectPoints = vtk.vtkPoints()
+        # Start locator - find nearest cell
+        cell_locator = vtk.vtkCellLocator()
+        cell_locator.SetDataSet(model_node.GetMesh())
+        cell_locator.BuildLocator()
+        closestPoint = [0.0, 0.0, 0.0]
+        cellObj = vtk.vtkGenericCell()
+        cellId = vtk.mutable(0)
+        subId = vtk.mutable(0)
+        dist = vtk.mutable(0.0)
+        normal_vector = np.zeros((3))
+        for i_line_list_iterator, line  in enumerate(input_line_list):
+            start_point = line[0]
+            end_point = line[1]
+            tree.IntersectWithLine(start_point, end_point, intersectPoints, None)
+            if intersectPoints.GetNumberOfPoints() != 1:
+                continue
+            intersectPoint = intersectPoints.GetPoint(0)
+            # Find closest cell
+            cell_locator.FindClosestPoint(intersectPoint, closestPoint, cellObj, cellId, subId, dist)
+            # Calculate the normal vector
+            anglecalculator = vtk.vtkTriangle()
+            anglecalculator.ComputeNormalDirection(cellObj.GetPoints().GetPoint(0), cellObj.GetPoints().GetPoint(1), cellObj.GetPoints().GetPoint(2), normal_vector)
+            # Calculate the angle
+            angle = np.arccos(np.dot(normal_vector, end_point-start_point)/(np.linalg.norm(normal_vector)*np.linalg.norm(end_point-start_point)))
+            if angle > np.pi/2:
+                angle = np.pi - angle
+            result[i_line_list_iterator] = angle
+        slicer.mrmlScene.RemoveNode(model_node)
         return result
 
     def convert_IJK_to_RAS(self,
@@ -411,54 +472,120 @@ class Pathway_planningLogic(ScriptedLoadableModuleLogic):
         z_result_upper = min(3, array.shape[2]-z_lower)
         z_result_lower = max(0, 3-z_upper)
         result[x_result_lower:x_result_upper,y_result_lower:y_result_upper,z_result_lower:z_result_upper] = array[x_lower:x_upper,y_lower:y_upper,z_lower:z_upper]
-        # for i in [x-1,x,x+1]:
-        #     for j in [y-1,y,y+1]:
-        #         for k in [z-1,z,z+1]:
-        #             condition = i>=array.shape[0] + j>=array.shape[1] + k>=array.shape[2] + i<0 + j<0 + k<0
-        #             condition = (i>=array.shape[0]) + (j>=array.shape[1]) + (k>=array.shape[2]) + (i<0) + (j<0) + (k<0)                    
-        #             if condition == 0:
-        #                 result[i-x+1,j-y+1,k-z+1] = array[i,j,k]
-        #             else:
-        #                 result[i-x+1,j-y+1,k-z+1] = 0
         return result
+    def get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position(self, x: int, y: int, z: int, array: np.ndarray):
+        """Get 2x2x2 matrix from a bigger volume at a specific point"""
+        result = np.zeros((2,2,2))
+        x_lower = math.floor(x)
+        x_upper = x_lower+2
+        y_lower = math.floor(y)
+        y_upper = y_lower+2
+        z_lower = math.floor(z)
+        z_upper = z_lower+2
+
+        if (x_upper<0) or (y_upper<0) or (z_upper<0) or (x_lower>array.shape[0]) or (y_lower>array.shape[1]) or (z_lower>array.shape[2]):
+            return result                
+        x_result_upper = min(2, array.shape[0]-x_lower)
+        x_result_lower = max(0, 2-x_upper)
+        y_result_upper = min(2, array.shape[1]-y_lower)
+        y_result_lower = max(0, 2-y_upper)
+        z_result_upper = min(2, array.shape[2]-z_lower)
+        z_result_lower = max(0, 2-z_upper)
+        result[x_result_lower:x_result_upper,y_result_lower:y_result_upper,z_result_lower:z_result_upper] = array[x_lower:x_upper,y_lower:y_upper,z_lower:z_upper]
+        return result
+    def convert_Label_Volume_To_Model(self, label_node: vtkMRMLModelNode):
+        seg = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode")
+        # seg.SetName("Segmentation"+node.GetName())
+        # self.shNode.SetItemParent(self.shNode.GetItemByDataNode(seg), exportSegmentFolderItemId)
+        slicer.modules.segmentations.logic().ImportLabelmapToSegmentationNode(label_node, seg)
+        folder_ID = self.shNode.CreateFolderItem(self.shNode.GetSceneItemID(), "Subfolder")
+        slicer.modules.segmentations.logic().ExportAllSegmentsToModels(seg, folder_ID)
+        idlist = vtk.vtkIdList()
+        self.shNode.GetItemChildren(folder_ID,idlist)
+        modelID = idlist.GetId(0)
+        slicer.mrmlScene.RemoveNode(seg)
+        model_node = self.shNode.GetItemDataNode(modelID)
+        model_node.SetName(str(np.random.random()))
+        self.shNode.RemoveItem(folder_ID)
+        return model_node
 
     def process(self,
-                inputVolume: vtkMRMLScalarVolumeNode,
-                outputVolume: vtkMRMLScalarVolumeNode,
-                imageThreshold: float,
-                invert: bool = False,
-                showResult: bool = True) -> None:
+                entryPoints: vtkMRMLMarkupsFiducialNode,
+                targetPoints: vtkMRMLMarkupsFiducialNode,
+                hypothalamusLabelMap: vtkMRMLLabelMapVolumeNode,
+                vesselsLabelMap: vtkMRMLLabelMapVolumeNode,
+                ventricleLabelMap: vtkMRMLLabelMapVolumeNode,
+                cortexLabelMap: vtkMRMLLabelMapVolumeNode,
+                outputVolume: vtkMRMLLabelMapVolumeNode,
+                cortexangleThreshold: float = 55) -> None:
         """
         Run the processing algorithm.
-        Can be used without GUI widget.
-        :param inputVolume: volume to be thresholded
-        :param outputVolume: thresholding result
-        :param imageThreshold: values above/below this threshold will be set to 0
-        :param invert: if True then values above the threshold will be set to 0, otherwise values below are set to 0
-        :param showResult: show output volume in slice viewers
+        entryPoints: list of potential entry points,
+        targetPoints: list of potential target points,
+        hypothalamusLabelMap: go into hypothalamus,
+        vesselsLabelMap: avoid vessels and maximize its distance,
+        ventricleLabelMap: avoid ventricle,
+        cortexLabelMap: find path that have angle < threshold,
+        outputVolume: where to save output node,
+        cortexangleThreshold: threshold for angle of the line to cortex
         """
-
-        if not inputVolume or not outputVolume:
-            raise ValueError("Input or output volume is invalid")
-
         import time
-
+        logging.info(f"Processing started")
         startTime = time.time()
-        logging.info("Processing started")
+        ### Main code
+        # Turn point to array
+        entryPoints = slicer.util.arrayFromMarkupsControlPoints(entryPoints)
+        targetPoints = slicer.util.arrayFromMarkupsControlPoints(targetPoints)
 
-        # Compute the thresholded output volume using the "Threshold Scalar Volume" CLI module
-        cliParams = {
-            "InputVolume": inputVolume.GetID(),
-            "OutputVolume": outputVolume.GetID(),
-            "ThresholdValue": imageThreshold,
-            "ThresholdType": "Above" if invert else "Below",
-        }
-        cliNode = slicer.cli.run(slicer.modules.thresholdscalarvolume, None, cliParams, wait_for_completion=True, update_display=showResult)
-        # We don't need the CLI module node anymore, remove it to not clutter the scene with it
-        slicer.mrmlScene.RemoveNode(cliNode)
+        # Check if the target get into hypothalamus
+        list_of_inside_points = self.check_A_Point_in_List_Is_In_A_Label_Volume_Node(input_point_array=targetPoints,label_volume_node=hypothalamusLabelMap, strictly_inside_mode=False)
+        # Filter the remaining target points that is inside
+        targetPoints = targetPoints[list_of_inside_points==True]
 
+        # Construct a list of line by a combination of start points and end points
+        list_of_line = []
+        for entryPoint in entryPoints:
+            for targetPoint in targetPoints:
+                list_of_line.append([entryPoint,targetPoint])
+        list_of_line = np.array(list_of_line)
+
+        # Find the angle of lines
+        angles_to_cortex = self.get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list=list_of_line, label_volume_node=cortexLabelMap)
+        # Filter the lines meeting the angle condition
+        list_of_line = list_of_line[angles_to_cortex<cortexangleThreshold*np.pi/180]
+        angles_to_cortex = angles_to_cortex[angles_to_cortex<cortexangleThreshold*np.pi/180]
+
+        # Finding the distance to vessels
+        distance_to_vessels = self.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list=list_of_line, label_volume_node=vesselsLabelMap, discretize_distance=1)
+        # Filter the remaining lines do not intersect inside
+        list_of_line = list_of_line[distance_to_vessels!=0]
+        angles_to_cortex = angles_to_cortex[distance_to_vessels!=0]
+        distance_to_vessels = distance_to_vessels[distance_to_vessels!=0]
+        # Finding the distance to ventricle
+        distance_to_ventricles = self.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list=list_of_line, label_volume_node=ventricleLabelMap, discretize_distance=1)
+        # Filter the remaining lines do not intersect inside
+        list_of_line = list_of_line[distance_to_ventricles!=0]
+        distance_to_vessels = distance_to_vessels[distance_to_ventricles!=0]
+        angles_to_cortex = angles_to_cortex[distance_to_ventricles!=0]
+        distance_to_ventricles = distance_to_ventricles[distance_to_ventricles!=0]
+        # Visualize the Lines
+        for line in list_of_line:
+            start_point = line[0]
+            end_point = line[1]
+            qualified_line = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsLineNode")
+            qualified_line.SetName(" ")            
+            qualified_line.SetLineStartPosition(start_point)
+            qualified_line.SetLineEndPosition(end_point)
+
+        print(angles_to_cortex*180/np.pi)
+
+        # # # Visualize the points
+        # # points = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLMarkupsFiducialNode", "Points")
+        # # for point in targetPoints:
+        # #     points.AddControlPoint(point)
         stopTime = time.time()
         logging.info(f"Processing completed in {stopTime-startTime:.2f} seconds")
+        print(f"Processing completed in {stopTime-startTime:.2f} seconds")
 
     def simple_Task_Create_Folder(self, folder_name):
         """Create a folder and collapse it"""
@@ -483,7 +610,7 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         self.test_data_folder_path = "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\" #Path to place that store data
         # Create my custom logger
         logging_level = logging.INFO #Choose your logging level
-        self.logger_custom = logging.getLogger("My_logger")
+        self.logger_custom = logging.getLogger("My_test_logger")
         self.logger_custom.handlers = []
         self.logger_custom.filters = []
         self.logger_custom.setLevel(logging_level)
@@ -503,22 +630,27 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         self.test_summarize_Data_and_Create_Model()
         # Creating common test objects
         self.test_standard_volume, self.test_standard_label_volume, self.test_standard_segmentation, self.test_standard_model = self.object_Creation_For_Testing_Creating_Box_All(nodeNameEnd = "Standard",
-                                                            imageSize = [32, 32, 32],
+                                                            imageSize = [16, 64, 32],
                                                             imageOrigin = [1.0, 1.0, 0.0],
                                                             imageSpacing = [2.0, 2.0, 2.0],
-                                                            imageDirections = [[np.cos(np.pi/4),-np.sin(np.pi/4),0], [np.sin(np.pi/4),np.cos(np.pi/4),0], [0,0,1]])
+                                                            imageDirections = [[np.cos(np.pi/4),-np.sin(np.pi/4),0], [np.sin(np.pi/4),np.cos(np.pi/4),0], [0,0,1]],
+                                                            boxEdgeLength = [8,32,16])
+
         # self.object_Creation_For_Testing_Creating_Box_Volume("Volume")
         # self.object_Creation_For_Testing_Creating_Box_Label_Volume("Label")
         # self.object_Creation_For_Testing_Creating_Box_Segmentation("Segmentation")
         # self.object_Creation_For_Testing_Creating_Box_Model("Model")
 
 
-        self.test_check_A_Point_Is_In_A_Label_Volume_Node()
+        self.test_check_A_Point_in_List_Is_In_A_Label_Volume_Node()
         self.test_get_Distance_from_A_Line_in_List_to_A_Label_Volume_Node()
 
         self.unit_test_convert_IJK_to_RAS()
         self.unit_test_convert_RAS_tos_IJK()
         self.unit_test_get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position()
+        self.unit_test_get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position()
+        self.unit_test_convert_Label_Volume_To_Model()
+        self.test_get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node()
         
     def load_Data(self):
         """Load data and set their visual"""
@@ -543,36 +675,38 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
     def test_summarize_Data_and_Create_Model(self):
         """Test summarize_Data_and_Create_Model function"""
         successful_tested = 1
-        n_Entry, n_Target = self.logic.summarize_Data_and_Create_Model(self.start_points, self.end_points)
+        n_Entry, n_Target, exportModelFolderItemId, exportSegmentFolderItemId = self.logic.summarize_Data_and_Create_Model(self.start_points, self.end_points)
         successful_tested = not(n_Entry != 48 or n_Target != 21)
+        self.shNode.RemoveItem(exportModelFolderItemId, True, True)
+        self.shNode.RemoveItem(exportSegmentFolderItemId, True, True)
         self.simple_Task_Logging_Test_Outcome("Model Creation", successful_tested)
-    def test_check_A_Point_Is_In_A_Label_Volume_Node(self):
-        """Test Check_A_Point_Is_In_A_Label_Volume_Node function"""
+    def test_check_A_Point_in_List_Is_In_A_Label_Volume_Node(self):
+        """Test check_A_Point_in_List_Is_In_A_Label_Volume_Node function"""
         successful_tested = 1
         ### Example 1
         # Create a label volume node and point
         label_volume_node = self.test_standard_label_volume
-        input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
-        expected_result = np.array([True, True, False])
-        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=False)
+        input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16], [0,25,10]])
+        expected_result = np.array([True, True, False, False])
+        result = self.logic.check_A_Point_in_List_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=False)
         # Check
-        if not(np.array_equal(expected_result, result)):
-            successful_tested = 0
+        if np.linalg.norm(result - expected_result) > 0.001:
+            successful_tested = 0        
         ### Example 2 - test the borderline point
         # Create a label volume node and point
         label_volume_node = self.test_standard_label_volume
         input_point = np.array([[1,1,0], [0,16.5,16.5], [10,0,16]])
         expected_result = np.array([False, True, False])
-        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=True)
+        result = self.logic.check_A_Point_in_List_Is_In_A_Label_Volume_Node(input_point, label_volume_node, strictly_inside_mode=True)
         # Check
-        if not(np.array_equal(expected_result, result)):
-            successful_tested = 0            
+        if np.linalg.norm(result - expected_result) > 0.001:
+            successful_tested = 0        
         ### Example 3
         # Create a label volume node and point
         label_volume_node = self.test_standard_label_volume
         input_point = None
-        expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
-        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
+        expected_result = "check_A_Point_in_List_Is_In_A_Label_Volume_Node failed: Input point need to be a np.ndarray"
+        result = self.logic.check_A_Point_in_List_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
         # Check
         if expected_result != result:
             successful_tested = 0
@@ -580,14 +714,14 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         # Create a label volume node and point
         label_volume_node = None
         input_point = np.array([0,0,0])
-        expected_result = "check_A_Point_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
-        result = self.logic.check_A_Point_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
+        expected_result = "check_A_Point_in_List_Is_In_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
+        result = self.logic.check_A_Point_in_List_Is_In_A_Label_Volume_Node(input_point, label_volume_node)
         # Check
         if expected_result != result:
             successful_tested = 0
         
         # Log the result
-        self.simple_Task_Logging_Test_Outcome("Check a Point is in a Label Volume Node", successful_tested)
+        self.simple_Task_Logging_Test_Outcome("Check a Point in List is in a Label Volume Node", successful_tested)
     def test_get_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(self):
         """Test get_Distance_from_A_Line_in_List_to_A_Label_Volume_Node function"""
         successful_tested = 1
@@ -633,7 +767,6 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
             successful_tested = 0        
         # Log the result
         self.simple_Task_Logging_Test_Outcome("Get Distance from a Line in List to a Label Volume Node", successful_tested)
-
     def test_get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(self):
         """Test get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node function"""
         successful_tested = 1
@@ -642,7 +775,7 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         label_volume_node = self.test_standard_label_volume
         input_line_list = None
         expected_result = "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input lines need to be a np.ndarray"
-        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        result = self.logic.get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
         # Check
         if expected_result != result:
             successful_tested = 0
@@ -651,33 +784,22 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         label_volume_node = None
         input_line_list = np.array([0,0,0])
         expected_result = "get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node failed: Input volume need to be a vtkMRMLLabelMapVolumeNode"
-        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        result = self.logic.get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
         # Check
         if expected_result != result:
             successful_tested = 0
         ### Example 3 - one line is outside label volume-> return -1 for that line
         # Create a label volume node and point
         label_volume_node = self.test_standard_label_volume
-        input_line_list = np.array([[[1,1,1], [-1,-1,-1]],
-                                    [[3,1,2], [6,3,2]],
-                                    [[3,1,2], [1,2,2]]])
-        expected_result = np.array([0, -1, 0])
-        result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
+        input_line_list = np.array([[[0,50,5], [0,5,5]],
+                                    [[0,10,15], [-10,0,15]],
+                                    [[0,5,100], [0,5,-10]],
+                                    [[0,10,10], [0,5,5]]])
+        expected_result = np.array([np.pi/4, 0, -1, -1])
+        result = self.logic.get_Angle_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
         # Check
-        if np.linalg.norm(result - expected_result) > 0.001:
+        if np.linalg.norm(result - expected_result) > 0.05:
             successful_tested = 0        
-        # ### Example 4
-        # # Create a label volume node and point
-        # label_volume_node = self.test_standard_label_volume
-        # input_line_list = np.array([[[1,1,1], [-1,-1,-1]],
-        #                             [[3,3,36], [5,6,100]],
-        #                             [[3,1,2], [1,2,2]]])
-        # expected_result = np.array([0, 36, 0])
-        # result = self.logic.get_Square_Distance_from_A_Line_in_List_to_A_Label_Volume_Node(input_line_list, label_volume_node)
-        # # Check
-        # if np.linalg.norm(result - expected_result) > 0.001:
-        #     successful_tested = 0        
-        # # Log the result
         self.simple_Task_Logging_Test_Outcome("Get Angle from a Line in List to a Label Volume Node", successful_tested)
 
     def unit_test_convert_IJK_to_RAS(self):
@@ -725,7 +847,7 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
             successful_tested = 0
         self.simple_Task_Logging_Unit_Test_Outcome("Convert RAS to IJK", successful_tested)
     def unit_test_get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position(self):
-        """Test get_9x9_Matrix_From_Bigger_Matrix_at_one_Position function"""
+        """Test get_3x3x3_Matrix_From_Bigger_Matrix_at_one_Position function"""
         successful_tested = 1
         # Example 1
         input_x = 0
@@ -752,7 +874,49 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         expected_result = np.zeros((3,3,3))
         if np.linalg.norm(result-expected_result) > 0.001:
             successful_tested = 0
-        self.simple_Task_Logging_Unit_Test_Outcome("Get 9x9 Matrix at one Position from a bigger Matrix ", successful_tested)
+        self.simple_Task_Logging_Unit_Test_Outcome("Get 3x3x3 Matrix at one Position from a bigger Matrix ", successful_tested)
+    def unit_test_get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position(self):
+        """Test get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position function"""
+        successful_tested = 1
+        # Example 1
+        input_x = 0.5
+        input_y = 0.5
+        input_z = 0.5
+        input_array = np.arange(0,27,1).reshape((3,3,3))
+        result = self.logic.get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position(input_x, input_y, input_z, input_array)
+        expected_result = np.array([[[ 0, 1],
+                                     [ 3, 4]],
+                                    [[ 9, 10],
+                                     [ 12, 13]]])
+        if np.linalg.norm(result-expected_result) > 0.001:
+            successful_tested = 0
+        # Example 2
+        input_x = 6
+        input_y = 6
+        input_z = 6
+        result = self.logic.get_2x2x2_Matrix_From_Bigger_Matrix_at_one_Position(input_x, input_y, input_z, input_array)
+        expected_result = np.zeros((2,2,2))
+        if np.linalg.norm(result-expected_result) > 0.001:
+            successful_tested = 0
+        self.simple_Task_Logging_Unit_Test_Outcome("Get 2x2x2 Matrix at one Position from a bigger Matrix ", successful_tested)
+    def unit_test_convert_Label_Volume_To_Model(self):
+        """Test convert_Label_Volume_To_Model function"""
+        successful_tested = 1
+        # Example 1
+        label_node = self.test_standard_label_volume
+        expected_result_type = vtkMRMLModelNode
+        result = self.logic.convert_Label_Volume_To_Model(label_node = label_node)
+        if type(result) != expected_result_type:
+            successful_tested = 0
+        slicer.mrmlScene.RemoveNode(result)
+        # Example 2
+        label_node = self.test_standard_label_volume
+        expected_result_type = vtkMRMLModelNode
+        result = self.logic.convert_Label_Volume_To_Model(label_node = label_node)
+        if type(result) != expected_result_type:
+            successful_tested = 0
+        slicer.mrmlScene.RemoveNode(result)
+        self.simple_Task_Logging_Unit_Test_Outcome("Convert Label Volume to Model", successful_tested)
 
     def test_Pathway_planning1(self):
         self.delayDisplay("Starting the test")
@@ -796,7 +960,8 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
                                                      imageSize = [32, 32, 32],
                                                      imageOrigin = [0.0, 0.0, 0.0],
                                                      imageSpacing = [1.0, 1.0, 1.0],
-                                                     imageDirections = [[1,0,0], [0,1,0], [0,0,1]]):
+                                                     imageDirections = [[1,0,0], [0,1,0], [0,0,1]],
+                                                     boxEdgeLength = [16,16,16]):
         """Create object for testing"""
         ###Create a volume
         nodeName = "Test_Volume_" + nodeNameEnd
@@ -808,9 +973,9 @@ class Pathway_planningTest(ScriptedLoadableModuleTest):
         imageData.AllocateScalars(voxelType, 1)
         imageData.GetPointData().GetScalars().Fill(fillVoxelValue)
         # Edit the data to create a square
-        for i in range(16):
-            for j in range(16):
-                for k in range(16):
+        for i in range(boxEdgeLength[0]):
+            for j in range(boxEdgeLength[1]):
+                for k in range(boxEdgeLength[2]):
                     imageData.SetScalarComponentFromFloat(i,j,k,0,1)
         # Create volume node
         volumeNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLScalarVolumeNode", nodeName)

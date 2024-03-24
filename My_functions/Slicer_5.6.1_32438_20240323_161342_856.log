@@ -1,0 +1,338 @@
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Session start time .......: 20240323_161342
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Slicer version ...........: 5.6.1 (revision 32438 / 117ce5f) win-amd64 - installed release
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22621, Code Page 65001) - 64-bit
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Memory ...................: 7834 MB physical, 12186 MB virtual
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Application path .........: D:/Program/Slicer 5.6.1/bin
+[DEBUG][Qt] 23.03.2024 16:13:42 [] (unknown:0) - Additional module paths ..: C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module\My_extension\ImageThreshold, slicer.org/Extensions-32438/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Print_hello_world, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Guided_examples, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Segmentation_k_mean, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\My_function, C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension\Pathway_planning
+[DEBUG][Python] 23.03.2024 16:13:56 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 23.03.2024 16:13:56 [Python] (D:\Program\Slicer 5.6.1\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 23.03.2024 16:13:56 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 23.03.2024 16:14:01 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 23.03.2024 16:14:06 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 23.03.2024 16:14:48 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 23.03.2024 16:14:58 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) -
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.04s]"
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:14:59 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.05s]"
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 23.03.2024 16:14:59 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 23.03.2024 16:14:59 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 23.03.2024 16:14:59 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1017) - Test passed: Model Creation
+[INFO][Python] 23.03.2024 16:14:59 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 23.03.2024 16:15:00 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 23.03.2024 16:15:00 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1017) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 23.03.2024 16:15:00 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 23.03.2024 16:15:01 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 23.03.2024 16:15:01 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1017) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 23.03.2024 16:15:01 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 23.03.2024 16:15:02 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 23.03.2024 16:15:02 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1024) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 23.03.2024 16:15:02 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 23.03.2024 16:15:02 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1024) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 23.03.2024 16:15:02 [] (unknown:0) - Unit test passed: Get 9x9 Matrix at one Position from a bigger Matrix
+[INFO][Python] 23.03.2024 16:15:02 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1024) - Unit test passed: Get 9x9 Matrix at one Position from a bigger Matrix
+[DEBUG][Qt] 23.03.2024 16:15:08 [] (unknown:0) - Switch to module:  "Data"
+[CRITICAL][Stream] 23.03.2024 16:15:38 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 23.03.2024 16:15:38 [] (unknown:0) -   warn("does not have observer")
+[CRITICAL][Stream] 23.03.2024 16:15:45 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 23.03.2024 16:15:45 [] (unknown:0) -   File "<string>", line 1, in <module>
+[CRITICAL][Stream] 23.03.2024 16:15:45 [] (unknown:0) - NameError: name 'np' is not defined
+[DEBUG][Qt] 23.03.2024 16:15:55 [] (unknown:0) - Python console user input: import numpy as np
+[DEBUG][Qt] 23.03.2024 16:16:36 [] (unknown:0) - Python console user input: check = getNode("Test_Model_Check")
+[DEBUG][Qt] 23.03.2024 16:17:08 [] (unknown:0) - Python console user input: check = getNode("Test_Model_CheckTest_Label_Volume_Check")
+[CRITICAL][Stream] 23.03.2024 16:17:08 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 23.03.2024 16:17:08 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 23.03.2024 16:17:08 [] (unknown:0) -   File "D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py", line 1566, in getNode
+[CRITICAL][Stream] 23.03.2024 16:17:08 [] (unknown:0) -     raise MRMLNodeNotFoundException("could not find nodes in the scene by name or id '%s'" % (pattern if (isinstance(pattern, str)) else ""))
+[CRITICAL][Stream] 23.03.2024 16:17:08 [] (unknown:0) - slicer.util.MRMLNodeNotFoundException: could not find nodes in the scene by name or id 'Test_Model_CheckTest_Label_Volume_Check'
+[DEBUG][Qt] 23.03.2024 16:17:11 [] (unknown:0) - Python console user input: check = getNode("Test_Label_Volume_Check")
+[DEBUG][Qt] 23.03.2024 16:18:07 [] (unknown:0) - Python console user input: check.GetImageData().GetDimensions()
+[INFO][Stream] 23.03.2024 16:18:07 [] (unknown:0) - (30, 40, 50)
+[DEBUG][Qt] 23.03.2024 16:18:34 [] (unknown:0) - Python console user input: array = slicer.util.arrayFromVolume(check)
+[DEBUG][Qt] 23.03.2024 16:18:37 [] (unknown:0) - Python console user input: array.shape
+[INFO][Stream] 23.03.2024 16:18:37 [] (unknown:0) - (50, 40, 30)
+[DEBUG][Qt] 23.03.2024 16:18:44 [] (unknown:0) - Python console user input: array.T.shape
+[INFO][Stream] 23.03.2024 16:18:44 [] (unknown:0) - (30, 40, 50)
+[DEBUG][Qt] 23.03.2024 16:19:18 [] (unknown:0) - Python console user input: array.transpose()
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) - array([[[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -        [[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -        [[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -        ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:18 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]]], dtype=uint8)
+[DEBUG][Qt] 23.03.2024 16:19:23 [] (unknown:0) - Python console user input: array.T
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) - array([[[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -        [[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -        [[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -        ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:19:23 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]]], dtype=uint8)
+[DEBUG][Qt] 23.03.2024 16:19:26 [] (unknown:0) - Python console user input: array.T()
+[CRITICAL][Stream] 23.03.2024 16:19:26 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 23.03.2024 16:19:26 [] (unknown:0) -   File "<console>", line 1, in <module>
+[CRITICAL][Stream] 23.03.2024 16:19:26 [] (unknown:0) - TypeError: 'numpy.ndarray' object is not callable
+[DEBUG][Qt] 23.03.2024 16:20:55 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:20:56 [] (unknown:0) -
+[DEBUG][Qt] 23.03.2024 16:20:56 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\entriesSubsample.fcsv" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:20:56 [] (unknown:0) - "Markups" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\targetsSubsample.fcsv" "[0.01s]"
+[DEBUG][Qt] 23.03.2024 16:20:56 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_cortexTest.nii.gz" "[0.03s]"
+[DEBUG][Qt] 23.03.2024 16:20:56 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\r_hippoTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:20:56 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\ventriclesTest.nii.gz" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:20:56 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\vesselsTestDilate1.nii.gz" "[0.02s]"
+[DEBUG][Qt] 23.03.2024 16:20:57 [] (unknown:0) - "Volume" Reader has successfully read the file "D:\\Code\\3D_slicer\\Navigation_robotics\\Data\\Week_2_4_TestSet_Path_planning\\fakeBrainTest.nii.gz" "[0.04s]"
+[INFO][Stream] 23.03.2024 16:20:57 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 23.03.2024 16:20:57 [] (unknown:0) - Number of targets is: 21
+[CRITICAL][Stream] 23.03.2024 16:20:57 [] (unknown:0) - Test passed: Model Creation
+[INFO][Python] 23.03.2024 16:20:57 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1015) - Test passed: Model Creation
+[INFO][Python] 23.03.2024 16:20:57 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Model Creation
+[CRITICAL][Stream] 23.03.2024 16:20:58 [] (unknown:0) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 23.03.2024 16:20:58 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1015) - Test passed: Check a Point in List is in a Label Volume Node
+[INFO][Python] 23.03.2024 16:20:58 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Check a Point in List is in a Label Volume Node
+[CRITICAL][Stream] 23.03.2024 16:20:58 [] (unknown:0) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 23.03.2024 16:20:58 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1015) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[INFO][Python] 23.03.2024 16:20:58 [Python] (D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2877) - Test passed: Get Distance from a Line in List to a Label Volume Node
+[CRITICAL][Stream] 23.03.2024 16:20:59 [] (unknown:0) - Unit test passed: Convert IJK to RAS
+[INFO][Python] 23.03.2024 16:20:59 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1022) - Unit test passed: Convert IJK to RAS
+[CRITICAL][Stream] 23.03.2024 16:20:59 [] (unknown:0) - Unit test passed: Convert RAS to IJK
+[INFO][Python] 23.03.2024 16:20:59 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1022) - Unit test passed: Convert RAS to IJK
+[CRITICAL][Stream] 23.03.2024 16:20:59 [] (unknown:0) - Unit test passed: Get 9x9 Matrix at one Position from a bigger Matrix
+[INFO][Python] 23.03.2024 16:20:59 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:1022) - Unit test passed: Get 9x9 Matrix at one Position from a bigger Matrix
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:21:54 [] (unknown:0) -
+[INFO][Python] 23.03.2024 16:22:00 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:453) - Processing started
+[INFO][Stream] 23.03.2024 16:22:00 [] (unknown:0) - r_hippoTest
+[INFO][Stream] 23.03.2024 16:22:00 [] (unknown:0) - []
+[INFO][Python] 23.03.2024 16:22:00 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:463) - Processing completed in 0.01 seconds
+[INFO][Stream] 23.03.2024 16:22:00 [] (unknown:0) - Processing completed in 0.01 seconds
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:22:14 [] (unknown:0) -
+[INFO][Python] 23.03.2024 16:22:16 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:453) - Processing started
+[INFO][Stream] 23.03.2024 16:22:16 [] (unknown:0) - [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+[INFO][Stream] 23.03.2024 16:22:16 [] (unknown:0) -  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[INFO][Stream] 23.03.2024 16:22:16 [] (unknown:0) - r_hippoTest
+[INFO][Stream] 23.03.2024 16:22:16 [] (unknown:0) - []
+[INFO][Python] 23.03.2024 16:22:16 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:463) - Processing completed in 0.01 seconds
+[INFO][Stream] 23.03.2024 16:22:16 [] (unknown:0) - Processing completed in 0.01 seconds
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) - Reloading module: Pathway_planning
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) - ------------------------------
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:24:52 [] (unknown:0) -
+[INFO][Python] 23.03.2024 16:24:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:462) - Processing started
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - [36 36 36 36 36 36 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 38 38 38
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 39 39 39 39 39 39
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 40 40 40 40 40 40 40 40
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  40 40 40 40 40 40 40 40 40 40 41 41 41 41 41]
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - [32 32 32 33 33 34 31 31 31 31 32 32 32 32 32 33 33 33 33 34 34 30 30 31
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  31 31 31 31 32 32 32 32 32 32 32 33 33 33 33 33 34 34 31 31 31 31 31 31
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  32 32 32 32 32 32 32 32 33 33 33 33 33 33 34 34 31 31 31 31 31 32 32 32
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  32 32 32 32 33 33 33 33 33 33 32 32 32 32 32]
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - [26 27 28 27 28 20 26 27 28 29 25 26 27 28 29 20 21 26 27 19 20 28 29 25
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  26 27 28 29 22 23 24 25 26 27 28 19 20 21 25 26 19 20 24 25 26 27 28 29
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  21 22 23 24 25 26 27 28 19 20 21 24 25 26 19 20 24 25 26 27 28 21 22 23
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  24 25 26 27 20 21 22 23 24 25 22 23 24 25 26]
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) -  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - r_hippoTest
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - []
+[INFO][Python] 23.03.2024 16:24:54 [Python] (C:/Users/DANG THE HUNG/OneDrive - King's College London/Msc study/7MRI0070 - Navigation in Robotic/Module/My_extension/Pathway_planning/Pathway_planning.py:472) - Processing completed in 0.01 seconds
+[INFO][Stream] 23.03.2024 16:24:54 [] (unknown:0) - Processing completed in 0.01 seconds
+[DEBUG][Qt] 23.03.2024 16:25:28 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 23.03.2024 16:25:38 [] (unknown:0) - Switch to module:  "Pathway_planning"
+[CRITICAL][Stream] 23.03.2024 16:25:38 [] (unknown:0) - D:\Program\Slicer 5.6.1\bin\Python\slicer\util.py:2786: UserWarning: does not have observer
+[CRITICAL][Stream] 23.03.2024 16:25:38 [] (unknown:0) -   warn("does not have observer")
+[INFO][Stream] 23.03.2024 16:25:39 [] (unknown:0) - Number of entries is: 48
+[INFO][Stream] 23.03.2024 16:25:39 [] (unknown:0) - Number of targets is: 48
+[WARNING][VTK] 23.03.2024 16:25:40 [vtkMRMLSubjectHierarchyNode (000001C63E77E750)] (vtkMRMLSubjectHierarchyNode.cxx:2128) - SetItemName: Invalid item ID given
+[DEBUG][Qt] 23.03.2024 16:25:41 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 23.03.2024 16:25:55 [] (unknown:0) - Switch to module:  "ViewControllers"
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - void __cdecl qMRMLSliceControllerWidget::setSliceViewLabel(const class QString &)  failed: must set view node first
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - void __cdecl qMRMLSliceControllerWidget::setSliceViewLabel(const class QString &)  failed: must set view node first
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - void __cdecl qMRMLSliceControllerWidget::setSliceViewLabel(const class QString &)  failed: must set view node first
+[CRITICAL][Qt] 23.03.2024 16:25:55 [] (unknown:0) - qMRMLSliceControllerWidget::setSliceViewName failed: MRMLSliceNode is invalid
+[DEBUG][Qt] 23.03.2024 16:26:29 [] (unknown:0) - Python console user input: array.transpose()
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) - array([[[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -        [[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -        [[1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [1, 1, 1, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -        ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -        [[0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         ...,
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0],
+[INFO][Stream] 23.03.2024 16:26:29 [] (unknown:0) -         [0, 0, 0, ..., 0, 0, 0]]], dtype=uint8)
+[DEBUG][Qt] 23.03.2024 16:27:29 [] (unknown:0) - Switch to module:  "Data"
